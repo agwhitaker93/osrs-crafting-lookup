@@ -3,16 +3,16 @@
             [osrs-crafting-lookup.components.nav :refer [nav]]
             [osrs-crafting-lookup.components.results :refer [results]]))
 
+(defonce search-result (atom ""))
+
+(defn update-search-result [new]
+  (swap! search-result #(str new)))
+
 (enable-console-print!)
 
-(defonce app-state (atom {:text "Hello Chestnut!"}))
-
-(rum/defc greeting < rum/reactive []
-   [:h1 (:text (rum/react app-state))])
-
 (rum/defc app []
-  [:div {} [(nav)
-            (results)]])
+  [:div {} [(nav update-search-result)
+            (results search-result)]])
 
 (defn render []
   (rum/mount (app) (. js/document (getElementById "app"))))

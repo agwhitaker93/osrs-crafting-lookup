@@ -18,7 +18,8 @@
                  [org.clojure/tools.namespace "0.2.11"]
                  [compojure "1.6.1"]
                  [rum "0.11.3"]
-                 [lambdaisland/garden-watcher "0.3.3"]]
+                 [lambdaisland/garden-watcher "0.3.3"]
+                 [clj-http "3.10.1"]]
 
   :plugins [[lein-cljsbuild "1.1.7"]
             [lein-environ "1.1.0"]]
@@ -105,7 +106,8 @@
                              [cider/piggieback "0.4.0"]
                              [cider/cider-nrepl "0.18.0"]
                              [lein-doo "0.1.11"]
-                             [reloaded.repl "0.2.4"]]
+                             [reloaded.repl "0.2.4"]
+                             [cljs-ajax "0.8.0"]]
 
               :plugins [[lein-figwheel "0.5.18"]
                         [lein-doo "0.1.11"]]

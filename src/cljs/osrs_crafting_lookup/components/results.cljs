@@ -1,5 +1,5 @@
 (ns osrs-crafting-lookup.components.results
   (:require [rum.core :as rum]))
 
-(rum/defc results []
-  [:div {:class "results"} (str "You searched for " "Hello World")])
+(rum/defc results < rum/reactive [result]
+  [:div {:class "results"} (str "You searched for " (rum/react result))])

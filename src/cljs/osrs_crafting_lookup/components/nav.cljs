@@ -1,10 +1,12 @@
 (ns osrs-crafting-lookup.components.nav
-  (:require [rum.core :as rum]))
+  (:require [rum.core :as rum]
+            [ajax.core :refer [GET]]))
 
-(def search-term (atom "Placeholder"))
+(defonce search-term (atom ""))
 
-(defn submit-search [event]
-  ((.-log js/console) "Hello " event search-term))
+(defn submit-search [handler]
+  (GET "/api/search" {:params {:query (deref search-term)}
+                      :handler handler}))
 
 (defn update-search-term [event]
   (swap! search-term #(str (-> event
@@ -14,14 +16,14 @@
 (rum/defc home []
   [:button {:class "nav-inner nav-home"} "Home"])
 
-(rum/defc search []
+(rum/defc search [search-result-cb]
   [:div {} [:input {:class "nav-inner nav-search"
                     :type "text"
                     :placeholder "Search..."
                     :on-change update-search-term}]
-   [:button {:class "nav-inner nav-search-button"
-             :on-click submit-search} "Search"]])
+            [:button {:class "nav-inner nav-search-button"
+                      :on-click #(submit-search search-result-cb)} "Search"]])
 
-(rum/defc nav []
+(rum/defc nav [search-result-cb]
   [:div {:class "nav-bar"} [(home)
-                            (search)]])
+                            (search search-result-cb)]])

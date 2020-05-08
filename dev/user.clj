@@ -36,8 +36,8 @@
 
 ;; deprecated, to be removed in Chestnut 1.0
 (defn run []
-  (println "(run) is deprecated, use (go)")
-  (go))
+  (go)
+  (cljs-repl))
 
 (defn browser-repl []
   (println "(browser-repl) is deprecated, use (cljs-repl)")

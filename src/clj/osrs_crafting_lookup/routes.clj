@@ -7,7 +7,7 @@
 
 (defn home-routes [endpoint]
   (routes
-   (GET "/api" _ (search/handle))
+   (GET "/api/search" {{query :query} :params} (search/handle query))
    (GET "/" _
         (-> "public/index.html"
             io/resource
