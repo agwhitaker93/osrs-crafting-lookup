@@ -1,5 +1,28 @@
 # osrs-crafting-lookup
 
+## About
+A website to make it easier to figure out what you can make with items in Old School Runescape, and what they are made with.
+Also shows the Grand Exchange and High Alch values, so you can figure out how to make a profit
+
+Backend currently works as a proxy for the OSRS GE API
+Frontend needs a lot of work, currently only accepts an item ID and looks it up, i.e. item ID 4151 is the Abyssal Whip
+
+## Plans
+### Backend
+* Accept a complete or partial item name. From that item name, return a list of results from the GE API it matches, including the full name.
+* Add skill lookup option, return list of items created or used as part of that skill. i.e. crafting, return gems, etc.
+* Show skill requirements
+* Cache everything
+* Link to the Wiki
+
+### Frontend
+* Make search bar respond to enter key.
+* Display results nicely
+* Separate pages for item and skill lookups?
+
+### Problems
+* How to store the relations between items
+
 
 ## Development
 

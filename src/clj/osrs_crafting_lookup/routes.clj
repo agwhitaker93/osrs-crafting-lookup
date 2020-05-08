@@ -2,14 +2,16 @@
   (:require [clojure.java.io :as io]
             [compojure.core :refer [ANY GET PUT POST DELETE routes]]
             [compojure.route :refer [resources]]
-            [ring.util.response :refer [response]]))
+            [ring.util.response :refer [response]]
+            [osrs-crafting-lookup.components.search :as search]))
 
 (defn home-routes [endpoint]
   (routes
+   (GET "/api" _ (search/handle))
    (GET "/" _
-     (-> "public/index.html"
-         io/resource
-         io/input-stream
-         response
-         (assoc :headers {"Content-Type" "text/html; charset=utf-8"})))
+        (-> "public/index.html"
+            io/resource
+            io/input-stream
+            response
+            (assoc :headers {"Content-Type" "text/html; charset=utf-8"})))
    (resources "/")))

@@ -1,5 +1,7 @@
 (ns osrs-crafting-lookup.core
-  (:require [rum.core :as rum]))
+  (:require [rum.core :as rum]
+            [osrs-crafting-lookup.components.nav :refer [nav]]
+            [osrs-crafting-lookup.components.results :refer [results]]))
 
 (enable-console-print!)
 
@@ -8,5 +10,9 @@
 (rum/defc greeting < rum/reactive []
    [:h1 (:text (rum/react app-state))])
 
+(rum/defc app []
+  [:div {} [(nav)
+            (results)]])
+
 (defn render []
-  (rum/mount (greeting) (. js/document (getElementById "app"))))
+  (rum/mount (app) (. js/document (getElementById "app"))))
