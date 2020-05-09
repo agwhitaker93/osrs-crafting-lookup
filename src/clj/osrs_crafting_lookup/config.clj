@@ -11,3 +11,11 @@
                 wrap-gzip]})
 
 (def base-url "http://services.runescape.com/m=itemdb_oldschool/api/catalogue")
+
+(def db (if (= (env :dev) "true")
+          {:dbtype "postgresql"
+           :dbname "runescape"
+           :host "localhost"
+           :user "postgres"
+           :password (env :db-password)}
+          (env :database-url "postgres://localhost:5432/runescape")))

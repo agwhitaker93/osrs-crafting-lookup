@@ -22,7 +22,10 @@
                  [clj-http "3.10.1"]
                  [cljs-ajax "0.8.0"]
                  [cheshire "5.10.0"]
-                 [ring/ring-json "0.5.0"]]
+                 [ring/ring-json "0.5.0"]
+                 [org.clojure/java.jdbc "0.7.11"]
+                 [org.postgresql/postgresql "42.2.12"]
+                 [ragtime "0.8.0"]]
 
   :plugins [[lein-cljsbuild "1.1.7"]
             [lein-environ "1.1.0"]]
@@ -116,7 +119,8 @@
                         [lein-doo "0.1.11"]]
 
               :source-paths ["dev"]
-              :repl-options {:nrepl-middleware [cider.piggieback/wrap-cljs-repl]}}
+              :repl-options {:nrepl-middleware [cider.piggieback/wrap-cljs-repl]}
+              :env {:dev "true"}}
 
              :uberjar
              {:source-paths ^:replace ["src/clj" "src/cljc"]

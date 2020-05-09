@@ -15,6 +15,7 @@ figwheel_server.log
 pom.xml
 pom.xml.asc
 /dev-target
+profiles.clj
 
 /.idea/
 *.iml
