@@ -17,4 +17,4 @@
   (do
     (println "Detected we're not in dev mode, running migrations")
     (rollback)
-    (migrate)))
+    ))
