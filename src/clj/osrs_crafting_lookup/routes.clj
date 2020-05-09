@@ -1,5 +1,6 @@
 (ns osrs-crafting-lookup.routes
   (:require [clojure.java.io :as io]
+            [ring.middleware.json :refer [wrap-json-response]]
             [compojure.core :refer [ANY GET PUT POST DELETE routes]]
             [compojure.route :refer [resources]]
             [ring.util.response :refer [response]]
@@ -7,7 +8,7 @@
 
 (defn home-routes [endpoint]
   (routes
-   (GET "/api/search" {{query :query} :params} (search/handle query))
+   (wrap-json-response (GET "/api/search" {{query :query} :params} (search/handle query)))
    (GET "/" _
         (-> "public/index.html"
             io/resource
