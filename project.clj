@@ -20,6 +20,7 @@
                  [rum "0.11.3"]
                  [lambdaisland/garden-watcher "0.3.3"]
                  [clj-http "3.10.1"]
+                 [cljs-ajax "0.8.0"]
                  [cheshire "5.10.0"]
                  [ring/ring-json "0.5.0"]]
 
