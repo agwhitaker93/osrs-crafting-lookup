@@ -1,6 +1,6 @@
-create schema osrs;
+create schema if not exists osrs;
 
-create table osrs.items
+create table if not exists osrs.items
 (
     id int not null,
     icon text not null,
