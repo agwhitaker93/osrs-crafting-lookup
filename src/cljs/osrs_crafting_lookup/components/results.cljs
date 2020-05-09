@@ -3,16 +3,21 @@
 
 (def truthy? #{"true"})
 
-(rum/defc item < { :key-fn #(:id %1) }
+(rum/defc item < {:key-fn #(:id %1)}
   [contents]
-  (println (:id contents) ": " contents)
-  [:div {:class "results-item"} [:img {:src (:icon_large contents)}]
-   [:div {} (:name contents)]
-   [:div {} (:description contents)]
-   [:div {} (:price (:current contents))]
-   [:div {} (if (truthy? (:members contents)) "Members-only" "Free to Play")]])
+  [:div {:class "results-item" :id (:id contents)}
+   [:div {:class "results-item-header"}
+    [:img {:class "results-item-icon"
+           :src   (:icon contents)}]
+    [:div {:class "results-item-name"} (:name contents)]]
+   [:div {:class "results-item-description"} (:description contents)]
+   [:div {:class "results-item-footer"}
+    [:div {:class "results-item-members"} (if (truthy? (:members contents))
+                                            "Members-only"
+                                            "Free to Play")]
+    [:div {:class "results-item-price"} (:price (:current contents))]]])
 
 (rum/defc results < rum/reactive [result]
   (if (empty? (rum/react result))
     [:div {:class "results"} "Enter a search above"]
-    [:div {:class "results"} (map item (rum/react result))]))
+    [:div {:class "results flex-container"} (map item (rum/react result))]))

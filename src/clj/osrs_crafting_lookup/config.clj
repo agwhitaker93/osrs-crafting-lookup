@@ -9,3 +9,5 @@
    :middleware [[wrap-defaults api-defaults]
                 wrap-with-logger
                 wrap-gzip]})
+
+(def base-url "http://services.runescape.com/m=itemdb_oldschool/api/catalogue")

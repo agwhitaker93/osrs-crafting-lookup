@@ -5,11 +5,15 @@
 (defonce search-term (atom ""))
 
 (defn submit-search [handler]
-  (GET "/api/search" {:params  {:query (deref search-term)}
+  (GET "/api/items" {:params  {:query (deref search-term)}
                       :handler #(-> %1
                                     ((fn [to-parse] (.parse js/JSON to-parse)))
                                     (js->clj :keywordize-keys true)
                                     (handler))}))
+
+(defn listen-enter [event cb]
+  (if (= (.-key event) "Enter")
+    (submit-search cb)))
 
 (defn update-search-term [event]
   (swap! search-term #(str (-> event
@@ -23,6 +27,7 @@
   [:div {} [:input {:class       "nav-inner nav-search"
                     :type        "text"
                     :placeholder "Search..."
+                    :on-key-down #(listen-enter %1 search-result-cb)
                     :on-change   update-search-term}]
    [:button {:class    "nav-inner nav-search-button"
              :on-click #(submit-search search-result-cb)} "Search"]])

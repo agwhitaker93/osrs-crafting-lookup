@@ -9,19 +9,18 @@ Frontend needs a lot of work, currently only accepts an item ID and looks it up,
 
 ## Plans
 ### Backend
-* Accept a complete or partial item name. From that item name, return a list of results from the GE API it matches, including the full name.
 * Add skill lookup option, return list of items created or used as part of that skill. i.e. crafting, return gems, etc.
 * Show skill requirements
-* Cache everything
+* database everything
 * Link to the Wiki
 
 ### Frontend
-* Make search bar respond to enter key.
 * Display results nicely
 * Separate pages for item and skill lookups?
 
 ### Problems
 * How to store the relations between items
+* How to handle database changes
 
 
 ## Development
