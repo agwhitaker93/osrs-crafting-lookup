@@ -3,16 +3,16 @@
             [osrs-crafting-lookup.components.nav :refer [nav]]
             [osrs-crafting-lookup.components.results :refer [results]]))
 
-(defonce search-result (atom ""))
+(defonce search-result (atom []))
 
 (defn update-search-result [new]
-  (swap! search-result #(str new)))
+  (swap! search-result #(identity new)))
 
 (enable-console-print!)
 
 (rum/defc app []
-  [:div {} [(nav update-search-result)
-            (results search-result)]])
+  [:div {} (nav update-search-result)
+   (results search-result)])
 
 (defn render []
   (rum/mount (app) (. js/document (getElementById "app"))))
