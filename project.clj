@@ -46,7 +46,8 @@
   ;; nREPL by default starts in the :main namespace, we want to start in `user`
   ;; because that's where our development helper functions like (go) and
   ;; (browser-repl) live.
-  :repl-options {:init-ns user}
+  :repl-options {:init-ns user
+                 :timeout 300000}
 
   :cljsbuild {:builds
               [{:id "app"
@@ -106,7 +107,8 @@
 
   :doo {:build "test"}
 
-  :profiles {:dev
+  :profiles {:dev [:project-dev :local-dev]
+             :project-dev
              {:dependencies [[figwheel "0.5.18"]
                              [figwheel-sidecar "0.5.18"]
                              [cider/piggieback "0.4.0"]
