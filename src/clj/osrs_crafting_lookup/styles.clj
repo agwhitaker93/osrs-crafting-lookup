@@ -20,7 +20,7 @@
                        :left             0
                        :height           nav-height
                        :width            "100%"
-                       :background-color "#85506e"}]
+                       :background-color "purple"}]
            [:.nav-inner {:position  "absolute"
                          :top       "50%"
                          :transform "translateY(-50%)"}]

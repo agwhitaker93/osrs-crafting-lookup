@@ -13,8 +13,7 @@
 (defn rollback []
   (repl/rollback config))
 
-(if (not (= (env :dev) "true"))
+(if (not (= (env :env) "dev"))
   (do
     (println "Detected we're not in dev mode, running migrations")
-    (rollback)
-    ))
+    (migrate)))

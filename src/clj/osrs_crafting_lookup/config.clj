@@ -12,7 +12,7 @@
 
 (def base-url "http://services.runescape.com/m=itemdb_oldschool/api/catalogue")
 
-(def db (if (= (env :dev) "true")
+(def db (if (= (env :env) "dev")
           {:dbtype "postgresql"
            :dbname "runescape"
            :host "localhost"

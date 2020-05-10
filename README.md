@@ -1,3 +1,5 @@
+![Clojure CI](https://github.com/agwhitaker93/osrs-crafting-lookup/workflows/Clojure%20CI/badge.svg)
+
 # osrs-crafting-lookup
 
 ## About

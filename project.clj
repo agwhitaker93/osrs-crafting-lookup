@@ -120,7 +120,7 @@
 
               :source-paths ["dev"]
               :repl-options {:nrepl-middleware [cider.piggieback/wrap-cljs-repl]}
-              :env {:dev "true"}}
+              :env {:env "dev"}}
 
              :uberjar
              {:source-paths ^:replace ["src/clj" "src/cljc"]
