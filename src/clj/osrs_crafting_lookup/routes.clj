@@ -5,12 +5,14 @@
             [compojure.route :refer [resources]]
             [ring.util.response :refer [response]]
             [osrs-crafting-lookup.components.items :as items]
-            [osrs-crafting-lookup.components.details :as details]))
+            [osrs-crafting-lookup.components.details :as details]
+            [osrs-crafting-lookup.components [items :as items]
+             [details :as details]]))
 
 (defn home-routes [endpoint]
   (routes
-   (wrap-json-response (GET "/api/items" {{query :query} :params} (items/handle query)))
-   (wrap-json-response (GET "/api/details" {{query :query} :params} (details/handle query)))
+   (wrap-json-response (GET "/api/items" {params :params} (items/handle params)))
+   (wrap-json-response (GET "/api/details" {params :params} (details/handle params)))
    (GET "/" _
         (-> "public/index.html"
             io/resource

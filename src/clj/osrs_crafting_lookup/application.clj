@@ -1,13 +1,13 @@
 (ns osrs-crafting-lookup.application
   (:gen-class)
   (:require [com.stuartsierra.component :as component]
-            [osrs-crafting-lookup.components.server-info :refer [server-info]]
             [system.components.endpoint :refer [new-endpoint]]
             [system.components.handler :refer [new-handler]]
             [system.components.middleware :refer [new-middleware]]
             [system.components.jetty :refer [new-web-server]]
-            [osrs-crafting-lookup.config :refer [config]]
-            [osrs-crafting-lookup.routes :refer [home-routes]]))
+            [osrs-crafting-lookup.components.server-info :refer [server-info]]
+            [osrs-crafting-lookup [config :refer [config]]
+             [routes :refer [home-routes]]]))
 
 (defn app-system [config]
   (component/system-map
