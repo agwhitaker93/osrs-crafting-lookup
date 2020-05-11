@@ -1,17 +1,20 @@
 (ns scratch
-  (:require [clojure.java.jdbc :as cjdbc]
-            [osrs-crafting-lookup [config :refer [db]]]))
+  (:require [clojure.java.jdbc :as jdbc]
+            [osrs-crafting-lookup [config :refer [db]]]
+            [osrs-crafting-lookup.components.items :as items]))
 
-(def ge-api-alphas (seq"abcdefghijklmnopqrstuvwxyz0123456789"))
+(def ge-api-alphas (seq "abcdefghijklmnopqrstuvwxyz0123456789"))
 
-(defn timestamp-now []
-  (-> (java.util.Calendar/getInstance)
-      (.getTimeInMillis)
-      (java.sql.Timestamp.)))
+(defn write-edn [item-char page contents]
+  (spit (format "resources/scraped/osrs-%s-%s.edn" item-char page)
+        (pr-str contents)))
 
-(defn test-insert []
-  (cjdbc/insert! db :osrs.items {:id 10 :icon "icon" :icon_large "icon large" :name "Test entry" :description "Test description" :skill "crafting" :xp 69 :price "69420" :last_updated (timestamp-now)}))
+(defn scrape-all-pages [item-char]
+  (loop [page 1]
+    (let [result (items/get-page item-char page)]
+      (if (not (or (nil? result) (empty? result)))
+        (do (write-edn item-char page result)
+            (recur (inc page)))))))
 
-(defn pre-start-setup [insertion-list]
-  (cjdbc/with-db-transaction [t-con db]
-                             (map cjdbc/insert! "osrs" "items")))
+(defn scrape []
+  (map scrape-all-pages ge-api-alphas))
