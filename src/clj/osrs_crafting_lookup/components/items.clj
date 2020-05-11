@@ -2,13 +2,13 @@
   (:require [ring.util.response :refer [response]]
             [clojure.string :refer [lower-case starts-with?]]
             [osrs-crafting-lookup.components.http-client :refer [get-with-retry]]
-            [osrs-crafting-lookup.config :refer [base-url]]
+            [osrs-crafting-lookup.config :refer [ge-api-base-url]]
             [cheshire.core :refer [parse-string]]))
 
 (def category-id 1)                                         ; only 1 category in osrs
 
 (defn items-url [item-char page]
-  (str base-url "/items.json?category=" category-id "&alpha=" item-char "&page=" page))
+  (str ge-api-base-url "/items.json?category=" category-id "&alpha=" item-char "&page=" page))
 
 (defn get-page [item-char page]
   (-> (items-url item-char page)

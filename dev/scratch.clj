@@ -1,20 +1,19 @@
 (ns scratch
   (:require [clojure.java.jdbc :as jdbc]
-            [osrs-crafting-lookup [config :refer [db]]]
             [osrs-crafting-lookup.components.items :as items]))
 
-(def ge-api-alphas (seq "abcdefghijklmnopqrstuvwxyz0123456789"))
+(def scraped-dir "resources/scraped")
 
-(defn write-edn [item-char page contents]
-  (spit (format "resources/scraped/osrs-%s-%s.edn" item-char page)
-        (pr-str contents)))
+(def craftables-dir "resources/craftable")
 
-(defn scrape-all-pages [item-char]
-  (loop [page 1]
-    (let [result (items/get-page item-char page)]
-      (if (not (or (nil? result) (empty? result)))
-        (do (write-edn item-char page result)
-            (recur (inc page)))))))
+(defn list-files [dir]
+  "file-seq returns the dir given as the first entry"
+  (rest (file-seq (clojure.java.io/file dir))))
 
-(defn scrape []
-  (map scrape-all-pages ge-api-alphas))
+(defn read-file [file]
+  (read-string (slurp file)))
+
+; go through all of the scraped files
+; check if we have a file in craftable for each item
+; merge the data for both
+; put in a new place

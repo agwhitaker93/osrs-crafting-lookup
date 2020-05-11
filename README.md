@@ -4,10 +4,7 @@
 
 ## About
 A website to make it easier to figure out what you can make with items in Old School Runescape, and what they are made with.
-Also shows the Grand Exchange and High Alch values, so you can figure out how to make a profit
-
-Backend currently works as a proxy for the OSRS GE API
-Frontend needs a lot of work, currently only accepts an item ID and looks it up, i.e. item ID 4151 is the Abyssal Whip
+Also shows the Grand Exchange and High Alch values, so you can figure out how profitable or costly it'll be to craft
 
 ## Plans
 ### Backend

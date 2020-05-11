@@ -10,7 +10,9 @@
                 wrap-with-logger
                 wrap-gzip]})
 
-(def base-url "http://services.runescape.com/m=itemdb_oldschool/api/catalogue")
+(def ge-api-base-url "http://services.runescape.com/m=itemdb_oldschool/api/catalogue")
+
+(def wiki-base-url "https://oldschool.runescape.wiki/w")
 
 (def db (if (= (env :env) "dev")
           {:dbtype "postgresql"
