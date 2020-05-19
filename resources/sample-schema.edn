@@ -1,22 +1,21 @@
 {:meta {:id
         :name
-        :description-or-examine
+        :examine
         :members-only
         :tradeable
         :stackable
-        :noteable
         :value
         :exchange
         :ge-value ; from scraped
         :icon ; from scraped
         :icon-large ; from scraped
         }
- :recipe {:skill-names
-          :skill-levels
-          :skill-exps
+ :recipe {:skills [{:name
+                    :level
+                    :exp}]
           :members-only
           :ticks
           :tools
           :facilities
-          :mats {:mat-name
-                 :mat-quantities}}}
+          :mats {:name
+                 :quantity}}}

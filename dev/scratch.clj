@@ -1,19 +1,20 @@
 (ns scratch
   (:require [clojure.java.jdbc :as jdbc]
-            [osrs-crafting-lookup.components.items :as items]))
+            [osrs-crafting-lookup.components.items :as items]
+            [clojure.walk :refer [keywordize-keys]]))
 
-(def scraped-dir "resources/scraped")
+(defn magic! []
+  (->> (read-dir craftables-dir)
+       (map keywordize-keys)
+       (map #(pr-edn (str "resources/keywordized_craftable/" (:name %1) ".edn") %1))))
 
-(def craftables-dir "resources/craftable")
-
-(defn list-files [dir]
-  "file-seq returns the dir given as the first entry"
-  (rest (file-seq (clojure.java.io/file dir))))
-
-(defn read-file [file]
-  (read-string (slurp file)))
-
-; go through all of the scraped files
-; check if we have a file in craftable for each item
-; merge the data for both
-; put in a new place
+(defn transform! []
+  (->> [{} {}]
+       (map #(assoc %1 :infobox (reduce merge {} (:infobox %1))))
+       (filter #(contains? (:infobox %1) :name))
+       (map #(assoc %1 :meta (:infobox %1)))
+       (map #(dissoc %1 :infobox :name))
+       (map #(assoc %1 :meta (dissoc (:meta %1) :placeholder :noteable :destroy :update :weight :equipable)))
+       (map #(assoc-in %1 [:meta :ha-value] (* (read-string (:value (:meta %1))) 0.6)))
+       (map #(assoc-in %1 [:meta :la-value] (* (read-string (:value (:meta %1))) 0.4)))
+       (map #(assoc-in %1 [:meta :ge-value] "0"))))
