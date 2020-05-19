@@ -50,6 +50,22 @@ seconds.`, you're ready to go. Browse to `http://localhost:10555` and enjoy.
 **Attention: It is not needed to run `lein figwheel` separately. Instead `(go)`
 launches Figwheel directly from the REPL**
 
+## Database setup
+
+This process is very clunky, and requires another codebase: [runelite-wiki-scraper](https://github.com/agwhitaker93/runelite-wiki-scraper)
+Follow the guide there to scrape the OSRS wiki for all of the items used in crafting, then copy all of the generated files (found at `resources/generated/craftable` as of writing this) into `resources/craftable`
+
+> The next step might be unnecessary depending on how I decide to facilitate data changes going forwards. It'd be great to have some way of detecting changes to the edn files and propagate changes into the DB.
+
+Next, load up a REPL in this project, make your way to the `craftables` namespace, and execute
+```clojure
+-> (do-it)
+```
+
+You should end up with a whole bunch of files in a `resources/transformed-craftable` folder.
+
+==== actually getting these into the DB is the next thing I need to do ====
+
 ## Trying it out
 
 If all is well you now have a browser window saying 'Hello Chestnut',
@@ -69,22 +85,6 @@ In the REPL, type
 ```
 
 Notice again how the browser updates.
-
-### Database setup
-
-This process is very clunky, and requires another codebase: [runelite-wiki-scraper](https://github.com/agwhitaker93/runelite-wiki-scraper)
-Follow the guide there to scrape the OSRS wiki for all of the items used in crafting, then copy all of the generated files (found at `resources/generated/craftable` as of writing this) into `resources/craftable`
-
-> The next step might be unnecessary depending on how I decide to facilitate data changes going forwards. It'd be great to have some way of detecting changes to the edn files and propagate changes into the DB.
-
-Next, load up a REPL in this project, make your way to the `craftables` namespace, and execute
-```clojure
--> (do-it)
-```
-
-You should end up with a whole bunch of files in a `resources/transformed-craftable` folder.
-
-==== actually getting these into the DB is the next thing I need to do ====
 
 ### Lighttable
 
