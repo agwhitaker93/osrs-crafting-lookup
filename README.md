@@ -24,6 +24,8 @@ Also shows the Grand Exchange and High Alch values, so you can figure out how pr
 
 ## Development
 
+### REPL
+
 Open a terminal and type `lein repl` to start a Clojure REPL
 (interactive prompt).
 
@@ -67,6 +69,22 @@ In the REPL, type
 ```
 
 Notice again how the browser updates.
+
+### Database setup
+
+This process is very clunky, and requires another codebase: [runelite-wiki-scraper](https://github.com/agwhitaker93/runelite-wiki-scraper)
+Follow the guide there to scrape the OSRS wiki for all of the items used in crafting, then copy all of the generated files (found at `resources/generated/craftable` as of writing this) into `resources/craftable`
+
+> The next step might be unnecessary depending on how I decide to facilitate data changes going forwards. It'd be great to have some way of detecting changes to the edn files and propagate changes into the DB.
+
+Next, load up a REPL in this project, make your way to the `craftables` namespace, and execute
+```clojure
+-> (do-it)
+```
+
+You should end up with a whole bunch of files in a `resources/transformed-craftable` folder.
+
+==== actually getting these into the DB is the next thing I need to do ====
 
 ### Lighttable
 

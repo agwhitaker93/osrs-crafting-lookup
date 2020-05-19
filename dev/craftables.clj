@@ -1,7 +1,8 @@
 (ns craftables
   (:require [clojure.java.io :as io]
-            [clojure.walk :refer [keywordize-keys]])
-  (:import (java.io File)))
+            [clojure.walk :refer [keywordize-keys]]
+            [clojure.pprint :refer [pprint]])
+  (:import (java.io File StringWriter)))
 
 (def source "resources/craftable")
 
@@ -22,7 +23,9 @@
 (defn pr-edn [target filename content]
   (if (not (.exists (io/file target)))
     (.mkdirs (new File target)))
-  (spit (str target "/" filename ".edn") (pr-str content)))
+  (spit (str target "/" filename ".edn") (let [w (new StringWriter)]
+                                           (pprint content w)
+                                           (.toString w))))
 
 (defn flatten-infobox [craftable]
   (if (= (count (get craftable :infobox)) 1)
