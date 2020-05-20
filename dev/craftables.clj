@@ -1,14 +1,16 @@
 (ns craftables
   (:require [clojure.java.io :as io]
             [clojure.walk :refer [keywordize-keys]]
-            [clojure.pprint :refer [pprint]])
-  (:import (java.io File StringWriter)))
+            [clojure.pprint :refer [pprint]]
+            [clojure.string :as string])
+  (:import (java.io File StringWriter)
+           (java.net URLEncoder)))
 
-(def source "resources/craftable")
+(def source "resources/scraped-craftable")
 
 (def keywordize-target "resources/keywordized-craftable")
 
-(def transformed-target "resources/transformed-craftable")
+(def transformed-target "resources/craftable")
 
 (defn list-files [dir]
   "file-seq returns the dir given as the first entry"
@@ -45,29 +47,37 @@
 
 (def base-icon-large-url "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=")
 
-(defn static-vals [id]
-  {:ge-value   "0"
+(defn static-vals [id name]
+  {:ge_value   "0"
    :icon       (str base-icon-url id)
-   :icon-large (str base-icon-large-url id)})
+   :icon_large (str base-icon-large-url id)
+   :wiki       (str "https://oldschool.runescape.wiki/w/" (URLEncoder/encode (string/replace (str name) " " "_") "UTF-8"))})
 
 (def required [:id :name :examine :tradable :value :members-only])
 
-(defn remap-get-in [target]
-  #(get-in %1 target))
+(def required-from->to {#(Integer/parseInt (clojure.string/replace (or
+                                                                     (get-in %1 [:infobox :id])
+                                                                     (get-in %1 [:infobox :id1])) "," "")) :id
+                        #(or
+                           (get-in %1 [:name])
+                           (get-in %1 [:infobox :name])
+                           (get-in %1 [:infobox :name1]))                                                  :name
+                        #(or
+                           (get-in %1 [:infobox :examine])
+                           (get-in %1 [:infobox :examine1]))                                               :examine
+                        #(= "Yes" (or
+                                    (get-in %1 [:infobox :tradeable])
+                                    (get-in %1 [:infobox :tradeable1])))                                   :tradable
+                        #(or
+                           (get-in %1 [:infobox :value])
+                           (get-in %1 [:infobox :value1]))                                                 :value
+                        #(= "Yes" (or
+                                    (get-in %1 [:infobox :members])
+                                    (get-in %1 [:infobox :members1])))                                     :members_only})
 
-; Must be in format compatible with get-in
-(def required-from->to {(remap-get-in [:infobox :id])        :id
-                        (remap-get-in [:infobox :id1])       :id
-                        (remap-get-in [:infobox :name])      :name
-                        (remap-get-in [:infobox :name1])     :name
-                        (remap-get-in [:infobox :examine])   :examine
-                        (remap-get-in [:infobox :examine1])  :examine
-                        (remap-get-in [:infobox :tradeable]) :tradable
-                        (remap-get-in [:infobox :value])     :value
-                        (remap-get-in [:infobox :members])   :members-only
-                        (remap-get-in [:infobox :members1])  :members-only})
-
-(def optional-from->to {(remap-get-in [:infobox :exchange]) :exchange})
+(def optional-from->to {#(= "Yes" (or
+                                    (get-in %1 [:infobox :exchange])
+                                    (get-in %1 [:infobox :exchange1]))) :exchange})
 
 (defn mats->vec [recipe]
   (loop [counter 1
@@ -91,12 +101,12 @@
                                       :level (or level "0")
                                       :exp   (or exp "0")}))))))
 
-(def recipe-from->to {mats->vec                    :materials
-                      skills->vec                  :skills
-                      (remap-get-in [:members])    :members-only
-                      (remap-get-in [:ticks])      :ticks
-                      (remap-get-in [:tools])      :tools
-                      (remap-get-in [:facilities]) :facilities})
+(def recipe-from->to {mats->vec                         :materials
+                      skills->vec                       :skills
+                      #(= "Yes" (get-in %1 [:members])) :members_only
+                      #(get-in %1 [:ticks])             :ticks
+                      #(get-in %1 [:tools])             :tools
+                      #(get-in %1 [:facilities])        :facilities})
 
 (defn remap [mappings craftable]
   (reduce (fn [t [from-fn to]]
@@ -110,7 +120,7 @@
        (map (fn [craftable]
               {:meta    (merge (remap required-from->to craftable)
                                (remap optional-from->to craftable)
-                               (static-vals (get-in craftable [:infobox :id])))
+                               (static-vals (get-in craftable [:infobox :id]) (get-in craftable [:infobox :name])))
                :recipes (reduce #(conj %1 (remap recipe-from->to %2)) [] (:recipe craftable))}))
        (map #(pr-edn transformed-target (get-in %1 [:meta :name]) %1))))
 

@@ -12,7 +12,17 @@
 
 (def ge-api-base-url "http://services.runescape.com/m=itemdb_oldschool/api/catalogue")
 
-(def wiki-base-url "https://oldschool.runescape.wiki/w")
+(defn list-files [dir]
+  "file-seq returns the dir given as the first entry"
+  (rest (file-seq (clojure.java.io/file dir))))
+
+(defn read-file [file]
+  (read-string (slurp file)))
+
+(defn read-dir [dir]
+  (map read-file (list-files dir)))
+
+(def craftables-dir "resources/craftable")
 
 (def db (if (= (env :env) "dev")
           {:dbtype "postgresql"

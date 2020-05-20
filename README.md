@@ -54,9 +54,9 @@ launches Figwheel directly from the REPL**
 
 This process is very clunky, and requires another codebase: [runelite-wiki-scraper](https://github.com/agwhitaker93/runelite-wiki-scraper)
 
-Follow the guide there to scrape the OSRS wiki for all of the items used in crafting, then copy all of the generated files (found at `resources/generated/craftable` as of writing this) into `resources/craftable`
-
 > The next step might be unnecessary depending on how I decide to facilitate data changes going forwards. It'd be great to have some way of detecting changes to the edn files and propagate changes into the DB.
+
+Follow the guide there to scrape the OSRS wiki for all of the items used in crafting, then copy the generated directory (found at `resources/generated/scraped-craftable` as of writing this) to the resources folder in this project
 
 Next, load up a REPL in this project, make your way to the `craftables` namespace, and execute
 ```clojure
