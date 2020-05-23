@@ -6,10 +6,10 @@
 
 (defn submit-search [handler]
   (GET "/api/recipes" {:params  {:name (deref search-term)}
-                      :handler #(-> %1
-                                    ((fn [to-parse] (.parse js/JSON to-parse)))
-                                    (js->clj :keywordize-keys true)
-                                    (handler))}))
+                       :handler #(-> %1
+                                     ((fn [to-parse] (.parse js/JSON to-parse)))
+                                     (js->clj :keywordize-keys true)
+                                     (handler))}))
 
 (defn listen-enter [event cb]
   (if (= (.-key event) "Enter")

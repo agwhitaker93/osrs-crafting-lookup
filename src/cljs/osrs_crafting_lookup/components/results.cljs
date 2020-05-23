@@ -20,4 +20,6 @@
 (rum/defc results < rum/reactive [result]
   (if (empty? (rum/react result))
     [:div {:class "results"} "Enter a search above"]
-    [:div {:class "results flex-container"} (map item (rum/react result))]))
+    (if (string? (rum/react result))
+      [:div {:class "results"} result]
+      [:div {:class "results flex-container"} (map item (rum/react result))])))

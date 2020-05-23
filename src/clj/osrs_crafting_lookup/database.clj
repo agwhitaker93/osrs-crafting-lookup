@@ -1,15 +1,18 @@
 (ns osrs-crafting-lookup.database
   (:require [clojure.java.jdbc :as jdbc]
             [clojure.string :refer [lower-case]]
-            [osrs-crafting-lookup.config :refer [db read-dir craftables-dir]])
+            [osrs-crafting-lookup.config :refer [db read-dir craftables-dir]]
+            [osrs-crafting-lookup.util :refer [parse-int]])
   (:import (java.util Calendar)
            (java.sql Timestamp)))
 
-(defn parse-int [int?]
-  (if (integer? int?) int? (Integer/parseInt int?)))
+(defn count-pages-matching-name [name limit]
+  (Math/ceil (/ (:count (first (jdbc/query db ["SELECT count(1) FROM osrs.items WHERE lower(name) LIKE ?" (lower-case (str "%" name "%"))]))) limit)))
 
-(defn get-item-details-matching-name [name]
-  (jdbc/query db ["SELECT * FROM osrs.items WHERE lower(name) LIKE ?" (lower-case (str "%" name "%"))]))
+(def memoized-page-count (memoize count-pages-matching-name))
+
+(defn get-item-details-matching-name [name limit offset]
+  (jdbc/query db ["SELECT * FROM osrs.items WHERE lower(name) LIKE ? LIMIT ? OFFSET ?" (lower-case (str "%" name "%")) (parse-int limit) (parse-int offset)]))
 
 (defn get-item-details [id]
   (jdbc/query db ["SELECT * FROM osrs.items WHERE id = ?" (parse-int id)]))
