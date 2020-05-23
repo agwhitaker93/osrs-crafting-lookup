@@ -12,13 +12,14 @@
 
 (defn home-routes [endpoint]
   (routes
-    (wrap-json-response (GET "/api/recipes" {params :params} (recipes/handle params)))
-   (wrap-json-response (GET "/api/items" {params :params} (items/handle params)))
-   (wrap-json-response (GET "/api/details" {params :params} (details/handle params)))
-   (GET "/" _
-        (-> "public/index.html"
-            io/resource
-            io/input-stream
-            response
-            (assoc :headers {"Content-Type" "text/html; charset=utf-8"})))
-   (resources "/")))
+    (wrap-json-response (GET "/api/recipes" {params :params} (recipes/get-recipes params)))
+    (wrap-json-response (GET "/api/recipe" {params :params} (recipes/get-recipe params)))
+    (wrap-json-response (GET "/api/items" {params :params} (items/handle params)))
+    (wrap-json-response (GET "/api/details" {params :params} (details/handle params)))
+    (GET "/" _
+      (-> "public/index.html"
+          io/resource
+          io/input-stream
+          response
+          (assoc :headers {"Content-Type" "text/html; charset=utf-8"})))
+    (resources "/")))

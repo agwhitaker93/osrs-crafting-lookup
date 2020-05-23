@@ -5,7 +5,7 @@
 (defonce search-term (atom ""))
 
 (defn submit-search [handler]
-  (GET "/api/items" {:params  {:query (deref search-term)}
+  (GET "/api/recipes" {:params  {:name (deref search-term)}
                       :handler #(-> %1
                                     ((fn [to-parse] (.parse js/JSON to-parse)))
                                     (js->clj :keywordize-keys true)

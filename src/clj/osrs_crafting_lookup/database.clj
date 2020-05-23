@@ -1,8 +1,27 @@
 (ns osrs-crafting-lookup.database
   (:require [clojure.java.jdbc :as jdbc]
+            [clojure.string :refer [lower-case]]
             [osrs-crafting-lookup.config :refer [db read-dir craftables-dir]])
   (:import (java.util Calendar)
            (java.sql Timestamp)))
+
+(defn parse-int [int?]
+  (if (integer? int?) int? (Integer/parseInt int?)))
+
+(defn get-item-details-matching-name [name]
+  (jdbc/query db ["SELECT * FROM osrs.items WHERE lower(name) LIKE ?" (lower-case (str "%" name "%"))]))
+
+(defn get-item-details [id]
+  (jdbc/query db ["SELECT * FROM osrs.items WHERE id = ?" (parse-int id)]))
+
+(defn get-recipe-details [id]
+  (jdbc/query db ["SELECT * FROM osrs.recipes WHERE id = ?" (parse-int id)]))
+
+(defn get-recipe-skills [item-id recipe-id]
+  (jdbc/query db ["SELECT * FROM osrs.skills WHERE id = ? AND recipe_id = ?" (parse-int item-id) (parse-int recipe-id)]))
+
+(defn get-recipe-materials [item-id recipe-id]
+  (jdbc/query db ["SELECT * FROM osrs.materials WHERE id = ? AND recipe_id = ?" (parse-int item-id) (parse-int recipe-id)]))
 
 (defn timestamp-now []
   (-> (Calendar/getInstance)
