@@ -58,4 +58,6 @@
                                            nil) craftables))))
 
 (defn init []
-  (insert-or-update-craftables (read-dir craftables-dir)))
+  (println "Initializing database")
+  (insert-or-update-craftables (read-dir craftables-dir))
+  (println "Successfully initialized database"))

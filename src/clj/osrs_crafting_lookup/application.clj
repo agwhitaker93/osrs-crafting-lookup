@@ -21,7 +21,7 @@
    :server-info (server-info (:http-port config))))
 
 (defn -main [& _]
-  (database/init)
+  (doall (database/init))
   (let [config (config)]
     (-> config
         app-system
