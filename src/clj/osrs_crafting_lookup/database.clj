@@ -12,7 +12,7 @@
 (def memoized-page-count (memoize count-pages-matching-name))
 
 (defn get-item-details-matching-name [name limit offset]
-  (jdbc/query db ["SELECT * FROM osrs.items WHERE lower(name) LIKE ? LIMIT ? OFFSET ?" (lower-case (str "%" name "%")) (parse-int limit) (parse-int offset)]))
+  (jdbc/query db ["SELECT * FROM osrs.items WHERE lower(name) LIKE ? ORDER BY name LIMIT ? OFFSET ?" (lower-case (str "%" name "%")) (parse-int limit) (parse-int offset)]))
 
 (defn get-item-details [id]
   (jdbc/query db ["SELECT * FROM osrs.items WHERE id = ?" (parse-int id)]))
