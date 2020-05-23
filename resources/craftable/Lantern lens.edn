@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Lantern_lens",
+  :name "Lantern lens",
+  :value "70",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4542",
+  :ge_value "0",
+  :id 4542,
+  :examine "A roughly circular disc of glass.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4542"},
+ :recipes
+ [{:materials [{:name "Molten glass", :quantity "1"}],
+   :skills [{:name "Crafting", :level "49", :exp "55"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Glassblowing pipe",
+   :facilities nil}]}

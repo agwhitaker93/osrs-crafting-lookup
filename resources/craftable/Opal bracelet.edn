@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Opal_bracelet",
+  :name "Opal bracelet",
+  :value "1150",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21117",
+  :ge_value "0",
+  :id 21117,
+  :examine "I wonder if this is valuable.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21117"},
+ :recipes
+ [{:materials
+   [{:name "Opal", :quantity "1"} {:name "Silver bar", :quantity "1"}],
+   :skills [{:name "Crafting", :level "22", :exp "45"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Bracelet mould",
+   :facilities "Furnace"}]}

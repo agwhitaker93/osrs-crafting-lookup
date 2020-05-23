@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Empty_plant_pot",
+  :name "Empty plant pot",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5350",
+  :ge_value "0",
+  :id 5350,
+  :examine "An empty plant pot.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5350"},
+ :recipes
+ [{:materials [{:name "Unfired plant pot", :quantity "1"}],
+   :skills [{:name "Crafting", :level "19", :exp "17.5"}],
+   :members_only true,
+   :ticks "8",
+   :tools nil,
+   :facilities "Pottery oven"}]}

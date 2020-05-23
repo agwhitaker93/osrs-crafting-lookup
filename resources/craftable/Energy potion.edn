@@ -1,0 +1,31 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Energy potion",
+  :value "36",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 3014,
+  :examine "1 dose of energy potion.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Harralander potion (unf)", :quantity "1"}
+    {:name "Chocolate dust", :quantity "1"}],
+   :skills [{:name "Herblore", :level "26", :exp "67.5"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Limpwurt root", :quantity "2"}
+    {:name "Chocolate dust", :quantity "1"}],
+   :skills [],
+   :members_only false,
+   :ticks "0",
+   :tools nil,
+   :facilities "Apothecary"}]}

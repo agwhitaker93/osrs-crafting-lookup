@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Ruby_dragon_bolts",
+  :name "Ruby dragon bolts",
+  :value "800",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21967",
+  :ge_value "0",
+  :id 21967,
+  :examine "Dragon crossbow bolts, tipped with ruby.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21967"},
+ :recipes
+ [{:materials
+   [{:name "Dragon bolts", :quantity "10"}
+    {:name "Ruby bolt tips", :quantity "10"}],
+   :skills [{:name "Fletching", :level "84", :exp "63"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

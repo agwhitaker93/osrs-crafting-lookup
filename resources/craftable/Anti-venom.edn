@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Anti-venom",
+  :value "110",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 12911,
+  :examine "1 dose of antivenom potion.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Antidote++(4)", :quantity "1"}
+    {:name "Zulrah's scales", :quantity "20"}],
+   :skills [{:name "Herblore", :level "87", :exp "120"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Dragon dart",
+  :value "500",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 11230,
+  :examine "A deadly throwing dart with a dragon tip.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Dragon dart tip", :quantity "10"}
+    {:name "Feather", :quantity "10"}],
+   :skills [{:name "Fletching", :level "95", :exp "250"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

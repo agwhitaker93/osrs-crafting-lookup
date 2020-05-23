@@ -1,0 +1,31 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Servery_meat_pie",
+  :name "Servery meat pie",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13403",
+  :ge_value "0",
+  :id 13403,
+  :examine "Put it on the servery table to feed the troops.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13403"},
+ :recipes
+ [{:materials
+   [{:name "Servery flour", :quantity "1"}
+    {:name "Bowl of water", :quantity "1"}
+    {:name "Servery dish", :quantity "1"}
+    {:name "Servery cooked meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "20", :exp "3"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Clay oven"}
+  {:materials [{:name "Servery uncooked pie", :quantity "1"}],
+   :skills [{:name "Cooking", :level "20", :exp "3"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Clay oven"}]}

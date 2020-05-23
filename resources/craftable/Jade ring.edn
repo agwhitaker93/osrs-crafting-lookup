@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Jade_ring",
+  :name "Jade ring",
+  :value "1275",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21084",
+  :ge_value "0",
+  :id 21084,
+  :examine "A valuable ring.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21084"},
+ :recipes
+ [{:materials
+   [{:name "Jade", :quantity "1"} {:name "Silver bar", :quantity "1"}],
+   :skills [{:name "Crafting", :level "13", :exp "32"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Ring mould",
+   :facilities nil}]}

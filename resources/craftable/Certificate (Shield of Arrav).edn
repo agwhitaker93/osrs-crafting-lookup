@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Certificate",
+  :name "Certificate (Shield of Arrav)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=769",
+  :ge_value "0",
+  :id 769,
+  :examine "I can use this to claim a reward from the King.",
+  :members_only false,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=769"},
+ :recipes
+ [{:materials
+   [{:name "Half certificate", :quantity "1"}
+    {:name "Half certificate", :quantity "1"}],
+   :skills [],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

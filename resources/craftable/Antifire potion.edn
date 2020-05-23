@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Antifire potion",
+  :value "132",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 2458,
+  :examine "1 dose of anti-firebreath potion.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Lantadyme potion (unf)", :quantity "1"}
+    {:name "Dragon scale dust", :quantity "1"}],
+   :skills [{:name "Herblore", :level "69", :exp "157.5"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

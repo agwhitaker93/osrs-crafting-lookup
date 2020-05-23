@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Cider",
+  :name "Cider",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5763",
+  :ge_value "0",
+  :id 5763,
+  :examine "A glass of cider.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5763"},
+ :recipes
+ [{:materials
+   [{:name "Apple mush", :quantity "4"}
+    {:name "Ale yeast", :quantity "1"}
+    {:name "Beer glass", :quantity "8"}],
+   :skills [{:name "Cooking", :level "14", :exp "182"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Brewery"}]}

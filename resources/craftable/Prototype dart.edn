@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Prototype_dart",
+  :name "Prototype dart",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1849",
+  :ge_value "0",
+  :id 1849,
+  :examine "A prototype throwing dart.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1849"},
+ :recipes
+ [{:materials
+   [{:name "Prototype dart tip", :quantity "1"}
+    {:name "Feather", :quantity "1"}],
+   :skills [{:name "Fletching", :level "10", :exp "10"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

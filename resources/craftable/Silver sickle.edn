@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Silver_sickle",
+  :name "Silver sickle",
+  :value "175",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2961",
+  :ge_value "0",
+  :id 2961,
+  :examine "It's a silver sickle.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2961"},
+ :recipes
+ [{:materials [{:name "Silver bar", :quantity "1"}],
+   :skills [{:name "Crafting", :level "18", :exp "50"}],
+   :members_only true,
+   :ticks nil,
+   :tools "Sickle mould",
+   :facilities "Furnace"}]}

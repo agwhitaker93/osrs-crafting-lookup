@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Heavy_ballista",
+  :name "Heavy ballista",
+  :value "950000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19481",
+  :ge_value "0",
+  :id 19481,
+  :examine "A powerful weapon forged from the wreckage of an airship.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19481"},
+ :recipes
+ [{:materials
+   [{:name "Unstrung heavy ballista", :quantity "1"}
+    {:name "Monkey tail", :quantity "1"}],
+   :skills [{:name "Fletching", :level "72", :exp "600"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

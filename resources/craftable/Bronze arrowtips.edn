@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bronze_arrowtips",
+  :name "Bronze arrowtips",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=39",
+  :ge_value "0",
+  :id 39,
+  :examine "I can make some arrows with these.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=39"},
+ :recipes
+ [{:materials [{:name "Bronze bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "5", :exp "12.5"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

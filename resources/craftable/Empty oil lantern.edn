@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Empty_oil_lantern",
+  :name "Empty oil lantern",
+  :value "120",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4535",
+  :ge_value "0",
+  :id 4535,
+  :examine "Put oil in to complete it.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4535"},
+ :recipes
+ [{:materials
+   [{:name "Oil lantern frame", :quantity "1"}
+    {:name "Empty oil lamp", :quantity "1"}],
+   :skills [{:name "Crafting", :level "26", :exp "50"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

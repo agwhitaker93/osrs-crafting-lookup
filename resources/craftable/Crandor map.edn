@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Crandor_map",
+  :name "Crandor map",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1538",
+  :ge_value "0",
+  :id 1538,
+  :examine "A map of the route to Crandor.",
+  :members_only false,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1538"},
+ :recipes
+ [{:materials
+   [{:name "Map part", :quantity "1"}
+    {:name "Map part", :quantity "1"}
+    {:name "Map part", :quantity "1"}],
+   :skills [],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

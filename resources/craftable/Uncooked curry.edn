@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Uncooked_curry",
+  :name "Uncooked curry",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2009",
+  :ge_value "0",
+  :id 2009,
+  :examine "I need to cook this.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2009"},
+ :recipes
+ [{:materials
+   [{:name "Bowl of water", :quantity "1"}
+    {:name "Potato", :quantity "1"}
+    {:name "Cooked meat", :quantity "1"}
+    {:name "Curry leaf", :quantity "3"}],
+   :skills [{:name "Cooking", :level "60", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

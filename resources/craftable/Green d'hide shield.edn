@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Green_d%27hide_shield",
+  :name "Green d'hide shield",
+  :value "5500",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22275",
+  :ge_value "0",
+  :id 22275,
+  :examine "A solid maple shield covered in green dragon leather.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22275"},
+ :recipes
+ [{:materials
+   [{:name "Green dragon leather", :quantity "2"}
+    {:name "Maple shield", :quantity "1"}
+    {:name "Steel nails", :quantity "15"}],
+   :skills [{:name "Crafting", :level "62", :exp "124"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities nil}]}

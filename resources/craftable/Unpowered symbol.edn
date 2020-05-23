@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Unpowered_symbol",
+  :name "Unpowered symbol",
+  :value "200",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1722",
+  :ge_value "0",
+  :id 1722,
+  :examine "An unblessed symbol of Zamorak.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1722"},
+ :recipes
+ [{:materials
+   [{:name "Unstrung emblem", :quantity "1"}
+    {:name "Ball of wool", :quantity "1"}],
+   :skills [{:name "Crafting", :level "17", :exp "4"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

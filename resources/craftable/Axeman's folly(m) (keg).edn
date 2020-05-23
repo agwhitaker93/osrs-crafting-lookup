@@ -1,0 +1,26 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Axeman's folly(m) (keg)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 5899,
+  :examine "This keg contains 1 pint of mature Axeman's Folly.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Bucket of water", :quantity "2"}
+    {:name "Barley malt", :quantity "2"}
+    {:name "Oak roots", :quantity "1"}
+    {:name "Ale yeast", :quantity "1"}
+    {:name "Calquat keg", :quantity "2"}],
+   :skills [{:name "Cooking", :level "49", :exp "413"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

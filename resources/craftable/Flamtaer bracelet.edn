@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Flamtaer_bracelet",
+  :name "Flamtaer bracelet",
+  :value "1300",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21180",
+  :ge_value "0",
+  :id 21180,
+  :examine "Helps when building the Shades of Mort'ton temple.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21180"},
+ :recipes
+ [{:materials
+   [{:name "Jade bracelet", :quantity "1"}
+    {:name "Cosmic rune", :quantity "1"}
+    {:name "Air rune", :quantity "3"}],
+   :skills [{:name "Magic", :level "27", :exp "37"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

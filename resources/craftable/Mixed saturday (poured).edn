@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Mixed_saturday",
+  :name "Mixed saturday (poured)",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9572",
+  :ge_value "0",
+  :id 9572,
+  :examine
+  "This Choc Saturday needs heating, and cream and chocolate dust.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9572"},
+ :recipes
+ [{:materials
+   [{:name "Mixed saturday (shaker)", :quantity "1"}
+    {:name "Cocktail glass", :quantity "1"}],
+   :skills [{:name "Cooking", :level "33", :exp "0"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

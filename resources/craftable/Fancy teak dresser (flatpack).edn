@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Fancy_teak_dresser",
+  :name "Fancy teak dresser (flatpack)",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8604",
+  :ge_value "0",
+  :id 8604,
+  :examine "How does it all fit in there?",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8604"},
+ :recipes
+ [{:materials
+   [{:name "Teak plank", :quantity "2"}
+    {:name "Molten glass", :quantity "2"}],
+   :skills [{:name "Construction", :level "56", :exp "182"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Saw, Hammer",
+   :facilities "Workbench"}]}

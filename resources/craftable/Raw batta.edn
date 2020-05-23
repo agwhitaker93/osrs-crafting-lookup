@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Raw_batta",
+  :name "Raw batta",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2250",
+  :ge_value "0",
+  :id 2250,
+  :examine "This gnome batta needs cooking.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2250"},
+ :recipes
+ [{:materials [{:name "Gianne dough", :quantity "1"}],
+   :skills [{:name "Cooking", :level "25", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Batta tin",
+   :facilities nil}]}

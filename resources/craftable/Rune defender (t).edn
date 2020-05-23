@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Rune_defender_%28t%29",
+  :name "Rune defender (t)",
+  :value "65004",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=23230",
+  :ge_value "0",
+  :id 23230,
+  :examine "A defensive weapon trimmed with gold.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=23230"},
+ :recipes
+ [{:materials
+   [{:name "Rune defender", :quantity "1"}
+    {:name "Rune defender ornament kit", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

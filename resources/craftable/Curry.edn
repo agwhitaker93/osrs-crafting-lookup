@@ -1,0 +1,61 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Curry",
+  :name "Curry",
+  :value "20",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2011",
+  :ge_value "0",
+  :id 2011,
+  :examine "It's a spicy hot curry.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2011"},
+ :recipes
+ [{:materials
+   [{:name "Potato", :quantity "1"}
+    {:name "Cooked meat", :quantity "1"}
+    {:name "Curry leaf", :quantity "3"}
+    {:name "Bowl of water", :quantity "1"}],
+   :skills [{:name "Cooking", :level "60", :exp "280"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}
+  {:materials
+   [{:name "Potato", :quantity "1"}
+    {:name "Cooked chicken", :quantity "1"}
+    {:name "Curry leaf", :quantity "3"}
+    {:name "Bowl of water", :quantity "1"}],
+   :skills [{:name "Cooking", :level "60", :exp "280"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}
+  {:materials
+   [{:name "Potato", :quantity "1"}
+    {:name "Cooked meat", :quantity "1"}
+    {:name "Spice", :quantity "1"}
+    {:name "Bowl of water", :quantity "1"}],
+   :skills [{:name "Cooking", :level "60", :exp "280"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}
+  {:materials
+   [{:name "Potato", :quantity "1"}
+    {:name "Cooked chicken", :quantity "1"}
+    {:name "Spice", :quantity "1"}
+    {:name "Bowl of water", :quantity "1"}],
+   :skills [{:name "Cooking", :level "60", :exp "280"}],
+   :members_only true,
+   :ticks "4",
+   :tools nil,
+   :facilities "Cooking range"}
+  {:materials [{:name "Uncooked curry", :quantity "1"}],
+   :skills [{:name "Cooking", :level "60", :exp "280"}],
+   :members_only true,
+   :ticks "4",
+   :tools nil,
+   :facilities "Cooking range"}]}

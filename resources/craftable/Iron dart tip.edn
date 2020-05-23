@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Iron_dart_tip",
+  :name "Iron dart tip",
+  :value "3",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=820",
+  :ge_value "0",
+  :id 820,
+  :examine
+  "A deadly looking dart tip made of iron - needs feathers for flight.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=820"},
+ :recipes
+ [{:materials [{:name "Iron bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "19", :exp "25"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

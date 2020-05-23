@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bucket_of_sand",
+  :name "Bucket of sand",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1783",
+  :ge_value "0",
+  :id 1783,
+  :examine "One of the ingredients for making glass.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1783"},
+ :recipes
+ [{:materials [{:name "Bucket", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities "Sandpit"}]}

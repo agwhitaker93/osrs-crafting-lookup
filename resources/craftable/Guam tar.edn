@@ -1,0 +1,32 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Guam_tar",
+  :name "Guam tar",
+  :value "3",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10142",
+  :ge_value "0",
+  :id 10142,
+  :examine
+  "A thick, foul-smelling, tar-like substance with a green tinge.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10142"},
+ :recipes
+ [{:materials
+   [{:name "Swamp tar", :quantity "15"}
+    {:name "Guam leaf", :quantity "1"}],
+   :skills [{:name "Herblore", :level "19", :exp "30"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Swamp tar", :quantity "15"}
+    {:name "Ground guam", :quantity "1"}],
+   :skills [{:name "Herblore", :level "19", :exp "30"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

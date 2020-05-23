@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Amulet_of_fury",
+  :name "Amulet of fury",
+  :value "202000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6585",
+  :ge_value "0",
+  :id 6585,
+  :examine "A very powerful onyx amulet.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6585"},
+ :recipes
+ [{:materials
+   [{:name "Onyx amulet", :quantity "1"}
+    {:name "Cosmic rune", :quantity "1"}
+    {:name "Fire rune", :quantity "20"}
+    {:name "Earth rune", :quantity "20"}],
+   :skills [{:name "Magic", :level "87", :exp "97"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

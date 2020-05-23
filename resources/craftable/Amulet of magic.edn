@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Amulet_of_magic",
+  :name "Amulet of magic",
+  :value "900",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1727",
+  :ge_value "0",
+  :id 1727,
+  :examine "An enchanted sapphire amulet of magic.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1727"},
+ :recipes
+ [{:materials
+   [{:name "Sapphire amulet", :quantity "1"}
+    {:name "Cosmic rune", :quantity "1"}
+    {:name "Water rune", :quantity "1"}],
+   :skills [{:name "Magic", :level "7", :exp "17.5"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

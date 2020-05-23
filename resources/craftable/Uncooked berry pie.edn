@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Uncooked_berry_pie",
+  :name "Uncooked berry pie",
+  :value "6",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2321",
+  :ge_value "0",
+  :id 2321,
+  :examine "This would be much more appetising cooked.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2321"},
+ :recipes
+ [{:materials
+   [{:name "Redberries", :quantity "1"}
+    {:name "Pie shell", :quantity "1"}],
+   :skills [{:name "Cooking", :level "10", :exp "0"}],
+   :members_only false,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

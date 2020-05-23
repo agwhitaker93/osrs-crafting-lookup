@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Oak_clock",
+  :name "Oak clock (flatpack)",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8590",
+  :ge_value "0",
+  :id 8590,
+  :examine "How does it all fit in there?",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8590"},
+ :recipes
+ [{:materials
+   [{:name "Oak plank", :quantity "2"}
+    {:name "Clockwork", :quantity "1"}],
+   :skills [{:name "Construction", :level "25", :exp "142"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Saw, Hammer",
+   :facilities "Workbench"}]}

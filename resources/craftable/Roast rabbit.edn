@@ -1,0 +1,27 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Roast_rabbit",
+  :name "Roast rabbit",
+  :value "20",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7223",
+  :ge_value "0",
+  :id 7223,
+  :examine "A delicious looking piece of roast rabbit.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7223"},
+ :recipes
+ [{:materials [{:name "Raw rabbit", :quantity "1"}],
+   :skills [{:name "Cooking", :level "16", :exp "72"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Iron spit",
+   :facilities "Fire"}
+  {:materials [{:name "Skewered rabbit", :quantity "1"}],
+   :skills [{:name "Cooking", :level "16", :exp "72"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Fire"}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Guthix_balance_%28unf%29",
+  :name "Guthix balance (unf)",
+  :value "110",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 7658,
+  :examine "An unfinished potion.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Restore potion(3)", :quantity "1"}
+    {:name "Garlic", :quantity "1"}],
+   :skills [{:name "Herblore", :level "22", :exp "25"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

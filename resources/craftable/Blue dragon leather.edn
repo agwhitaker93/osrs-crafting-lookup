@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Blue_dragon_leather",
+  :name "Blue dragon leather",
+  :value "70",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2505",
+  :ge_value "0",
+  :id 2505,
+  :examine "It's a piece of prepared blue dragonhide.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2505"},
+ :recipes
+ [{:materials
+   [{:name "Blue dragonhide", :quantity "1"}
+    {:name "Coins", :quantity "20"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

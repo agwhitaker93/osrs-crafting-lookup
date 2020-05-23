@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Crab_helmet",
+  :name "Crab helmet",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7539",
+  :ge_value "0",
+  :id 7539,
+  :examine "If it's good enough for crabs, it's good enough for me!",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7539"},
+ :recipes
+ [{:materials [{:name "Fresh crab shell", :quantity "1"}],
+   :skills [{:name "Crafting", :level "15", :exp "32.5"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Chisel",
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Iron_crossbow_%28u%29",
+  :name "Iron crossbow (u)",
+  :value "123",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9457",
+  :ge_value "0",
+  :id 9457,
+  :examine "An unstrung iron crossbow.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9457"},
+ :recipes
+ [{:materials
+   [{:name "Willow stock", :quantity "1"}
+    {:name "Iron limbs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "39", :exp "44"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Hammer",
+   :facilities nil}]}

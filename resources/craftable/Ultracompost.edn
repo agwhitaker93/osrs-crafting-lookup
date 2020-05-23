@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Ultracompost",
+  :name "Ultracompost",
+  :value "85",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21483",
+  :ge_value "0",
+  :id 21483,
+  :examine "Ultra-good for the smallest or largest of plants.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21483"},
+ :recipes
+ [{:materials
+   [{:name "Supercompost", :quantity "1"}
+    {:name "Volcanic ash", :quantity "2"}],
+   :skills [],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

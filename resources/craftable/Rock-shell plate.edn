@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Rock-shell_plate",
+  :name "Rock-shell plate",
+  :value "65000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6129",
+  :ge_value "0",
+  :id 6129,
+  :examine "A sturdy body armour made from rock crab pieces.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6129"},
+ :recipes
+ [{:materials
+   [{:name "Dagannoth hide", :quantity "3"}
+    {:name "Rock-shell shard", :quantity "1"}
+    {:name "Coins", :quantity "10000"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Skulgrimen"}]}

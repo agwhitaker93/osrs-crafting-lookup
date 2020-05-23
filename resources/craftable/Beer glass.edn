@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Beer_glass",
+  :name "Beer glass",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1919",
+  :ge_value "0",
+  :id 1919,
+  :examine "I need to fill this with beer.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1919"},
+ :recipes
+ [{:materials [{:name "Molten glass", :quantity "1"}],
+   :skills [{:name "Crafting", :level "1", :exp "17.5"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Glassblowing pipe",
+   :facilities nil}]}

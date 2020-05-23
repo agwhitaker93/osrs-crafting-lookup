@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Blue_dye",
+  :name "Blue dye",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1767",
+  :ge_value "0",
+  :id 1767,
+  :examine "A little bottle of blue dye.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1767"},
+ :recipes
+ [{:materials
+   [{:name "Woad leaf", :quantity "2"} {:name "Coins", :quantity "5"}],
+   :skills [],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Aggie,Ali the dyer"}]}

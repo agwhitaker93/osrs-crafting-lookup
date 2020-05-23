@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Apple_mush",
+  :name "Apple mush",
+  :value "13",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5992",
+  :ge_value "0",
+  :id 5992,
+  :examine "A bucket of apple mush.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5992"},
+ :recipes
+ [{:materials
+   [{:name "Cooking apple", :quantity "4"}
+    {:name "Bucket", :quantity "1"}],
+   :skills [{:name "Cooking", :level "14", :exp "Unknown"}],
+   :members_only true,
+   :ticks "15",
+   :tools nil,
+   :facilities "Brewery"}]}

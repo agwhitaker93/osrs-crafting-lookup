@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Barbed_bolts",
+  :name "Barbed bolts",
+  :value "200",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=881",
+  :ge_value "0",
+  :id 881,
+  :examine "Great if you have a crossbow!",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=881"},
+ :recipes
+ [{:materials
+   [{:name "Bronze bolts", :quantity "1"}
+    {:name "Barb bolttips", :quantity "1"}],
+   :skills [{:name "Fletching", :level "51", :exp "9.5"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

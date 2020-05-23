@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Tangled_toad%27s_legs",
+  :name "Tangled toad's legs",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2187",
+  :ge_value "0",
+  :id 2187,
+  :examine "It actually smells quite good.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2187"},
+ :recipes
+ [{:materials
+   [{:name "Half made bowl (tangled toad's legs)", :quantity "1"}],
+   :skills [{:name "Cooking", :level "40", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

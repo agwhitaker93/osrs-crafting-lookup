@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Part_wild_pie",
+  :name "Part wild pie (raw bear meat)",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7202",
+  :ge_value "0",
+  :id 7202,
+  :examine "Still needs two more ingredients.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7202"},
+ :recipes
+ [{:materials
+   [{:name "Raw bear meat", :quantity "1"}
+    {:name "Pie shell", :quantity "1"}],
+   :skills [{:name "Cooking", :level "85", :exp "0.0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

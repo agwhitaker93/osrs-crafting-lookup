@@ -1,0 +1,27 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Rope",
+  :name "Rope",
+  :value "18",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=954",
+  :ge_value "0",
+  :id 954,
+  :examine "A coil of rope.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=954"},
+ :recipes
+ [{:materials [{:name "Hair", :quantity "1"}],
+   :skills [{:name "Crafting", :level "30", :exp "25"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Spinning"}
+  {:materials [{:name "Ball of wool", :quantity "4"}],
+   :skills [],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Ned"}]}

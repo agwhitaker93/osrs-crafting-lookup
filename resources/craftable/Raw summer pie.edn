@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Raw_summer_pie",
+  :name "Raw summer pie",
+  :value "70",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7216",
+  :ge_value "0",
+  :id 7216,
+  :examine
+  "Fresh fruit may be good for you, but I should really cook this.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7216"},
+ :recipes
+ [{:materials
+   [{:name "Part summer pie (watermelon)", :quantity "1"}
+    {:name "Cooking apple", :quantity "1"}],
+   :skills [{:name "Cooking", :level "95", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

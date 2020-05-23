@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Part_garden_pie",
+  :name "Part garden pie (onion)",
+  :value "11",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7174",
+  :ge_value "0",
+  :id 7174,
+  :examine "Still needs one more ingredient.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7174"},
+ :recipes
+ [{:materials
+   [{:name "Onion", :quantity "1"}
+    {:name "Part garden pie (tomato)", :quantity "1"}],
+   :skills [{:name "Cooking", :level "34", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

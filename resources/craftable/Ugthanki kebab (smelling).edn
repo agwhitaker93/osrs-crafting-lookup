@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Ugthanki_kebab",
+  :name "Ugthanki kebab (smelling)",
+  :value "20",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1883",
+  :ge_value "0",
+  :id 1883,
+  :examine "A strange smelling kebab made from ugthanki meat.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1883"},
+ :recipes
+ [{:materials
+   [{:name "Kebab mix", :quantity "1"}
+    {:name "Pitta bread", :quantity "1"}],
+   :skills [{:name "Cooking", :level "58", :exp "40"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

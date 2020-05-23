@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Cup_of_tea",
+  :name "Cup of tea (nettle)",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4242",
+  :ge_value "0",
+  :id 4242,
+  :examine "A nice cup of nettle tea.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4242"},
+ :recipes
+ [{:materials
+   [{:name "Nettle tea", :quantity "1"}
+    {:name "Empty cup", :quantity "1"}],
+   :skills [{:name "Cooking", :level "20", :exp "52"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

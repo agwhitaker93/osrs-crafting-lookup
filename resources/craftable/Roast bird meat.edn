@@ -1,0 +1,27 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Roast_bird_meat",
+  :name "Roast bird meat",
+  :value "17",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9980",
+  :ge_value "0",
+  :id 9980,
+  :examine "A nicely roasted bird.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9980"},
+ :recipes
+ [{:materials [{:name "Raw bird meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "11", :exp "62"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Iron spit",
+   :facilities "Fire"}
+  {:materials [{:name "Skewered bird meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "11", :exp "62"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Fire"}]}

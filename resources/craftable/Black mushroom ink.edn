@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Black_mushroom_ink",
+  :name "Black mushroom ink",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4622",
+  :ge_value "0",
+  :id 4622,
+  :examine "Black ink made out of mushrooms.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4622"},
+ :recipes
+ [{:materials
+   [{:name "Black mushroom", :quantity "1"}
+    {:name "Vial", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools "Pestle and mortar",
+   :facilities nil}]}

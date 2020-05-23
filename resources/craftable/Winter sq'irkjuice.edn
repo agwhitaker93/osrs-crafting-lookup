@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Winter_sq%27irkjuice",
+  :name "Winter sq'irkjuice",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10851",
+  :ge_value "0",
+  :id 10851,
+  :examine "Made from 5 winter sq'irks.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10851"},
+ :recipes
+ [{:materials
+   [{:name "Winter sq'irk", :quantity "5"}
+    {:name "Beer glass", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools "Pestle and mortar",
+   :facilities nil}]}

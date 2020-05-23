@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Summer_sq%27irkjuice",
+  :name "Summer sq'irkjuice",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10849",
+  :ge_value "0",
+  :id 10849,
+  :examine "Made from 2 summer sq'irks.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10849"},
+ :recipes
+ [{:materials
+   [{:name "Summer sq'irk", :quantity "2"}
+    {:name "Beer glass", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools "Pestle and mortar",
+   :facilities nil}]}

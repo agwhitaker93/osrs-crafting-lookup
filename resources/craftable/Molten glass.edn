@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Molten_glass",
+  :name "Molten glass",
+  :value "3",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1775",
+  :ge_value "0",
+  :id 1775,
+  :examine "Hot glass ready to be blown into useful objects.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1775"},
+ :recipes
+ [{:materials
+   [{:name "Bucket of sand", :quantity "1"}
+    {:name "Soda ash", :quantity "1"}],
+   :skills [{:name "Crafting", :level "1", :exp "20"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities "Furnace"}]}

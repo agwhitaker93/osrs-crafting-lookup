@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Adamant javelin",
+  :value "160",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 829,
+  :examine "An adamant tipped javelin.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Adamant javelin heads", :quantity "15"}
+    {:name "Javelin shaft", :quantity "15"}],
+   :skills [{:name "Fletching", :level "62", :exp "150"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

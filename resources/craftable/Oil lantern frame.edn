@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Oil_lantern_frame",
+  :name "Oil lantern frame",
+  :value "90",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4540",
+  :ge_value "0",
+  :id 4540,
+  :examine "Add the glass to complete.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4540"},
+ :recipes
+ [{:materials [{:name "Iron bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "26", :exp "25"}],
+   :members_only true,
+   :ticks "4",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

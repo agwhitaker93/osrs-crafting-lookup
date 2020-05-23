@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Gold_helmet",
+  :name "Gold helmet",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4567",
+  :ge_value "0",
+  :id 4567,
+  :examine "Made of gold and white gold.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4567"},
+ :recipes
+ [{:materials [{:name "Gold bar", :quantity "3"}],
+   :skills [{:name "Smithing", :level "50", :exp "30"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

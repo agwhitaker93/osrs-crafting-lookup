@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki
+  "https://oldschool.runescape.wiki/w/Harralander_potion_%28unf%29",
+  :name "Harralander potion (unf)",
+  :value "20",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=97",
+  :ge_value "0",
+  :id 97,
+  :examine
+  "I need another ingredient to finish this Harralander potion.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=97"},
+ :recipes
+ [{:materials
+   [{:name "Harralander", :quantity "1"}
+    {:name "Vial of water", :quantity "1"}],
+   :skills [{:name "Herblore", :level "22", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

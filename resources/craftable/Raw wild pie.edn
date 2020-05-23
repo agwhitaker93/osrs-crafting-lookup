@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Raw_wild_pie",
+  :name "Raw wild pie",
+  :value "91",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7206",
+  :ge_value "0",
+  :id 7206,
+  :examine "Good as it looks, I'd better cook it.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7206"},
+ :recipes
+ [{:materials
+   [{:name "Raw rabbit", :quantity "1"}
+    {:name "Part wild pie (raw chompy)", :quantity "1"}],
+   :skills [{:name "Cooking", :level "85", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

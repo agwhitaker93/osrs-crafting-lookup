@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Cooked_sweetcorn",
+  :name "Cooked sweetcorn",
+  :value "9",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5988",
+  :ge_value "0",
+  :id 5988,
+  :examine "Delicious cooked sweetcorn.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5988"},
+ :recipes
+ [{:materials [{:name "Sweetcorn", :quantity "1"}],
+   :skills [{:name "Cooking", :level "28", :exp "104"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

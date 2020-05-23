@@ -1,0 +1,22 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Poison_karambwan",
+  :name "Poison karambwan",
+  :value "250",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3146",
+  :ge_value "0",
+  :id 3146,
+  :examine
+  "Cooked octopus. It looks poorly cooked and quite dangerous.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3146"},
+ :recipes
+ [{:materials [{:name "Raw karambwan", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "80"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

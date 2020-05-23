@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Adamant_dart_tip",
+  :name "Adamant dart tip",
+  :value "36",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=823",
+  :ge_value "0",
+  :id 823,
+  :examine
+  "A deadly-looking dart tip made of adamant - needs feathers for flight.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=823"},
+ :recipes
+ [{:materials [{:name "Adamantite bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "74", :exp "62.5"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

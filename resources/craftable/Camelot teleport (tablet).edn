@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Camelot_teleport",
+  :name "Camelot teleport (tablet)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8010",
+  :ge_value "0",
+  :id 8010,
+  :examine "A teleport to Camelot.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8010"},
+ :recipes
+ [{:materials
+   [{:name "Law rune", :quantity "1"}
+    {:name "Air rune", :quantity "5"}
+    {:name "Soft clay", :quantity "1"}],
+   :skills [{:name "Magic", :level "45", :exp "55.5"}],
+   :members_only true,
+   :ticks "4",
+   :tools nil,
+   :facilities "Teak eagle lectern"}]}

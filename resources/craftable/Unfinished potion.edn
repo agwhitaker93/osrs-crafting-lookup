@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Unfinished_potion",
+  :name "Unfinished potion",
+  :value "11",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3406",
+  :ge_value "0",
+  :id 3406,
+  :examine "I need another ingredient to finish this potion.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3406"},
+ :recipes
+ [{:materials
+   [{:name "Ashes", :quantity "1"}
+    {:name "Vial of water", :quantity "1"}],
+   :skills [{:name "Herblore", :level "15", :exp "0"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

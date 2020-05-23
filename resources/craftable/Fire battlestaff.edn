@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Fire_battlestaff",
+  :name "Fire battlestaff",
+  :value "15500",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1393",
+  :ge_value "0",
+  :id 1393,
+  :examine "It's a slightly magical stick.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1393"},
+ :recipes
+ [{:materials
+   [{:name "Fire orb", :quantity "1"}
+    {:name "Battlestaff", :quantity "1"}],
+   :skills [{:name "Crafting", :level "62", :exp "125"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

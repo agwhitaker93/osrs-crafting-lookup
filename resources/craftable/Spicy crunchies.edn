@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Spicy_crunchies",
+  :name "Spicy crunchies",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2213",
+  :ge_value "0",
+  :id 2213,
+  :examine "Yum... smells spicy.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2213"},
+ :recipes
+ [{:materials [{:name "Unfinished crunchy (spicy)", :quantity "1"}],
+   :skills [{:name "Cooking", :level "12", :exp "42"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Gnome spice",
+   :facilities nil}]}

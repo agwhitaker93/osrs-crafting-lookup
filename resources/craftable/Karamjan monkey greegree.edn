@@ -1,0 +1,32 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Karamjan_monkey_greegree",
+  :name "Karamjan monkey greegree",
+  :value "500",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4031",
+  :ge_value "0",
+  :id 4031,
+  :examine
+  "A magical talisman in the shape of a Karamjan monkey head.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4031"},
+ :recipes
+ [{:materials
+   [{:name "Monkey talisman", :quantity "1"}
+    {:name "Monkey corpse", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Zooknock"}
+  {:materials
+   [{:name "Monkey talisman", :quantity "1"}
+    {:name "Monkey bones", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

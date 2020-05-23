@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Teak_pyre_logs",
+  :name "Teak pyre logs",
+  :value "100",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6211",
+  :ge_value "0",
+  :id 6211,
+  :examine "Teak logs prepared with sacred oil for a funeral pyre.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6211"},
+ :recipes
+ [{:materials
+   [{:name "Teak logs", :quantity "1"}
+    {:name "Sacred oil(3)", :quantity "1"}],
+   :skills [{:name "Firemaking", :level "40", :exp "14"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

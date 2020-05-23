@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Lobster",
+  :name "Lobster",
+  :value "70",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=379",
+  :ge_value "0",
+  :id 379,
+  :examine "This looks tricky to eat.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=379"},
+ :recipes
+ [{:materials [{:name "Raw lobster", :quantity "1"}],
+   :skills [{:name "Cooking", :level "40", :exp "120"}],
+   :members_only false,
+   :ticks "4",
+   :tools nil,
+   :facilities "Cooking range"}]}

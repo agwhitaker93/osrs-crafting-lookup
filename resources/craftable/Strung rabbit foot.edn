@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Strung_rabbit_foot",
+  :name "Strung rabbit foot",
+  :value "30",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10132",
+  :ge_value "0",
+  :id 10132,
+  :examine "Not so lucky for the rabbit.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10132"},
+ :recipes
+ [{:materials
+   [{:name "Ball of wool", :quantity "1"}
+    {:name "Rabbit foot", :quantity "1"}],
+   :skills [{:name "Crafting", :level "37", :exp "4"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

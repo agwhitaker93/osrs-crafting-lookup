@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Watchtower_teleport",
+  :name "Watchtower teleport (tablet)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8012",
+  :ge_value "0",
+  :id 8012,
+  :examine "A teleport to the Yanille Watchtower.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8012"},
+ :recipes
+ [{:materials
+   [{:name "Law rune", :quantity "2"}
+    {:name "Earth rune", :quantity "2"}
+    {:name "Soft clay", :quantity "1"}],
+   :skills [{:name "Magic", :level "58", :exp "68"}],
+   :members_only true,
+   :ticks "4",
+   :tools nil,
+   :facilities "Mahogany eagle lectern"}]}

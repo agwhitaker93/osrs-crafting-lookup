@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Emerald_bolts",
+  :name "Emerald bolts",
+  :value "53",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9338",
+  :ge_value "0",
+  :id 9338,
+  :examine "Emerald tipped Mithril crossbow bolts.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9338"},
+ :recipes
+ [{:materials
+   [{:name "Mithril bolts", :quantity "10"}
+    {:name "Emerald bolt tips", :quantity "10"}],
+   :skills [{:name "Fletching", :level "58", :exp "55"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

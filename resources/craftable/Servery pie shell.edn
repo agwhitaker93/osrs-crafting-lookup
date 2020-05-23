@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Servery_pie_shell",
+  :name "Servery pie shell",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13401",
+  :ge_value "0",
+  :id 13401,
+  :examine "An empty pie. Needs meatiness.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13401"},
+ :recipes
+ [{:materials
+   [{:name "Servery dish", :quantity "1"}
+    {:name "Servery pastry dough", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Raw_garden_pie",
+  :name "Raw garden pie",
+  :value "12",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7176",
+  :ge_value "0",
+  :id 7176,
+  :examine "Needs cooking before I eat it.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7176"},
+ :recipes
+ [{:materials
+   [{:name "Cabbage", :quantity "1"}
+    {:name "Part garden pie (onion)", :quantity "1"}],
+   :skills [{:name "Cooking", :level "34", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Rune spear",
+  :value "20800",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 1247,
+  :examine "A rune tipped spear.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Runite bar", :quantity "1"}
+    {:name "Magic logs", :quantity "1"}],
+   :skills [{:name "Smithing", :level "90", :exp "150"}],
+   :members_only true,
+   :ticks "4",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

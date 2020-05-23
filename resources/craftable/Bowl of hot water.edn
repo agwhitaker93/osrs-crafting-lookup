@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bowl_of_hot_water",
+  :name "Bowl of hot water",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4456",
+  :ge_value "0",
+  :id 4456,
+  :examine "It's a bowl of hot water.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4456"},
+ :recipes
+ [{:materials [{:name "Bowl of water", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

@@ -1,0 +1,31 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Antipoison",
+  :value "144",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 179,
+  :examine "1 dose of antipoison potion.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Marrentill potion (unf)", :quantity "1"}
+    {:name "Unicorn horn dust", :quantity "1"}],
+   :skills [{:name "Herblore", :level "5", :exp "37.5"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Limpwurt root", :quantity "1"}
+    {:name "Cadava berries", :quantity "1"}],
+   :skills [],
+   :members_only false,
+   :ticks "0",
+   :tools nil,
+   :facilities "Apothecary"}]}

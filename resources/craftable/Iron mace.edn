@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Iron_mace",
+  :name "Iron mace",
+  :value "63",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1420",
+  :ge_value "0",
+  :id 1420,
+  :examine "A spiky mace.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1420"},
+ :recipes
+ [{:materials [{:name "Iron bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "17", :exp "25"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

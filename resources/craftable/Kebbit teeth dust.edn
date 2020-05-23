@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Kebbit_teeth_dust",
+  :name "Kebbit teeth dust",
+  :value "160",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10111",
+  :ge_value "0",
+  :id 10111,
+  :examine "Previously a kebbit-sized set of dentures.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10111"},
+ :recipes
+ [{:materials [{:name "Kebbit teeth", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools "Pestle and mortar",
+   :facilities nil}]}

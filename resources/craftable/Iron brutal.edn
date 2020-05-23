@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Iron_brutal",
+  :name "Iron brutal",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4778",
+  :ge_value "0",
+  :id 4778,
+  :examine "Blunt iron arrow... ouch.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4778"},
+ :recipes
+ [{:materials
+   [{:name "Flighted ogre arrow", :quantity "6"}
+    {:name "Iron nails", :quantity "6"}],
+   :skills [{:name "Fletching", :level "18", :exp "15.6"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Hammer",
+   :facilities nil}]}

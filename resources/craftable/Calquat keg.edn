@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Calquat_keg",
+  :name "Calquat keg",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5769",
+  :ge_value "0",
+  :id 5769,
+  :examine "Sliced and hollowed out to form a keg.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5769"},
+ :recipes
+ [{:materials [{:name "Calquat fruit", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only true,
+   :ticks "0",
+   :tools "Knife",
+   :facilities nil}]}

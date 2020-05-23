@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Ground_ashes",
+  :name "Ground ashes",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8865",
+  :ge_value "0",
+  :id 8865,
+  :examine "A heap of finely ground ashes.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8865"},
+ :recipes
+ [{:materials [{:name "Ashes", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools "Pestle and mortar",
+   :facilities nil}]}

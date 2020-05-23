@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Marble_magic_wardrobe",
+  :name "Marble magic wardrobe (flatpack)",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9858",
+  :ge_value "0",
+  :id 9858,
+  :examine "Marble magic wardrobe.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9858"},
+ :recipes
+ [{:materials [{:name "Marble block", :quantity "1"}],
+   :skills [{:name "Construction", :level "96", :exp "500"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Saw, Hammer",
+   :facilities "Workbench"}]}

@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Redwood_bird_house",
+  :name "Redwood bird house",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22204",
+  :ge_value "0",
+  :id 22204,
+  :examine
+  "Feed and catch the birds by placing this in the right spot.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22204"},
+ :recipes
+ [{:materials
+   [{:name "Redwood logs", :quantity "1"}
+    {:name "Clockwork", :quantity "1"}],
+   :skills [{:name "Crafting", :level "90", :exp "55"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Chisel, Hammer",
+   :facilities nil}]}

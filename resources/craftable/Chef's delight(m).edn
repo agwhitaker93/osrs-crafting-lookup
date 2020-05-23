@@ -1,0 +1,27 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Chef%27s_delight%28m%29",
+  :name "Chef's delight(m)",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5757",
+  :ge_value "0",
+  :id 5757,
+  :examine
+  "This looks a good deal stronger than normal Chef's Delight.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5757"},
+ :recipes
+ [{:materials
+   [{:name "Bucket of water", :quantity "2"}
+    {:name "Barley malt", :quantity "2"}
+    {:name "Chocolate dust", :quantity "4"}
+    {:name "Ale yeast", :quantity "1"}
+    {:name "Beer glass", :quantity "8"}],
+   :skills [{:name "Cooking", :level "54", :exp "446"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Brewery"}]}

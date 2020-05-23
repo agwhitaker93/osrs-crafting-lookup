@@ -1,0 +1,31 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Kyatt_legs",
+  :name "Kyatt legs",
+  :value "200",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10035",
+  :ge_value "0",
+  :id 10035,
+  :examine "These should make me harder to spot in polar areas.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10035"},
+ :recipes
+ [{:materials
+   [{:name "Kyatt fur", :quantity "1"}
+    {:name "Coins", :quantity "200"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities "Fancy Clothes Store"}
+  {:materials
+   [{:name "Tatty kyatt fur", :quantity "1"}
+    {:name "Coins", :quantity "200"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities "Fancy Clothes Store"}]}

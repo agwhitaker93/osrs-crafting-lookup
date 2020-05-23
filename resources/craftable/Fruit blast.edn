@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Fruit_blast",
+  :name "Fruit blast",
+  :value "30",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2084",
+  :ge_value "0",
+  :id 2084,
+  :examine "A cool refreshing fruit mix.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2084"},
+ :recipes
+ [{:materials
+   [{:name "Mixed blast", :quantity "1"}
+    {:name "Lemon slices", :quantity "1"}
+    {:name "Cocktail glass", :quantity "1"}],
+   :skills [{:name "Cooking", :level "6", :exp "20"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

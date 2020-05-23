@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Headless_arrow",
+  :name "Headless arrow",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=53",
+  :ge_value "0",
+  :id 53,
+  :examine "A wooden arrow shaft with flights attached.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=53"},
+ :recipes
+ [{:materials
+   [{:name "Arrow shaft", :quantity "15"}
+    {:name "Feather", :quantity "15"}],
+   :skills [{:name "Fletching", :level "1", :exp "15"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

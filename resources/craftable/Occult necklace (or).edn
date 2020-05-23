@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Occult_necklace_%28or%29",
+  :name "Occult necklace (or)",
+  :value "45000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19720",
+  :ge_value "0",
+  :id 19720,
+  :examine "A smokey evil embodies this beautiful amulet.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19720"},
+ :recipes
+ [{:materials
+   [{:name "Occult necklace", :quantity "1"}
+    {:name "Occult ornament kit", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

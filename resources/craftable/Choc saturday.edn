@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Choc_saturday",
+  :name "Choc saturday",
+  :value "30",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2074",
+  :ge_value "0",
+  :id 2074,
+  :examine "A warm creamy alcoholic beverage.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2074"},
+ :recipes
+ [{:materials
+   [{:name "Mixed saturday (heated)", :quantity "1"}
+    {:name "Chocolate dust", :quantity "1"}
+    {:name "Pot of cream", :quantity "1"}],
+   :skills [{:name "Cooking", :level "33", :exp "140"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

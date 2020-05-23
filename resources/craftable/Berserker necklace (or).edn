@@ -1,0 +1,25 @@
+{:meta
+ {:tradable false,
+  :wiki
+  "https://oldschool.runescape.wiki/w/Berserker_necklace_%28or%29",
+  :name "Berserker necklace (or)",
+  :value "202000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=23240",
+  :ge_value "0",
+  :id 23240,
+  :examine
+  "Makes obsidian weapons even stronger and has a nice glow to boot!",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=23240"},
+ :recipes
+ [{:materials
+   [{:name "Berserker necklace", :quantity "1"}
+    {:name "Berserker necklace ornament kit", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

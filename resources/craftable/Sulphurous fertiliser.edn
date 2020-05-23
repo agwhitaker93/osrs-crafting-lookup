@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Sulphurous_fertiliser",
+  :name "Sulphurous fertiliser",
+  :value "48",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13419",
+  :ge_value "0",
+  :id 13419,
+  :examine "Used in the farming industry of Hosidius.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13419"},
+ :recipes
+ [{:materials
+   [{:name "Compost", :quantity "1"}
+    {:name "Saltpetre", :quantity "1"}],
+   :skills [{:name "Farming", :level "0", :exp "2"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

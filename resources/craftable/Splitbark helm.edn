@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Splitbark_helm",
+  :name "Splitbark helm",
+  :value "10000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3385,20568",
+  :ge_value "0",
+  :id 338520568,
+  :examine "A wooden helmet.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3385,20568"},
+ :recipes
+ [{:materials
+   [{:name "Bark", :quantity "2"}
+    {:name "Fine cloth", :quantity "2"}
+    {:name "Coins", :quantity "6000"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Armoured wizard"}]}

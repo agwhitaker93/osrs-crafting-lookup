@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Kwuarm",
+  :name "Kwuarm",
+  :value "54",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=263",
+  :ge_value "0",
+  :id 263,
+  :examine "A powerful herb.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=263"},
+ :recipes
+ [{:materials [{:name "Grimy kwuarm", :quantity "1"}],
+   :skills [{:name "Herblore", :level "54", :exp "11.3"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

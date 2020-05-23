@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Skewered_rabbit",
+  :name "Skewered rabbit",
+  :value "84",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7224",
+  :ge_value "0",
+  :id 7224,
+  :examine "All ready to be used on a fire.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7224"},
+ :recipes
+ [{:materials [{:name "Raw rabbit", :quantity "1"}],
+   :skills [{:name "Cooking", :level "16", :exp "0"}],
+   :members_only true,
+   :ticks "0",
+   :tools "Iron spit",
+   :facilities nil}]}

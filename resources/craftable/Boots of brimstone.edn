@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Boots_of_brimstone",
+  :name "Boots of brimstone",
+  :value "20000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22951",
+  :ge_value "0",
+  :id 22951,
+  :examine
+  "A pair of heat resistant boots charged with the claw of the ferocious Drake.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22951"},
+ :recipes
+ [{:materials
+   [{:name "Boots of stone", :quantity "1"}
+    {:name "Drake's claw", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

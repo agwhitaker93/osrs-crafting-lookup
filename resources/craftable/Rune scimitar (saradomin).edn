@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Rune_scimitar",
+  :name "Rune scimitar (saradomin)",
+  :value "25600",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=23332",
+  :ge_value "0",
+  :id 23332,
+  :examine "A vicious, curved sword.",
+  :members_only false,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=23332"},
+ :recipes
+ [{:materials
+   [{:name "Rune scimitar", :quantity "1"}
+    {:name "Rune scimitar ornament kit (saradomin)", :quantity "1"}],
+   :skills [],
+   :members_only false,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

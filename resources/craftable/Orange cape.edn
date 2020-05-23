@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Orange_cape",
+  :name "Orange cape",
+  :value "32",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1031",
+  :ge_value "0",
+  :id 1031,
+  :examine "A thick orange cape.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1031"},
+ :recipes
+ [{:materials
+   [{:name "Orange dye", :quantity "1"}
+    {:name "Black cape", :quantity "1"}],
+   :skills [{:name "Crafting", :level "1", :exp "3"}],
+   :members_only false,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

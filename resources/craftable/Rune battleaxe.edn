@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Rune_battleaxe",
+  :name "Rune battleaxe",
+  :value "41600",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1373,20552",
+  :ge_value "0",
+  :id 137320552,
+  :examine "A vicious looking axe.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1373,20552"},
+ :recipes
+ [{:materials [{:name "Runite bar", :quantity "3"}],
+   :skills [{:name "Smithing", :level "95", :exp "225"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Lovakite_bar",
+  :name "Lovakite bar",
+  :value "100",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13354",
+  :ge_value "0",
+  :id 13354,
+  :examine
+  "This metal is a popular material for military equipment in Great Kourend.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13354"},
+ :recipes
+ [{:materials
+   [{:name "Lovakite ore", :quantity "1"}
+    {:name "Coal", :quantity "2"}],
+   :skills [{:name "Smithing", :level "45", :exp "20"}],
+   :members_only true,
+   :ticks "4",
+   :tools nil,
+   :facilities "Lovakite furnace"}]}

@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Pie_dish",
+  :name "Pie dish",
+  :value "3",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2313",
+  :ge_value "0",
+  :id 2313,
+  :examine "Deceptively pie shaped.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2313"},
+ :recipes
+ [{:materials [{:name "Unfired pie dish", :quantity "1"}],
+   :skills [{:name "Crafting", :level "7", :exp "10"}],
+   :members_only false,
+   :ticks "8",
+   :tools nil,
+   :facilities "Pottery oven"}]}

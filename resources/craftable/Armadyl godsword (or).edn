@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Armadyl_godsword_%28or%29",
+  :name "Armadyl godsword (or)",
+  :value "1250000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=20368",
+  :ge_value "0",
+  :id 20368,
+  :examine "An ornamented, beautiful, heavy sword.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=20368"},
+ :recipes
+ [{:materials
+   [{:name "Armadyl godsword", :quantity "1"}
+    {:name "Armadyl godsword ornament kit", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

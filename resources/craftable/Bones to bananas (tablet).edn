@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bones_to_bananas",
+  :name "Bones to bananas (tablet)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8014",
+  :ge_value "0",
+  :id 8014,
+  :examine "A tablet containing a magic spell.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8014"},
+ :recipes
+ [{:materials
+   [{:name "Nature rune", :quantity "1"}
+    {:name "Earth rune", :quantity "2"}
+    {:name "Water rune", :quantity "3"}
+    {:name "Soft clay", :quantity "1"}],
+   :skills [{:name "Magic", :level "15", :exp "25"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities "Mahogany demon lectern"}]}

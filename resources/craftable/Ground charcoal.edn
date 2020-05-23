@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Ground_charcoal",
+  :name "Ground charcoal",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=704",
+  :ge_value "0",
+  :id 704,
+  :examine "Charcoal - crushed to small pieces!",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=704"},
+ :recipes
+ [{:materials [{:name "Charcoal", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools "Pestle and mortar",
+   :facilities nil}]}

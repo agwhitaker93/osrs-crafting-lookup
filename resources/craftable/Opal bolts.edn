@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Opal_bolts",
+  :name "Opal bolts",
+  :value "7",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=879",
+  :ge_value "0",
+  :id 879,
+  :examine "Opal tipped Bronze crossbow bolts.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=879"},
+ :recipes
+ [{:materials
+   [{:name "Bronze bolts", :quantity "10"}
+    {:name "Opal bolt tips", :quantity "10"}],
+   :skills [{:name "Fletching", :level "11", :exp "16"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

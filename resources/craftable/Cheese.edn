@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Cheese",
+  :name "Cheese",
+  :value "4",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1985",
+  :ge_value "0",
+  :id 1985,
+  :examine "It's got holes in it.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1985"},
+ :recipes
+ [{:materials [{:name "Bucket of milk", :quantity "1"}],
+   :skills [{:name "Cooking", :level "48", :exp "64.0"}],
+   :members_only true,
+   :ticks "26",
+   :tools nil,
+   :facilities "Dairy churn"}]}

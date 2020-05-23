@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Longbow_%28u%29",
+  :name "Longbow (u)",
+  :value "60",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=48",
+  :ge_value "0",
+  :id 48,
+  :examine "I need to find a string for this.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=48"},
+ :recipes
+ [{:materials [{:name "Logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "10", :exp "10"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Knife",
+   :facilities nil}]}

@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Juniper_charcoal",
+  :name "Juniper charcoal",
+  :value "45",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13570",
+  :ge_value "0",
+  :id 13570,
+  :examine "Rich charcoal made from juniper wood.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13570"},
+ :recipes
+ [{:materials [{:name "Juniper logs", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "111000",
+   :tools "Tinderbox",
+   :facilities "Charcoal furnace"}]}

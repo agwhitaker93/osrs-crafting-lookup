@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Spined_body",
+  :name "Spined body",
+  :value "7800",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6133",
+  :ge_value "0",
+  :id 6133,
+  :examine
+  "A constant reminder that I'm above a Dagannoth in the food chain.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6133"},
+ :recipes
+ [{:materials
+   [{:name "Dagannoth hide", :quantity "3"}
+    {:name "Flattened hide", :quantity "1"}
+    {:name "Coins", :quantity "10000"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Sigli the Huntsman"}]}

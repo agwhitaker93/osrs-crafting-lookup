@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Blamish_oil",
+  :name "Blamish oil",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1582",
+  :ge_value "0",
+  :id 1582,
+  :examine "Made from the finest snail slime.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1582"},
+ :recipes
+ [{:materials
+   [{:name "Blamish snail slime", :quantity "1"}
+    {:name "Harralander potion (unf)", :quantity "1"}],
+   :skills [{:name "Herblore", :level "25", :exp "80.0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

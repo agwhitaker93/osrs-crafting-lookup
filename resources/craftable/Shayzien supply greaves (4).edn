@@ -1,0 +1,22 @@
+{:meta
+ {:tradable false,
+  :wiki
+  "https://oldschool.runescape.wiki/w/Shayzien_supply_greaves_%284%29",
+  :name "Shayzien supply greaves (4)",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13556",
+  :ge_value "0",
+  :id 13556,
+  :examine "Supplies for the Shayzien soldiers.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13556"},
+ :recipes
+ [{:materials [{:name "Lovakite bar", :quantity "3"}],
+   :skills [{:name "Smithing", :level "81", :exp "30"}],
+   :members_only true,
+   :ticks "4",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

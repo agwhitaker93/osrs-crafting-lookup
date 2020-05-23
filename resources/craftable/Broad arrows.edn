@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Broad_arrows",
+  :name "Broad arrows",
+  :value "60",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4160",
+  :ge_value "0",
+  :id 4160,
+  :examine "Arrows with a wider than normal tip.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4160"},
+ :recipes
+ [{:materials
+   [{:name "Headless arrow", :quantity "15"}
+    {:name "Broad arrowheads", :quantity "15"}],
+   :skills [{:name "Fletching", :level "52", :exp "150"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Uncooked_meat_pie",
+  :name "Uncooked meat pie",
+  :value "8",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2319",
+  :ge_value "0",
+  :id 2319,
+  :examine "This would be much healthier cooked.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2319"},
+ :recipes
+ [{:materials
+   [{:name "Cooked meat", :quantity "1"}
+    {:name "Pie shell", :quantity "1"}],
+   :skills [{:name "Cooking", :level "20", :exp "0"}],
+   :members_only false,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

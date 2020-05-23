@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Adamant_mace",
+  :name "Adamant mace",
+  :value "1440",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1430",
+  :ge_value "0",
+  :id 1430,
+  :examine "A spiky mace.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1430"},
+ :recipes
+ [{:materials [{:name "Adamantite bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "72", :exp "62.5"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

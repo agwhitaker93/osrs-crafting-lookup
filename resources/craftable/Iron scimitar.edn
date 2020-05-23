@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Iron_scimitar",
+  :name "Iron scimitar",
+  :value "112",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1323",
+  :ge_value "0",
+  :id 1323,
+  :examine "A vicious, curved sword.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1323"},
+ :recipes
+ [{:materials [{:name "Iron bar", :quantity "2"}],
+   :skills [{:name "Smithing", :level "20", :exp "50"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

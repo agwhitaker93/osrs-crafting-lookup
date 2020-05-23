@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Steel_dart_tip",
+  :name "Steel dart tip",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=821",
+  :ge_value "0",
+  :id 821,
+  :examine
+  "A deadly-looking dart tip made of steel - needs feathers for flight.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=821"},
+ :recipes
+ [{:materials [{:name "Steel bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "34", :exp "37.5"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Carved_teak_table",
+  :name "Carved teak table (flatpack)",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8556",
+  :ge_value "0",
+  :id 8556,
+  :examine "How does it all fit in there?",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8556"},
+ :recipes
+ [{:materials
+   [{:name "Teak plank", :quantity "6"}
+    {:name "Bolt of cloth", :quantity "4"}],
+   :skills [{:name "Construction", :level "45", :exp "600"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Saw, Hammer",
+   :facilities "Workbench"}]}

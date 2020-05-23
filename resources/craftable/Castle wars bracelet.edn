@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Castle wars bracelet",
+  :value "1675",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 11083,
+  :examine
+  "Must be worn as you enter the game to receive the bonus for that game.",
+  :members_only false,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Emerald bracelet", :quantity "1"}
+    {:name "Cosmic rune", :quantity "1"}
+    {:name "Air rune", :quantity "3"}],
+   :skills [{:name "Magic", :level "27", :exp "37"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

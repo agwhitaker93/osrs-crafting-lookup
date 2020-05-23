@@ -1,0 +1,29 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Orange seedling",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 5482,
+  :examine "An orange tree seed has been sown in this plant pot.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Filled plant pot", :quantity "1"}
+    {:name "Orange tree seed", :quantity "1"}],
+   :skills [{:name "Farming", :level "39", :exp "0"}],
+   :members_only true,
+   :ticks "0",
+   :tools "Gardening trowel",
+   :facilities nil}
+  {:materials [{:name "Orange seedling", :quantity "1"}],
+   :skills [{:name "Farming", :level "39", :exp "0"}],
+   :members_only true,
+   :ticks "0",
+   :tools "Watering can",
+   :facilities nil}]}

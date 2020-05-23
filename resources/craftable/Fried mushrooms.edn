@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Fried_mushrooms",
+  :name "Fried mushrooms",
+  :value "42",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7082",
+  :ge_value "0",
+  :id 7082,
+  :examine "A bowl of fried Bittercap mushrooms.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7082"},
+ :recipes
+ [{:materials [{:name "Sliced mushrooms", :quantity "1"}],
+   :skills [{:name "Cooking", :level "46", :exp "60"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

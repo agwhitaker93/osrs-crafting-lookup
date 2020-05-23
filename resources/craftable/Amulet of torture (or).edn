@@ -1,0 +1,25 @@
+{:meta
+ {:tradable false,
+  :wiki
+  "https://oldschool.runescape.wiki/w/Amulet_of_torture_%28or%29",
+  :name "Amulet of torture (or)",
+  :value "202000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=20366",
+  :ge_value "0",
+  :id 20366,
+  :examine
+  "A deep sense of torture burns within this powerful amulet.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=20366"},
+ :recipes
+ [{:materials
+   [{:name "Amulet of torture", :quantity "1"}
+    {:name "Torture ornament kit", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bass",
+  :name "Bass",
+  :value "40",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=365",
+  :ge_value "0",
+  :id 365,
+  :examine "Wow, this is a big fish.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=365"},
+ :recipes
+ [{:materials [{:name "Raw bass", :quantity "1"}],
+   :skills [{:name "Cooking", :level "43", :exp "130"}],
+   :members_only false,
+   :ticks "2",
+   :tools nil,
+   :facilities "Cooking range"}]}

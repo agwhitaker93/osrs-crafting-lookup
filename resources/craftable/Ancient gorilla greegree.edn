@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Ancient_gorilla_greegree",
+  :name "Ancient gorilla greegree",
+  :value "10000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4028",
+  :ge_value "0",
+  :id 4028,
+  :examine
+  "A magical talisman in the shape of a mysterious monkey head.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4028"},
+ :recipes
+ [{:materials
+   [{:name "Monkey talisman", :quantity "1"}
+    {:name "Monkey skull", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Zooknock"}]}

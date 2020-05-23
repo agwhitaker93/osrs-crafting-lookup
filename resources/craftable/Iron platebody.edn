@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Iron_platebody",
+  :name "Iron platebody",
+  :value "560",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1115",
+  :ge_value "0",
+  :id 1115,
+  :examine "Provides excellent protection.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1115"},
+ :recipes
+ [{:materials [{:name "Iron bar", :quantity "5"}],
+   :skills [{:name "Smithing", :level "33", :exp "125"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

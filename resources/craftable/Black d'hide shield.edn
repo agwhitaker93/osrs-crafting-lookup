@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Black_d%27hide_shield",
+  :name "Black d'hide shield",
+  :value "28334",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22284",
+  :ge_value "0",
+  :id 22284,
+  :examine "A solid redwood shield covered in black dragon leather.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22284"},
+ :recipes
+ [{:materials
+   [{:name "Black dragon leather", :quantity "2"}
+    {:name "Redwood shield", :quantity "1"}
+    {:name "Rune nails", :quantity "15"}],
+   :skills [{:name "Crafting", :level "83", :exp "172"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities nil}]}

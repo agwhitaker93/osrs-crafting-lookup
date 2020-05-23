@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Cooked_slimy_eel",
+  :name "Cooked slimy eel",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3381",
+  :ge_value "0",
+  :id 3381,
+  :examine
+  "A cooked slimy eel - not delicious, but pretty nutritious.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3381"},
+ :recipes
+ [{:materials [{:name "Raw slimy eel", :quantity "1"}],
+   :skills [{:name "Cooking", :level "28", :exp "95"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

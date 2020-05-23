@@ -1,0 +1,26 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Neitiznot_shield",
+  :name "Neitiznot shield",
+  :value "500",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10826",
+  :ge_value "0",
+  :id 10826,
+  :examine "A wooden shield with a rope rim.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10826"},
+ :recipes
+ [{:materials
+   [{:name "Arctic pine logs", :quantity "2"}
+    {:name "Bronze nails", :quantity "1"}
+    {:name "Rope", :quantity "1"}],
+   :skills
+   [{:name "Woodcutting", :level "56", :exp "0"}
+    {:name "Crafting", :level "0", :exp "34"}],
+   :members_only true,
+   :ticks nil,
+   :tools "Hammer",
+   :facilities "Woodcutting stump"}]}

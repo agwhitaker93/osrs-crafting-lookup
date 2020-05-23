@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Super attack",
+  :value "90",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 149,
+  :examine "1 dose of super Attack potion.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Irit potion (unf)", :quantity "1"}
+    {:name "Eye of newt", :quantity "1"}],
+   :skills [{:name "Herblore", :level "45", :exp "100"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

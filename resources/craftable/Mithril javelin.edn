@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Mithril javelin",
+  :value "64",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 828,
+  :examine "A mithril tipped javelin.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Mithril javelin heads", :quantity "15"}
+    {:name "Javelin shaft", :quantity "15"}],
+   :skills [{:name "Fletching", :level "47", :exp "120"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

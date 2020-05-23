@@ -1,0 +1,31 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Meat pizza",
+  :value "50",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 2293,
+  :examine "A pizza with bits of meat on it.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Plain pizza", :quantity "1"}
+    {:name "Cooked meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "45", :exp "26"}],
+   :members_only false,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Plain pizza", :quantity "1"}
+    {:name "Cooked chicken", :quantity "1"}],
+   :skills [{:name "Cooking", :level "45", :exp "26"}],
+   :members_only false,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

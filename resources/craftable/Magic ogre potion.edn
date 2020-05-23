@@ -1,0 +1,31 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Magic_ogre_potion",
+  :name "Magic ogre potion",
+  :value "120",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2395",
+  :ge_value "0",
+  :id 2395,
+  :examine "A dangerous magical liquid.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2395"},
+ :recipes
+ [{:materials [{:name "Potion (Watchtower)", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Watchtower Wizard"}
+  {:materials
+   [{:name "Vial of water", :quantity "1"}
+    {:name "Guam leaf", :quantity "1"}
+    {:name "Jangerberries", :quantity "1"}
+    {:name "Ground bat bones", :quantity "1"}],
+   :skills [{:name "Herblore", :level "14", :exp "20"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Watchtower Wizard"}]}

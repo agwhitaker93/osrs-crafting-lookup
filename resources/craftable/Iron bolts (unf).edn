@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Iron_bolts_%28unf%29",
+  :name "Iron bolts (unf)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9377",
+  :ge_value "0",
+  :id 9377,
+  :examine "Unfeathered iron crossbow bolts.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9377"},
+ :recipes
+ [{:materials [{:name "Iron bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "18", :exp "25"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

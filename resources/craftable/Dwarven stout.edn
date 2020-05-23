@@ -1,0 +1,26 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Dwarven_stout",
+  :name "Dwarven stout",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1913",
+  :ge_value "0",
+  :id 1913,
+  :examine "A pint of thick dark beer.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1913"},
+ :recipes
+ [{:materials
+   [{:name "Bucket of water", :quantity "2"}
+    {:name "Barley malt", :quantity "2"}
+    {:name "Hammerstone hops", :quantity "4"}
+    {:name "Ale yeast", :quantity "1"}
+    {:name "Beer glass", :quantity "8"}],
+   :skills [{:name "Cooking", :level "19", :exp "215"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Brewery"}]}

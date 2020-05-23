@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Arctic_pyre_logs",
+  :name "Arctic pyre logs",
+  :value "200",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10808",
+  :ge_value "0",
+  :id 10808,
+  :examine
+  "Arctic pine logs prepared with sacred oil for a funeral pyre.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10808"},
+ :recipes
+ [{:materials
+   [{:name "Arctic pine logs", :quantity "1"}
+    {:name "Sacred oil(3)", :quantity "1"}],
+   :skills [{:name "Firemaking", :level "47", :exp "158"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

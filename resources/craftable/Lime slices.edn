@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Lime_slices",
+  :name "Lime slices",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2124",
+  :ge_value "0",
+  :id 2124,
+  :examine "Fresh lime slices.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2124"},
+ :recipes
+ [{:materials [{:name "Lime", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}]}

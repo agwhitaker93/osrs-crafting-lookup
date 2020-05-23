@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Shrimps",
+  :name "Shrimps",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=315",
+  :ge_value "0",
+  :id 315,
+  :examine "Some nicely cooked shrimp.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=315"},
+ :recipes
+ [{:materials [{:name "Raw shrimps", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "30"}],
+   :members_only false,
+   :ticks "4",
+   :tools nil,
+   :facilities "Cooking range"}]}

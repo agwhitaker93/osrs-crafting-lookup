@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Chilli_potato",
+  :name "Chilli potato",
+  :value "13",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7054",
+  :ge_value "0",
+  :id 7054,
+  :examine "A baked potato with chilli con carne.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7054"},
+ :recipes
+ [{:materials
+   [{:name "Chilli con carne", :quantity "1"}
+    {:name "Potato with butter", :quantity "1"}],
+   :skills [{:name "Cooking", :level "41", :exp "15.0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

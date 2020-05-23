@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Guthix rest",
+  :value "50",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 4423,
+  :examine "A cup of Guthix Rest.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Cup of hot water", :quantity "1"}
+    {:name "Guam leaf", :quantity "2"}
+    {:name "Harralander", :quantity "1"}
+    {:name "Marrentill", :quantity "1"}],
+   :skills [{:name "Herblore", :level "18", :exp "59"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

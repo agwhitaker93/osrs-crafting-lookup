@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Ball_of_wool",
+  :name "Ball of wool",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1759",
+  :ge_value "0",
+  :id 1759,
+  :examine "Spun from sheeps' wool.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1759"},
+ :recipes
+ [{:materials [{:name "Wool", :quantity "1"}],
+   :skills [{:name "Crafting", :level "1", :exp "2.5"}],
+   :members_only false,
+   :ticks "3",
+   :tools nil,
+   :facilities "Spinning wheel"}]}

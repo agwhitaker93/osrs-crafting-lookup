@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Mith_grapple",
+  :name "Mith grapple",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9419",
+  :ge_value "0",
+  :id 9419,
+  :examine "A mithril grapple tipped bolt with a rope.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9419"},
+ :recipes
+ [{:materials
+   [{:name "Mith grapple (unf)", :quantity "1"}
+    {:name "Rope", :quantity "1"}],
+   :skills [{:name "Fletching", :level "59", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

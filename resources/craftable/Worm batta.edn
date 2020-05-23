@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Worm_batta",
+  :name "Worm batta",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2253",
+  :ge_value "0",
+  :id 2253,
+  :examine "It actually smells quite good.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2253"},
+ :recipes
+ [{:materials
+   [{:name "Unfinished batta (worm)", :quantity "1"}
+    {:name "Equa leaves", :quantity "1"}],
+   :skills [{:name "Cooking", :level "27", :exp "84"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

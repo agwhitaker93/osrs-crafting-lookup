@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Jug_of_wine",
+  :name "Jug of wine",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1993",
+  :ge_value "0",
+  :id 1993,
+  :examine "It's full of wine.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1993"},
+ :recipes
+ [{:materials
+   [{:name "Grapes", :quantity "1"}
+    {:name "Jug of water", :quantity "1"}],
+   :skills [{:name "Cooking", :level "35", :exp "200"}],
+   :members_only false,
+   :ticks "20",
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,31 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Tuna_and_corn",
+  :name "Tuna and corn",
+  :value "113",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7068",
+  :ge_value "0",
+  :id 7068,
+  :examine "A bowl of cooked tuna and sweetcorn.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7068"},
+ :recipes
+ [{:materials
+   [{:name "Sweetcorn (bowl)", :quantity "1"}
+    {:name "Tuna", :quantity "1"}],
+   :skills [{:name "Cooking", :level "67", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}
+  {:materials
+   [{:name "Chopped tuna", :quantity "1"}
+    {:name "Cooked sweetcorn", :quantity "1"}],
+   :skills [{:name "Cooking", :level "67", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}]}

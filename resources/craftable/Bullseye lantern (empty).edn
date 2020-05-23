@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki
+  "https://oldschool.runescape.wiki/w/Bullseye_lantern_%28empty%29",
+  :name "Bullseye lantern (empty)",
+  :value "400",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4546",
+  :ge_value "0",
+  :id 4546,
+  :examine "You need to add lamp oil before you can use it.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4546"},
+ :recipes
+ [{:materials
+   [{:name "Bullseye lantern (unf)", :quantity "1"}
+    {:name "Lantern lens", :quantity "1"}],
+   :skills [{:name "Crafting", :level "49", :exp "0"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

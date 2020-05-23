@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Red_d%27hide_body",
+  :name "Red d'hide body",
+  :value "11230",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2501,20566",
+  :ge_value "0",
+  :id 250120566,
+  :examine "Made from 100% real dragonhide.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2501,20566"},
+ :recipes
+ [{:materials
+   [{:name "Red dragon leather", :quantity "3"}
+    {:name "Thread", :quantity "1"}],
+   :skills [{:name "Crafting", :level "77", :exp "234"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Needle",
+   :facilities nil}]}

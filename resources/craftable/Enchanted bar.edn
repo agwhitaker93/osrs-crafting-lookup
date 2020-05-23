@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Enchanted_bar",
+  :name "Enchanted bar",
+  :value "800",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4007",
+  :ge_value "0",
+  :id 4007,
+  :examine "A gold bar invested with a talkative monkey spirit.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4007"},
+ :recipes
+ [{:materials
+   [{:name "Gold bar", :quantity "1"}
+    {:name "Monkey dentures", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools "M'amulet mould",
+   :facilities "Zooknock"}]}

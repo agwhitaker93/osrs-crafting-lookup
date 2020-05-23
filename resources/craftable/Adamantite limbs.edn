@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Adamantite_limbs",
+  :name "Adamantite limbs",
+  :value "1600",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9429",
+  :ge_value "0",
+  :id 9429,
+  :examine "A pair of adamantite crossbow limbs.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9429"},
+ :recipes
+ [{:materials [{:name "Adamantite bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "76", :exp "62.5"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

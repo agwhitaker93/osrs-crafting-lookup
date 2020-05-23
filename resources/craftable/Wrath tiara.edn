@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Wrath_tiara",
+  :name "Wrath tiara",
+  :value "500",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22121",
+  :ge_value "0",
+  :id 22121,
+  :examine "A tiara infused with the properties of wrath.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22121"},
+ :recipes
+ [{:materials
+   [{:name "Tiara", :quantity "1"}
+    {:name "Wrath talisman", :quantity "1"}],
+   :skills [{:name "Runecraft", :level "0", :exp "52.5"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities "Wrath altar"}]}

@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bronze_full_helm",
+  :name "Bronze full helm",
+  :value "44",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1155",
+  :ge_value "0",
+  :id 1155,
+  :examine "A full face helmet.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1155"},
+ :recipes
+ [{:materials [{:name "Bronze bar", :quantity "2"}],
+   :skills [{:name "Smithing", :level "7", :exp "25"}],
+   :members_only false,
+   :ticks "3",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

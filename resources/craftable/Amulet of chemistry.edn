@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Amulet_of_chemistry",
+  :name "Amulet of chemistry",
+  :value "1050",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21163",
+  :ge_value "0",
+  :id 21163,
+  :examine
+  "Useful when making potions - has the chance of giving an extra dose.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21163"},
+ :recipes
+ [{:materials
+   [{:name "Jade amulet", :quantity "1"}
+    {:name "Cosmic rune", :quantity "1"}
+    {:name "Air rune", :quantity "3"}],
+   :skills [{:name "Magic", :level "27", :exp "37"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

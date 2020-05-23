@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Icy_basalt",
+  :name "Icy basalt",
+  :value "90",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22599",
+  :ge_value "0",
+  :id 22599,
+  :examine "The crushed rock seems to glow and is cold to the touch.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22599"},
+ :recipes
+ [{:materials
+   [{:name "Basalt", :quantity "1"}
+    {:name "Efh salt", :quantity "3"}
+    {:name "Te salt", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Blurite_crossbow",
+  :name "Blurite crossbow",
+  :value "93",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9176",
+  :ge_value "0",
+  :id 9176,
+  :examine "A blurite crossbow.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9176"},
+ :recipes
+ [{:materials
+   [{:name "Blurite crossbow (u)", :quantity "1"}
+    {:name "Crossbow string", :quantity "1"}],
+   :skills [{:name "Fletching", :level "24", :exp "16"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

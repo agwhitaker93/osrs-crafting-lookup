@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bandos_godsword",
+  :name "Bandos godsword",
+  :value "1250000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11804",
+  :ge_value "0",
+  :id 11804,
+  :examine "A brutally heavy sword.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11804"},
+ :recipes
+ [{:materials
+   [{:name "Godsword blade", :quantity "1"}
+    {:name "Bandos hilt", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

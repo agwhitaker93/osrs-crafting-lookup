@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Goat_horn_dust",
+  :name "Goat horn dust",
+  :value "12",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9736",
+  :ge_value "0",
+  :id 9736,
+  :examine "Finely ground desert goat horn.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9736"},
+ :recipes
+ [{:materials [{:name "Desert goat horn", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools "Pestle and mortar",
+   :facilities nil}]}

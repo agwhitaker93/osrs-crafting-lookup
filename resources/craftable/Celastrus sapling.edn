@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Celastrus_sapling",
+  :name "Celastrus sapling",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22856",
+  :ge_value "0",
+  :id 22856,
+  :examine
+  "This sapling is ready to be replanted in a Celastrus patch.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22856"},
+ :recipes
+ [{:materials [{:name "Celastrus seedling (w)", :quantity "1"}],
+   :skills [{:name "Farming", :level "85", :exp "0"}],
+   :members_only true,
+   :ticks "Varies",
+   :tools nil,
+   :facilities nil}]}

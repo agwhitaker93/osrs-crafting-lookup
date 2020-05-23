@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Cheese%2Btom_batta",
+  :name "Cheese+tom batta",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2259",
+  :ge_value "0",
+  :id 2259,
+  :examine "This smells really good.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2259"},
+ :recipes
+ [{:materials [{:name "Unfinished batta (cheese+tom)", :quantity "1"}],
+   :skills [{:name "Cooking", :level "29", :exp "88"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

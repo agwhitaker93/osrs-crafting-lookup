@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Cod",
+  :name "Cod",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=339",
+  :ge_value "0",
+  :id 339,
+  :examine "Some nicely cooked cod.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=339"},
+ :recipes
+ [{:materials [{:name "Raw cod", :quantity "1"}],
+   :skills [{:name "Cooking", :level "18", :exp "75"}],
+   :members_only true,
+   :ticks "4",
+   :tools nil,
+   :facilities "Cooking range"}]}

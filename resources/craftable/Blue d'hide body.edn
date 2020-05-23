@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Blue_d%27hide_body",
+  :name "Blue d'hide body",
+  :value "9360",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2499,20417",
+  :ge_value "0",
+  :id 249920417,
+  :examine "Made from 100% real dragonhide.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2499,20417"},
+ :recipes
+ [{:materials
+   [{:name "Blue dragon leather", :quantity "3"}
+    {:name "Thread", :quantity "1"}],
+   :skills [{:name "Crafting", :level "71", :exp "210"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Needle",
+   :facilities nil}]}

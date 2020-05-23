@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Empty_sack",
+  :name "Empty sack",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5418",
+  :ge_value "0",
+  :id 5418,
+  :examine "An empty vegetable sack.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5418"},
+ :recipes
+ [{:materials [{:name "Jute fibre", :quantity "4"}],
+   :skills [{:name "Crafting", :level "21", :exp "38"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Loom"}]}

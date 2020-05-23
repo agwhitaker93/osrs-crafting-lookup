@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Trout",
+  :name "Trout",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=333",
+  :ge_value "0",
+  :id 333,
+  :examine "Some nicely cooked trout.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=333"},
+ :recipes
+ [{:materials [{:name "Raw trout", :quantity "1"}],
+   :skills [{:name "Cooking", :level "15", :exp "70"}],
+   :members_only false,
+   :ticks "4",
+   :tools nil,
+   :facilities "Cooking range"}]}

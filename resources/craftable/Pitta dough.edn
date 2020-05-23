@@ -1,0 +1,39 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Pitta_dough",
+  :name "Pitta dough",
+  :value "4",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1863",
+  :ge_value "0",
+  :id 1863,
+  :examine "I need to cook this.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1863"},
+ :recipes
+ [{:materials
+   [{:name "Pot of flour", :quantity "1"}
+    {:name "Bucket of water", :quantity "1"}],
+   :skills [{:name "Cooking", :level "58", :exp "1"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Pot of flour", :quantity "1"}
+    {:name "Bowl of water", :quantity "1"}],
+   :skills [{:name "Cooking", :level "58", :exp "1"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Pot of flour", :quantity "1"}
+    {:name "Jug of water", :quantity "1"}],
+   :skills [{:name "Cooking", :level "58", :exp "1"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

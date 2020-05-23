@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Wooden_chair",
+  :name "Wooden chair (flatpack)",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8498",
+  :ge_value "0",
+  :id 8498,
+  :examine "How does it all fit in there?",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8498"},
+ :recipes
+ [{:materials
+   [{:name "Plank", :quantity "3"}
+    {:name "Steel nails", :quantity "3"}],
+   :skills [{:name "Construction", :level "8", :exp "87"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Saw, Hammer",
+   :facilities "Workbench"}]}

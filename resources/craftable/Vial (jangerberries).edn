@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Vial",
+  :name "Vial (jangerberries)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2389",
+  :ge_value "0",
+  :id 2389,
+  :examine "An infusion of water and jangerberries.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2389"},
+ :recipes
+ [{:materials
+   [{:name "Vial of water", :quantity "1"}
+    {:name "Jangerberries", :quantity "1"}],
+   :skills [{:name "Herblore", :level "14", :exp "0"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

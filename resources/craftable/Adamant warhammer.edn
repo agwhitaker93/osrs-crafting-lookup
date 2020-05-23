@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Adamant_warhammer",
+  :name "Adamant warhammer",
+  :value "4120",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1345",
+  :ge_value "0",
+  :id 1345,
+  :examine "I don't think it's intended for joinery.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1345"},
+ :recipes
+ [{:materials [{:name "Adamantite bar", :quantity "3"}],
+   :skills [{:name "Smithing", :level "79", :exp "187.5"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

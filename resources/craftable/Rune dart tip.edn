@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Rune_dart_tip",
+  :name "Rune dart tip",
+  :value "175",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=824",
+  :ge_value "0",
+  :id 824,
+  :examine
+  "A deadly-looking dart tip made of runite - needs feathers for flight.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=824"},
+ :recipes
+ [{:materials [{:name "Runite bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "89", :exp "75"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

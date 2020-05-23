@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/%27perfect%27_necklace",
+  :name "'perfect' necklace",
+  :value "2175",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=774",
+  :ge_value "0",
+  :id 774,
+  :examine "A perfect ruby necklace.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=774"},
+ :recipes
+ [{:materials
+   [{:name "'perfect' gold bar", :quantity "1"}
+    {:name "Ruby", :quantity "1"}],
+   :skills [{:name "Crafting", :level "40", :exp "75"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Necklace mould",
+   :facilities "Furnace"}]}

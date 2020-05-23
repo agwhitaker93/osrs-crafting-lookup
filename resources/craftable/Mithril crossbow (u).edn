@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Mithril_crossbow_%28u%29",
+  :name "Mithril crossbow (u)",
+  :value "750",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9461",
+  :ge_value "0",
+  :id 9461,
+  :examine "An unstrung mithril crossbow.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9461"},
+ :recipes
+ [{:materials
+   [{:name "Maple stock", :quantity "1"}
+    {:name "Mithril limbs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "54", :exp "64"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Hammer",
+   :facilities nil}]}

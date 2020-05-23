@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Blessed_spirit_shield",
+  :name "Blessed spirit shield",
+  :value "1200000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=12831",
+  :ge_value "0",
+  :id 12831,
+  :examine
+  "An ethereal shield that has been blessed with holy powers.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=12831"},
+ :recipes
+ [{:materials
+   [{:name "Spirit shield", :quantity "1"}
+    {:name "Holy elixir", :quantity "1"}],
+   :skills [{:name "Prayer", :level "85", :exp "0"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

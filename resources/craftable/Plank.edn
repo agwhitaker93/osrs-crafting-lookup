@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Plank",
+  :name "Plank",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=960",
+  :ge_value "0",
+  :id 960,
+  :examine "A plank of wood!",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=960"},
+ :recipes
+ [{:materials
+   [{:name "Logs", :quantity "1"} {:name "Coins", :quantity "100"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Sawmill"}]}

@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Elemental_shield",
+  :name "Elemental shield",
+  :value "20",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2890",
+  :ge_value "0",
+  :id 2890,
+  :examine "A magic shield.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2890"},
+ :recipes
+ [{:materials [{:name "Elemental metal", :quantity "1"}],
+   :skills [{:name "Smithing", :level "20", :exp "20"}],
+   :members_only true,
+   :ticks "4",
+   :tools "Hammer, Battered book, Slashed book",
+   :facilities "Anvil"}]}

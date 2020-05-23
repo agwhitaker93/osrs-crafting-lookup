@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Jade_bolts",
+  :name "Jade bolts",
+  :value "12",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9335",
+  :ge_value "0",
+  :id 9335,
+  :examine "Jade tipped Blurite crossbow bolts.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9335"},
+ :recipes
+ [{:materials
+   [{:name "Blurite bolts", :quantity "10"}
+    {:name "Jade bolt tips", :quantity "10"}],
+   :skills [{:name "Fletching", :level "26", :exp "24"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

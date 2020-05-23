@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Xerician_robe",
+  :name "Xerician robe",
+  :value "70",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13389",
+  :ge_value "0",
+  :id 13389,
+  :examine
+  "The forgotten magicks of Xeric imbue this garment with a little power.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13389"},
+ :recipes
+ [{:materials
+   [{:name "Xerician fabric", :quantity "4"}
+    {:name "Thread", :quantity "1"}],
+   :skills [{:name "Crafting", :level "17", :exp "88"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Needle",
+   :facilities nil}]}

@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Caviar",
+  :name "Caviar",
+  :value "50",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11326",
+  :ge_value "0",
+  :id 11326,
+  :examine "Caviar, or expensive fishy eggs.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11326"},
+ :recipes
+ [{:materials [{:name "Leaping sturgeon", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "15.0"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Knife",
+   :facilities nil}]}

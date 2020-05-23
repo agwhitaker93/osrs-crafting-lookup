@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Amethyst_bolt_tips",
+  :name "Amethyst bolt tips",
+  :value "160",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21338",
+  :ge_value "0",
+  :id 21338,
+  :examine "Amethyst bolt tips.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21338"},
+ :recipes
+ [{:materials [{:name "Amethyst", :quantity "1"}],
+   :skills [{:name "Crafting", :level "83", :exp "60.0"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Chisel",
+   :facilities nil}]}

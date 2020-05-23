@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Flighted_ogre_arrow",
+  :name "Flighted ogre arrow",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2865",
+  :ge_value "0",
+  :id 2865,
+  :examine "A wooden arrow shaft with four flights attached.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2865"},
+ :recipes
+ [{:materials
+   [{:name "Ogre arrow shaft", :quantity "6"}
+    {:name "Feather", :quantity "24"}],
+   :skills [{:name "Fletching", :level "5", :exp "9"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

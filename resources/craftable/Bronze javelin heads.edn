@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bronze_javelin_heads",
+  :name "Bronze javelin heads",
+  :value "25",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19570",
+  :ge_value "0",
+  :id 19570,
+  :examine "Needs a shaft.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19570"},
+ :recipes
+ [{:materials [{:name "Bronze bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "6", :exp "12.5"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Monkfish",
+  :name "Monkfish",
+  :value "230",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7946,20547",
+  :ge_value "0",
+  :id 794620547,
+  :examine "A tasty fish.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7946,20547"},
+ :recipes
+ [{:materials [{:name "Raw monkfish", :quantity "1"}],
+   :skills [{:name "Cooking", :level "62", :exp "150"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

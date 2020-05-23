@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Red_dye",
+  :name "Red dye",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1763",
+  :ge_value "0",
+  :id 1763,
+  :examine "A little bottle of red dye.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1763"},
+ :recipes
+ [{:materials
+   [{:name "Redberries", :quantity "3"}
+    {:name "Coins", :quantity "5"}],
+   :skills [],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Aggie,Ali the dyer"}]}

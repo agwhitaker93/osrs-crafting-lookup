@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Part_admiral_pie",
+  :name "Part admiral pie (salmon)",
+  :value "54",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7192",
+  :ge_value "0",
+  :id 7192,
+  :examine "Still needs two more ingredients.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7192"},
+ :recipes
+ [{:materials
+   [{:name "Salmon", :quantity "1"}
+    {:name "Pie shell", :quantity "1"}],
+   :skills [{:name "Cooking", :level "70", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

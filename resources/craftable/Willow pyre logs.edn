@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Willow_pyre_logs",
+  :name "Willow pyre logs",
+  :value "80",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3442",
+  :ge_value "0",
+  :id 3442,
+  :examine "Willow logs prepared with sacred oil for a funeral pyre.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3442"},
+ :recipes
+ [{:materials
+   [{:name "Willow logs", :quantity "1"}
+    {:name "Sacred oil(3)", :quantity "1"}],
+   :skills [{:name "Firemaking", :level "35", :exp "12"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

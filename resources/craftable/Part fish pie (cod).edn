@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Part_fish_pie",
+  :name "Part fish pie (cod)",
+  :value "49",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7184",
+  :ge_value "0",
+  :id 7184,
+  :examine "Still needs one more ingredient.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7184"},
+ :recipes
+ [{:materials
+   [{:name "Cod", :quantity "1"}
+    {:name "Part fish pie (trout)", :quantity "1"}],
+   :skills [{:name "Cooking", :level "47", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

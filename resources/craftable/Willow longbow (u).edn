@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Willow_longbow_%28u%29",
+  :name "Willow longbow (u)",
+  :value "160",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=58",
+  :ge_value "0",
+  :id 58,
+  :examine "An unstrung willow longbow; I need a bowstring for this.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=58"},
+ :recipes
+ [{:materials [{:name "Willow logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "40", :exp "41.5"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Knife",
+   :facilities nil}]}

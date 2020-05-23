@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Ferocious_gloves",
+  :name "Ferocious gloves",
+  :value "100000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22981",
+  :ge_value "0",
+  :id 22981,
+  :examine "A pair of very very nice gloves.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22981"},
+ :recipes
+ [{:materials [{:name "Hydra leather", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools "hammer",
+   :facilities "Machinery (Lithkren Vault)"}]}

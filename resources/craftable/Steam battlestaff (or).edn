@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Steam_battlestaff",
+  :name "Steam battlestaff (or)",
+  :value "17000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=12795",
+  :ge_value "0",
+  :id 12795,
+  :examine "It's a beautiful and slightly magical stick.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=12795"},
+ :recipes
+ [{:materials
+   [{:name "Steam battlestaff", :quantity "1"}
+    {:name "Steam staff upgrade kit", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

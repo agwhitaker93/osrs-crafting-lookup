@@ -1,0 +1,39 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Part_mud_pie",
+  :name "Part mud pie (water)",
+  :value "26",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7166",
+  :ge_value "0",
+  :id 7166,
+  :examine "Still needs one more ingredient.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7166"},
+ :recipes
+ [{:materials
+   [{:name "Part mud pie (compost)", :quantity "1"}
+    {:name "Bucket of water", :quantity "1"}],
+   :skills [{:name "Cooking", :level "29", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Part mud pie (compost)", :quantity "1"}
+    {:name "Bowl of water", :quantity "1"}],
+   :skills [{:name "Cooking", :level "29", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Part mud pie (compost)", :quantity "1"}
+    {:name "Jug of water", :quantity "1"}],
+   :skills [{:name "Cooking", :level "29", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bookcase",
+  :name "Bookcase (flatpack)",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8510",
+  :ge_value "0",
+  :id 8510,
+  :examine "How does it all fit in there?",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8510"},
+ :recipes
+ [{:materials
+   [{:name "Plank", :quantity "4"}
+    {:name "Steel nails", :quantity "4"}],
+   :skills [{:name "Construction", :level "4", :exp "115"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Saw, Hammer",
+   :facilities "Workbench"}]}

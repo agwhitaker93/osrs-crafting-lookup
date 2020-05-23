@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Anchovy_oil",
+  :name "Anchovy oil",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11264",
+  :ge_value "0",
+  :id 11264,
+  :examine "Omega 3 oil. Good for the brain, not so for the nose.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11264"},
+ :recipes
+ [{:materials
+   [{:name "Anchovy paste", :quantity "8"}
+    {:name "Vial", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools "Sieve",
+   :facilities nil}]}

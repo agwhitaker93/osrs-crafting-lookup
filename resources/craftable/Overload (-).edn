@@ -1,0 +1,26 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Overload (-)",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 20985,
+  :examine
+  "The power of elder warriors, twisted archers and kodai wizards combined; extremely dangerous. It was mixed particularly badly.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Noxifer", :quantity "1"}
+    {:name "Elder (-)", :quantity "1"}
+    {:name "Twisted (-)", :quantity "1"}
+    {:name "Kodai (-)", :quantity "1"}],
+   :skills [{:name "Herblore", :level "60", :exp "33.5"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Oily_fishing_rod",
+  :name "Oily fishing rod",
+  :value "15",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1585",
+  :ge_value "0",
+  :id 1585,
+  :examine "Useful for catching lava eels.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1585"},
+ :recipes
+ [{:materials
+   [{:name "Fishing rod", :quantity "1"}
+    {:name "Blamish oil", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

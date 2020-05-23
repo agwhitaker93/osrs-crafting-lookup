@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Cooked_rabbit",
+  :name "Cooked rabbit",
+  :value "4",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3228",
+  :ge_value "0",
+  :id 3228,
+  :examine "Mmm this looks tasty.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3228"},
+ :recipes
+ [{:materials [{:name "Raw rabbit", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "30"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

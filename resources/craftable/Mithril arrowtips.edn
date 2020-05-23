@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Mithril_arrowtips",
+  :name "Mithril arrowtips",
+  :value "16",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=42",
+  :ge_value "0",
+  :id 42,
+  :examine "I can make some arrows with these.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=42"},
+ :recipes
+ [{:materials [{:name "Mithril bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "55", :exp "50"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

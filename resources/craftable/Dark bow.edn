@@ -1,0 +1,47 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Dark_bow",
+  :name "Dark bow",
+  :value "120002",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 1123520408,
+  :examine "A bow from a darker dimension.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Dark bow", :quantity "1"}
+    {:name "Green dark bow paint", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Dark bow", :quantity "1"}
+    {:name "Blue dark bow paint", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Dark bow", :quantity "1"}
+    {:name "Yellow dark bow paint", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Dark bow", :quantity "1"}
+    {:name "White dark bow paint", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Bananas",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 5408,
+  :examine "A fruit basket filled with bananas.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Basket", :quantity "1"} {:name "Banana", :quantity "5"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

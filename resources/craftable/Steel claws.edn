@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Steel_claws",
+  :name "Steel claws",
+  :value "175",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3097",
+  :ge_value "0",
+  :id 3097,
+  :examine "A set of fighting claws.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3097"},
+ :recipes
+ [{:materials [{:name "Steel bar", :quantity "2"}],
+   :skills [{:name "Smithing", :level "43", :exp "75"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

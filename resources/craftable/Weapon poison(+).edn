@@ -1,0 +1,33 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Weapon_poison%28%2B%29",
+  :name "Weapon poison(+)",
+  :value "288",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5937",
+  :ge_value "0",
+  :id 5937,
+  :examine
+  "A vial of extra strong weapon poison, for spears and daggers.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5937"},
+ :recipes
+ [{:materials
+   [{:name "Coconut milk", :quantity "1"}
+    {:name "Cactus spine", :quantity "1"}
+    {:name "Red spiders' eggs", :quantity "1"}],
+   :skills [{:name "Herblore", :level "73", :exp "165"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Weapon poison+ (unf)", :quantity "1"}
+    {:name "Red spiders' eggs", :quantity "1"}],
+   :skills [{:name "Herblore", :level "73", :exp "165"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

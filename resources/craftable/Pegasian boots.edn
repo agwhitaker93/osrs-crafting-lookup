@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Pegasian_boots",
+  :name "Pegasian boots",
+  :value "75000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13237",
+  :ge_value "0",
+  :id 13237,
+  :examine "A pair of upgraded ranger boots.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13237"},
+ :recipes
+ [{:materials
+   [{:name "Ranger boots", :quantity "1"}
+    {:name "Pegasian crystal", :quantity "1"}],
+   :skills
+   [{:name "Magic", :level "60", :exp "200"}
+    {:name "Runecraft", :level "60", :exp "200"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

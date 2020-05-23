@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Watch",
+  :name "Watch",
+  :value "100",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2575",
+  :ge_value "0",
+  :id 2575,
+  :examine "A fine looking time piece.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2575"},
+ :recipes
+ [{:materials
+   [{:name "Steel bar", :quantity "1"}
+    {:name "Clockwork", :quantity "1"}],
+   :skills [{:name "Crafting", :level "28", :exp "15"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Crafting table 4"}]}

@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Dragonstone_dragon_bolts",
+  :name "Dragonstone dragon bolts",
+  :value "995",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21971",
+  :ge_value "0",
+  :id 21971,
+  :examine
+  "Dragon crossbow bolts, tipped with dragonstone. Double dragon!",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21971"},
+ :recipes
+ [{:materials
+   [{:name "Dragon bolts", :quantity "10"}
+    {:name "Dragonstone bolt tips", :quantity "10"}],
+   :skills [{:name "Fletching", :level "84", :exp "82"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

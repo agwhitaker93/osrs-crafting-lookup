@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Dragon_pickaxe%28or%29",
+  :name "Dragon pickaxe(or)",
+  :value "97960",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=23677",
+  :ge_value "0",
+  :id 23677,
+  :examine "A dragon pickaxe infused with a fragment of Zalcano.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=23677"},
+ :recipes
+ [{:materials
+   [{:name "Dragon pickaxe", :quantity "1"}
+    {:name "Zalcano shard", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

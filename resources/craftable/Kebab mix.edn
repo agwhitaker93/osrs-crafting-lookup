@@ -1,0 +1,40 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Kebab_mix",
+  :name "Kebab mix",
+  :value "9",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1881",
+  :ge_value "0",
+  :id 1881,
+  :examine
+  "A mixture of chopped tomatoes, onions and ugthanki meat in a bowl.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1881"},
+ :recipes
+ [{:materials
+   [{:name "Onion & tomato", :quantity "1"}
+    {:name "Ugthanki meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "58", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Ugthanki & tomato", :quantity "1"}
+    {:name "Onion", :quantity "1"}],
+   :skills [{:name "Cooking", :level "58", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Ugthanki & onion", :quantity "1"}
+    {:name "Tomato", :quantity "1"}],
+   :skills [{:name "Cooking", :level "58", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

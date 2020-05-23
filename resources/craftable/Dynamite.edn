@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Dynamite",
+  :name "Dynamite",
+  :value "100",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13573",
+  :ge_value "0",
+  :id 13573,
+  :examine
+  "A pot of dynamite for blast mining, with a fuse ready to light.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13573"},
+ :recipes
+ [{:materials
+   [{:name "Dynamite pot", :quantity "1"}
+    {:name "Ball of wool", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

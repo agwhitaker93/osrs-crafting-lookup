@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Zenyte_ring",
+  :name "Zenyte ring",
+  :value "201000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19538",
+  :ge_value "0",
+  :id 19538,
+  :examine "A fiery glow emanates from this ring.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19538"},
+ :recipes
+ [{:materials
+   [{:name "Gold bar", :quantity "1"} {:name "Zenyte", :quantity "1"}],
+   :skills [{:name "Crafting", :level "89", :exp "150"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Ring mould",
+   :facilities "Furnace"}]}

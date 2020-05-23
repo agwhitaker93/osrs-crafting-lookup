@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Onyx_bracelet",
+  :name "Onyx bracelet",
+  :value "201000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11130",
+  :ge_value "0",
+  :id 11130,
+  :examine "Yep, this is most definitely valuable!",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11130"},
+ :recipes
+ [{:materials
+   [{:name "Onyx", :quantity "1"} {:name "Gold bar", :quantity "1"}],
+   :skills [{:name "Crafting", :level "84", :exp "125"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Bracelet mould",
+   :facilities "Furnace"}]}

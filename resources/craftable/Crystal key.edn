@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Crystal_key",
+  :name "Crystal key",
+  :value "150",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=989",
+  :ge_value "0",
+  :id 989,
+  :examine "A mysterious key for a mysterious chest.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=989"},
+ :recipes
+ [{:materials
+   [{:name "Loop half of key", :quantity "1"}
+    {:name "Tooth half of key", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

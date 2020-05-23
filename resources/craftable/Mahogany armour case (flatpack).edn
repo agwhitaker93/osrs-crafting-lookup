@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Mahogany_armour_case",
+  :name "Mahogany armour case (flatpack)",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9861",
+  :ge_value "0",
+  :id 9861,
+  :examine "Mahogany armour case.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9861"},
+ :recipes
+ [{:materials [{:name "Mahogany plank", :quantity "3"}],
+   :skills [{:name "Construction", :level "82", :exp "420"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Saw, Hammer",
+   :facilities "Workbench"}]}

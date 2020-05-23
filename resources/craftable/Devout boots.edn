@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Devout_boots",
+  :name "Devout boots",
+  :value "20000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22954",
+  :ge_value "0",
+  :id 22954,
+  :examine "A pair of Devout Boots.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22954"},
+ :recipes
+ [{:materials
+   [{:name "Holy sandals", :quantity "1"}
+    {:name "Drake's tooth", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

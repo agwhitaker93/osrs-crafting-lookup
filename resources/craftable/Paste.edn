@@ -1,0 +1,25 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Paste",
+  :name "Paste",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2424",
+  :ge_value "0",
+  :id 2424,
+  :examine "A bottle of skin coloured paste.",
+  :members_only false,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2424"},
+ :recipes
+ [{:materials
+   [{:name "Ashes", :quantity "1"}
+    {:name "Redberries", :quantity "1"}
+    {:name "Pot of flour", :quantity "1"}
+    {:name "Bucket of water", :quantity "1"}],
+   :skills [],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Aggie"}]}

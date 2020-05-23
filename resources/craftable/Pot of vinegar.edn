@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Pot_of_vinegar",
+  :name "Pot of vinegar",
+  :value "0",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7811",
+  :ge_value "0",
+  :id 7811,
+  :examine
+  "Well, this pot is certainly full of vinegar and no mistake.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7811"},
+ :recipes
+ [{:materials
+   [{:name "Jug of vinegar", :quantity "1"}
+    {:name "Pot", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

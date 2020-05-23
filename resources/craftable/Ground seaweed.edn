@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Ground_seaweed",
+  :name "Ground seaweed",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6683",
+  :ge_value "0",
+  :id 6683,
+  :examine "One of the ingredients for making fish food.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6683"},
+ :recipes
+ [{:materials [{:name "Seaweed", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "1"}],
+   :members_only true,
+   :ticks "0",
+   :tools "Pestle and mortar",
+   :facilities nil}]}

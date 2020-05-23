@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Tarromin_tar",
+  :name "Tarromin tar",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10144",
+  :ge_value "0",
+  :id 10144,
+  :examine
+  "A thick, foul-smelling, tar-like substance with a red tinge.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10144"},
+ :recipes
+ [{:materials
+   [{:name "Swamp tar", :quantity "15"}
+    {:name "Tarromin", :quantity "1"}],
+   :skills [{:name "Herblore", :level "39", :exp "55"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Pestle and mortar",
+   :facilities nil}]}

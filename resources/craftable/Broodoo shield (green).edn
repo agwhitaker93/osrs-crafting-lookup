@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Broodoo shield (green)",
+  :value "3000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 6235,
+  :examine "A scary broodoo shield.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Snakeskin", :quantity "2"}
+    {:name "Tribal mask (green)", :quantity "1"}
+    {:name "Steel nails", :quantity "8"}],
+   :skills [{:name "Crafting", :level "35", :exp "100"}],
+   :members_only true,
+   :ticks "0",
+   :tools "Hammer",
+   :facilities nil}]}

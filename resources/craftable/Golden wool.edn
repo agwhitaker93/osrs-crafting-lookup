@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Golden_wool",
+  :name "Golden wool",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3694",
+  :ge_value "0",
+  :id 3694,
+  :examine "I can use this to make a lyre.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3694"},
+ :recipes
+ [{:materials [{:name "Golden fleece", :quantity "1"}],
+   :skills [{:name "Crafting", :level "1", :exp "2.5"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Spinning wheel"}]}

@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Vial_of_water",
+  :name "Vial of water",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=227",
+  :ge_value "0",
+  :id 227,
+  :examine "A glass vial containing water.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=227"},
+ :recipes
+ [{:materials [{:name "Vial", :quantity "1"}],
+   :skills [],
+   :members_only false,
+   :ticks "0",
+   :tools nil,
+   :facilities "Water"}]}

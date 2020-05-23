@@ -1,0 +1,22 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Servery_cooked_meat",
+  :name "Servery cooked meat",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13413",
+  :ge_value "0",
+  :id 13413,
+  :examine
+  "There's plenty of cattle around Hosidius. Let's assume that's what this is.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13413"},
+ :recipes
+ [{:materials [{:name "Servery raw meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "1"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Clay oven"}]}

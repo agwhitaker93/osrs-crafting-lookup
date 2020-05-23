@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Falador_teleport",
+  :name "Falador teleport (tablet)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8009",
+  :ge_value "0",
+  :id 8009,
+  :examine "A teleport to Falador.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8009"},
+ :recipes
+ [{:materials
+   [{:name "Law rune", :quantity "1"}
+    {:name "Air rune", :quantity "3"}
+    {:name "Water rune", :quantity "1"}
+    {:name "Soft clay", :quantity "1"}],
+   :skills [{:name "Magic", :level "37", :exp "48"}],
+   :members_only true,
+   :ticks "4",
+   :tools nil,
+   :facilities "Eagle lectern"}]}

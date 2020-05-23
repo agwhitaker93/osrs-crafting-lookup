@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Basket",
+  :name "Basket",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5376",
+  :ge_value "0",
+  :id 5376,
+  :examine "An empty fruit basket.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5376"},
+ :recipes
+ [{:materials [{:name "Willow branch", :quantity "6"}],
+   :skills [{:name "Crafting", :level "36", :exp "56"}],
+   :members_only true,
+   :ticks "4",
+   :tools nil,
+   :facilities "Loom"}]}

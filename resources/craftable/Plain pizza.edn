@@ -1,0 +1,30 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Plain pizza",
+  :value "40",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 2289,
+  :examine "A cheese and tomato pizza.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Pizza base", :quantity "1"}
+    {:name "Tomato", :quantity "1"}
+    {:name "Cheese", :quantity "1"}],
+   :skills [{:name "Cooking", :level "35", :exp "143"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}
+  {:materials [{:name "Uncooked pizza", :quantity "1"}],
+   :skills [{:name "Cooking", :level "35", :exp "143"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

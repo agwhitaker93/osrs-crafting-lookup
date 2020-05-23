@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Anchovy_paste",
+  :name "Anchovy paste",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11266",
+  :ge_value "0",
+  :id 11266,
+  :examine "Fish paste. Urk.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11266"},
+ :recipes
+ [{:materials [{:name "Anchovies", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools "Pestle and mortar",
+   :facilities nil}]}

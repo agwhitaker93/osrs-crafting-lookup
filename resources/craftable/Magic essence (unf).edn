@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Magic_essence_%28unf%29",
+  :name "Magic essence (unf)",
+  :value "75",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9019",
+  :ge_value "0",
+  :id 9019,
+  :examine
+  "I need another ingredient to finish this magic essence potion.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9019"},
+ :recipes
+ [{:materials
+   [{:name "Vial of water", :quantity "1"}
+    {:name "Star flower", :quantity "1"}],
+   :skills [{:name "Herblore", :level "57", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

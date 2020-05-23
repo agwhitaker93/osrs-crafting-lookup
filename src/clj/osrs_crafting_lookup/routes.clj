@@ -6,11 +6,13 @@
             [ring.util.response :refer [response]]
             [osrs-crafting-lookup.components.items :as items]
             [osrs-crafting-lookup.components.details :as details]
-            [osrs-crafting-lookup.components [items :as items]
+            [osrs-crafting-lookup.components [recipes :as recipes]
+             [items :as items]
              [details :as details]]))
 
 (defn home-routes [endpoint]
   (routes
+    (wrap-json-response (GET "/api/recipes" {params :params} (recipes/handle params)))
    (wrap-json-response (GET "/api/items" {params :params} (items/handle params)))
    (wrap-json-response (GET "/api/details" {params :params} (details/handle params)))
    (GET "/" _

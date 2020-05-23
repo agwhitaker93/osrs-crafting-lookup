@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Compost potion",
+  :value "30",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 6476,
+  :examine "Pour this on compost to turn it into super-compost.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Harralander potion (unf)", :quantity "1"}
+    {:name "Volcanic ash", :quantity "1"}],
+   :skills [{:name "Herblore", :level "22", :exp "60"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

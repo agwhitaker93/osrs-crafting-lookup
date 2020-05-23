@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Extended super antifire",
+  :value "680",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 22218,
+  :examine "1 dose of extended super anti-firebreath potion.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Super antifire potion(4)", :quantity "1"}
+    {:name "Lava scale shard", :quantity "4"}],
+   :skills [{:name "Herblore", :level "98", :exp "160"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

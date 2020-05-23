@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Dramen_staff",
+  :name "Dramen staff",
+  :value "15",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=772",
+  :ge_value "0",
+  :id 772,
+  :examine "Crafted from a Dramen tree branch.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=772"},
+ :recipes
+ [{:materials [{:name "Dramen branch", :quantity "1"}],
+   :skills [{:name "Crafting", :level "31", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Knife",
+   :facilities nil}]}

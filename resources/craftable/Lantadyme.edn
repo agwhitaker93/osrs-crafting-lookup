@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Lantadyme",
+  :name "Lantadyme",
+  :value "68",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2481",
+  :ge_value "0",
+  :id 2481,
+  :examine "A powerful herb.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2481"},
+ :recipes
+ [{:materials [{:name "Grimy lantadyme", :quantity "1"}],
+   :skills [{:name "Herblore", :level "67", :exp "13.1"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

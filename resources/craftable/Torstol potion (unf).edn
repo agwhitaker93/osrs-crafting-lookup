@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Torstol_potion_%28unf%29",
+  :name "Torstol potion (unf)",
+  :value "25",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=111",
+  :ge_value "0",
+  :id 111,
+  :examine "I need another ingredient to finish this Torstol potion.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=111"},
+ :recipes
+ [{:materials
+   [{:name "Torstol", :quantity "1"}
+    {:name "Vial of water", :quantity "1"}],
+   :skills [{:name "Herblore", :level "78", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

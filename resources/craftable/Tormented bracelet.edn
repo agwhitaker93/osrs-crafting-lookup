@@ -1,0 +1,26 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Tormented_bracelet",
+  :name "Tormented bracelet",
+  :value "201000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19544",
+  :ge_value "0",
+  :id 19544,
+  :examine
+  "A deep sense of torment burns within this powerful bracelet.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19544"},
+ :recipes
+ [{:materials
+   [{:name "Zenyte bracelet", :quantity "1"}
+    {:name "Cosmic rune", :quantity "1"}
+    {:name "Soul rune", :quantity "20"}
+    {:name "Blood rune", :quantity "20"}],
+   :skills [{:name "Magic", :level "93", :exp "110"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

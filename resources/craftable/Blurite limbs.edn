@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Blurite_limbs",
+  :name "Blurite limbs",
+  :value "33",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9422",
+  :ge_value "0",
+  :id 9422,
+  :examine "A pair of blurite crossbow limbs.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9422"},
+ :recipes
+ [{:materials [{:name "Blurite bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "13", :exp "17.5"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

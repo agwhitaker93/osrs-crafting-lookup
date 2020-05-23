@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Split_log",
+  :name "Split log",
+  :value "90",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10812",
+  :ge_value "0",
+  :id 10812,
+  :examine "Used to repair bridges.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10812"},
+ :recipes
+ [{:materials [{:name "Arctic pine logs", :quantity "1"}],
+   :skills [{:name "Woodcutting", :level "56", :exp "5"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Axe",
+   :facilities "Woodcutting stump"}]}

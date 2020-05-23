@@ -1,0 +1,27 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Pineapple_ring",
+  :name "Pineapple ring",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2118",
+  :ge_value "0",
+  :id 2118,
+  :examine "Exotic fruit.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2118"},
+ :recipes
+ [{:materials [{:name "Pineapple", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}
+  {:materials [{:name "Tenti pineapple", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}]}

@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Javelin_shaft",
+  :name "Javelin shaft",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19584",
+  :ge_value "0",
+  :id 19584,
+  :examine
+  "It's not very strong, but it could be pointy if you put a pointy tip on it.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19584"},
+ :recipes
+ [{:materials [{:name "Logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "3", :exp "5"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}]}

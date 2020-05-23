@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Steel_platelegs",
+  :name "Steel platelegs",
+  :value "1000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1069",
+  :ge_value "0",
+  :id 1069,
+  :examine "These look pretty heavy.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1069"},
+ :recipes
+ [{:materials [{:name "Steel bar", :quantity "3"}],
+   :skills [{:name "Smithing", :level "46", :exp "112.5"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

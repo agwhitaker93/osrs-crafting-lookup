@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Dragon javelin",
+  :value "450",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 19484,
+  :examine "A dragon tipped javelin.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Dragon javelin heads", :quantity "15"}
+    {:name "Javelin shaft", :quantity "15"}],
+   :skills [{:name "Fletching", :level "92", :exp "225"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Servery_uncooked_pie",
+  :name "Servery uncooked pie",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13402",
+  :ge_value "0",
+  :id 13402,
+  :examine "A meat pie that needs to be cooked.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13402"},
+ :recipes
+ [{:materials
+   [{:name "Servery pie shell", :quantity "1"}
+    {:name "Servery cooked meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "20", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Cooked_jubbly",
+  :name "Cooked jubbly",
+  :value "150",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7568",
+  :ge_value "0",
+  :id 7568,
+  :examine "Lovely Jubbly!",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7568"},
+ :recipes
+ [{:materials [{:name "Raw jubbly", :quantity "1"}],
+   :skills [{:name "Cooking", :level "41", :exp "160"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Ogre spit-roast"}]}

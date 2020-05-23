@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Empty_light_orb",
+  :name "Empty light orb",
+  :value "250",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10980",
+  :ge_value "0",
+  :id 10980,
+  :examine "Add a wire to complete it.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10980"},
+ :recipes
+ [{:materials [{:name "Molten glass", :quantity "1"}],
+   :skills [{:name "Crafting", :level "87", :exp "70"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Glassblowing pipe",
+   :facilities nil}]}

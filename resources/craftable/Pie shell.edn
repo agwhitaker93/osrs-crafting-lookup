@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Pie_shell",
+  :name "Pie shell",
+  :value "4",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2315",
+  :ge_value "0",
+  :id 2315,
+  :examine "I need to find a filling for this pie.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2315"},
+ :recipes
+ [{:materials
+   [{:name "Pastry dough", :quantity "1"}
+    {:name "Pie dish", :quantity "1"}],
+   :skills [{:name "Cooking", :level "10", :exp "0"}],
+   :members_only false,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

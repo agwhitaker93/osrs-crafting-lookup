@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Leather_gloves",
+  :name "Leather gloves",
+  :value "6",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1059",
+  :ge_value "0",
+  :id 1059,
+  :examine "These will keep my hands warm!",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1059"},
+ :recipes
+ [{:materials
+   [{:name "Leather", :quantity "1"} {:name "Thread", :quantity "1"}],
+   :skills [{:name "Crafting", :level "1", :exp "13.8"}],
+   :members_only false,
+   :ticks "3",
+   :tools "Needle",
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Onyx_amulet",
+  :name "Onyx amulet",
+  :value "201000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6581",
+  :ge_value "0",
+  :id 6581,
+  :examine "I wonder if I can get this enchanted.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6581"},
+ :recipes
+ [{:materials
+   [{:name "Onyx amulet (u)", :quantity "1"}
+    {:name "Ball of wool", :quantity "1"}],
+   :skills [{:name "Crafting", :level "90", :exp "4"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

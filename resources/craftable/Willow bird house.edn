@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Willow_bird_house",
+  :name "Willow bird house",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21518",
+  :ge_value "0",
+  :id 21518,
+  :examine
+  "Feed and catch the birds by placing this in the right spot.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21518"},
+ :recipes
+ [{:materials
+   [{:name "Willow logs", :quantity "1"}
+    {:name "Clockwork", :quantity "1"}],
+   :skills [{:name "Crafting", :level "25", :exp "25"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Chisel, Hammer",
+   :facilities nil}]}

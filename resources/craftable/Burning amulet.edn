@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Burning amulet",
+  :value "1250",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 21175,
+  :examine "Useful teleports around the wilderness.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Topaz amulet", :quantity "1"}
+    {:name "Cosmic rune", :quantity "1"}
+    {:name "Fire rune", :quantity "5"}],
+   :skills [{:name "Magic", :level "49", :exp "59"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

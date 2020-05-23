@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bronze_crossbow_%28u%29",
+  :name "Bronze crossbow (u)",
+  :value "40",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9454",
+  :ge_value "0",
+  :id 9454,
+  :examine "An unstrung bronze crossbow.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9454"},
+ :recipes
+ [{:materials
+   [{:name "Wooden stock", :quantity "1"}
+    {:name "Bronze limbs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "9", :exp "12"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Hammer",
+   :facilities nil}]}

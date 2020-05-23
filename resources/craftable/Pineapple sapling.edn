@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Pineapple_sapling",
+  :name "Pineapple sapling",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5500",
+  :ge_value "0",
+  :id 5500,
+  :examine
+  "This sapling is ready to be replanted in a fruit tree patch.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5500"},
+ :recipes
+ [{:materials [{:name "Pineapple seedling (w)", :quantity "1"}],
+   :skills [{:name "Farming", :level "51", :exp "0"}],
+   :members_only true,
+   :ticks "Varies",
+   :tools nil,
+   :facilities nil}]}

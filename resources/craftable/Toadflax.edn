@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Toadflax",
+  :name "Toadflax",
+  :value "48",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2998",
+  :ge_value "0",
+  :id 2998,
+  :examine "A useful herb.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2998"},
+ :recipes
+ [{:materials [{:name "Grimy toadflax", :quantity "1"}],
+   :skills [{:name "Herblore", :level "30", :exp "8"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

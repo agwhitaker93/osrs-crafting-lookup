@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Sapphire_bolt_tips",
+  :name "Sapphire bolt tips",
+  :value "17",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9189",
+  :ge_value "0",
+  :id 9189,
+  :examine "Sapphire bolt tips.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9189"},
+ :recipes
+ [{:materials [{:name "Sapphire", :quantity "1"}],
+   :skills [{:name "Fletching", :level "56", :exp "4"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Chisel",
+   :facilities nil}]}

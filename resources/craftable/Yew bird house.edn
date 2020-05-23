@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Yew_bird_house",
+  :name "Yew bird house",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22198",
+  :ge_value "0",
+  :id 22198,
+  :examine
+  "Feed and catch the birds by placing this in the right spot.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22198"},
+ :recipes
+ [{:materials
+   [{:name "Yew logs", :quantity "1"}
+    {:name "Clockwork", :quantity "1"}],
+   :skills [{:name "Crafting", :level "60", :exp "45"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Chisel, Hammer",
+   :facilities nil}]}

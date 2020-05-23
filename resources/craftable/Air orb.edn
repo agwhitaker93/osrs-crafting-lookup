@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Air_orb",
+  :name "Air orb",
+  :value "300",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=573",
+  :ge_value "0",
+  :id 573,
+  :examine "A magic glowing orb.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=573"},
+ :recipes
+ [{:materials
+   [{:name "Unpowered orb", :quantity "1"}
+    {:name "Air rune", :quantity "30"}
+    {:name "Cosmic rune", :quantity "3"}],
+   :skills [{:name "Magic", :level "66", :exp "76.0"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Obelisk of air"}]}

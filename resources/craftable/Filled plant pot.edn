@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Filled_plant_pot",
+  :name "Filled plant pot",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5354",
+  :ge_value "0",
+  :id 5354,
+  :examine "A plant pot filled with soil.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5354"},
+ :recipes
+ [{:materials [{:name "Empty plant pot", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "4",
+   :tools "Trowel",
+   :facilities "Farming patch"}]}

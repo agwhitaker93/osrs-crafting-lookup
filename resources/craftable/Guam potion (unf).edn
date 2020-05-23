@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Guam_potion_%28unf%29",
+  :name "Guam potion (unf)",
+  :value "3",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=91",
+  :ge_value "0",
+  :id 91,
+  :examine "I need another ingredient to finish this Guam potion.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=91"},
+ :recipes
+ [{:materials
+   [{:name "Guam leaf", :quantity "1"}
+    {:name "Vial of water", :quantity "1"}],
+   :skills [{:name "Herblore", :level "3", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

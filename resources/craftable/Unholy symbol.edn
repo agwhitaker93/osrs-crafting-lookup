@@ -1,0 +1,27 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Unholy_symbol",
+  :name "Unholy symbol",
+  :value "200",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1724",
+  :ge_value "0",
+  :id 1724,
+  :examine "An unholy symbol of Zamorak.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1724"},
+ :recipes
+ [{:materials [{:name "Unpowered symbol", :quantity "1"}],
+   :skills [{:name "Prayer", :level "50", :exp "0"}],
+   :members_only true,
+   :ticks "4",
+   :tools "Unholy book, Book of balance",
+   :facilities nil}
+  {:materials [{:name "Unpowered symbol", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Spirit of Scorpius"}]}

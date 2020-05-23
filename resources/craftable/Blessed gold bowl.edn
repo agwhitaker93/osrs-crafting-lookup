@@ -1,0 +1,22 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Blessed_gold_bowl",
+  :name "Blessed gold bowl",
+  :value "700",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=722",
+  :ge_value "0",
+  :id 722,
+  :examine
+  "A specially made bowl constructed out of pure gold and blessed.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=722"},
+ :recipes
+ [{:materials [{:name "Gold bowl", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Gujuo"}]}

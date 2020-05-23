@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Ardrigal",
+  :name "Ardrigal",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1528",
+  :ge_value "0",
+  :id 1528,
+  :examine "This herb is Ardrigal.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1528"},
+ :recipes
+ [{:materials [{:name "Grimy ardrigal", :quantity "1"}],
+   :skills [{:name "Herblore", :level "1", :exp "2.5"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

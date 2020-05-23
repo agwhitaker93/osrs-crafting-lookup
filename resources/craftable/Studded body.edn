@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Studded_body",
+  :name "Studded body",
+  :value "850",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1133",
+  :ge_value "0",
+  :id 1133,
+  :examine "Those studs should provide a bit more protection.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1133"},
+ :recipes
+ [{:materials
+   [{:name "Leather body", :quantity "1"}
+    {:name "Steel studs", :quantity "1"}],
+   :skills [{:name "Crafting", :level "41", :exp "40"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

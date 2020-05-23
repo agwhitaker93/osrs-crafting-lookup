@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Irit_potion_%28unf%29",
+  :name "Irit potion (unf)",
+  :value "40",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=101",
+  :ge_value "0",
+  :id 101,
+  :examine "I need another ingredient to finish this Irit potion.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=101"},
+ :recipes
+ [{:materials
+   [{:name "Irit leaf", :quantity "1"}
+    {:name "Vial of water", :quantity "1"}],
+   :skills [{:name "Herblore", :level "45", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

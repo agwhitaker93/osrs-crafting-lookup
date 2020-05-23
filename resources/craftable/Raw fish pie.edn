@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Raw_fish_pie",
+  :name "Raw fish pie",
+  :value "50",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7186",
+  :ge_value "0",
+  :id 7186,
+  :examine "Raw fish is risky, better cook it.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7186"},
+ :recipes
+ [{:materials
+   [{:name "Part fish pie (cod)", :quantity "1"}
+    {:name "Potato", :quantity "1"}],
+   :skills [{:name "Cooking", :level "47", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

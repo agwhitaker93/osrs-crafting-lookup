@@ -1,0 +1,28 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Half_made_batta",
+  :name "Half made batta (vegetable)",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9485",
+  :ge_value "0",
+  :id 9485,
+  :examine
+  "This veg batta needs baking and garnishing with equa leaves.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9485"},
+ :recipes
+ [{:materials
+   [{:name "Half baked batta", :quantity "1"}
+    {:name "Tomato", :quantity "2"}
+    {:name "Cheese", :quantity "1"}
+    {:name "Dwellberries", :quantity "1"}
+    {:name "Onion", :quantity "1"}
+    {:name "Cabbage", :quantity "1"}],
+   :skills [{:name "Cooking", :level "28", :exp "40"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

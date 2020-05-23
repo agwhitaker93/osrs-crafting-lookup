@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Dragonstone",
+  :name "Dragonstone",
+  :value "10000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1615",
+  :ge_value "0",
+  :id 1615,
+  :examine "This looks valuable.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1615"},
+ :recipes
+ [{:materials [{:name "Uncut dragonstone", :quantity "1"}],
+   :skills [{:name "Crafting", :level "55", :exp "137.5"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Chisel",
+   :facilities nil}]}

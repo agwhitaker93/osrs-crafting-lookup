@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Empty_oil_lamp",
+  :name "Empty oil lamp",
+  :value "25",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4525",
+  :ge_value "0",
+  :id 4525,
+  :examine "An oil lamp with no oil in it.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4525"},
+ :recipes
+ [{:materials [{:name "Molten glass", :quantity "1"}],
+   :skills [{:name "Crafting", :level "12", :exp "25"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Glassblowing pipe",
+   :facilities nil}]}

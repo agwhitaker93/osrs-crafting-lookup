@@ -1,0 +1,31 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Cup_of_tea",
+  :name "Cup of tea (Ghosts Ahoy)",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 4245,
+  :examine "Some nettle tea in a porcelain cup.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Porcelain cup", :quantity "1"}
+    {:name "Nettle tea", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Cup of tea (Ghosts Ahoy)", :quantity "1"}
+    {:name "Bucket of milk", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

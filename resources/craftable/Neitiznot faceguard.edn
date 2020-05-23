@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Neitiznot_faceguard",
+  :name "Neitiznot faceguard",
+  :value "550000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=24271",
+  :ge_value "0",
+  :id 24271,
+  :examine
+  "A gift from Neitiznot's Burgher enhanced with the jaw of a Basilisk.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=24271"},
+ :recipes
+ [{:materials
+   [{:name "Helm of neitiznot", :quantity "1"}
+    {:name "Basilisk jaw", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

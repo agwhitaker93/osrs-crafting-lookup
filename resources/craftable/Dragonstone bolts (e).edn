@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Dragonstone_bolts_%28e%29",
+  :name "Dragonstone bolts (e)",
+  :value "1063",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9244",
+  :ge_value "0",
+  :id 9244,
+  :examine "Enchanted Dragonstone tipped Runite Crossbow Bolts.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9244"},
+ :recipes
+ [{:materials
+   [{:name "Dragonstone bolts", :quantity "10"}
+    {:name "Earth rune", :quantity "15"}
+    {:name "Soul rune", :quantity "1"}
+    {:name "Cosmic rune", :quantity "1"}],
+   :skills [{:name "Magic", :level "68", :exp "78.0"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

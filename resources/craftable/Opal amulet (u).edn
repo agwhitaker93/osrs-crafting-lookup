@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Opal_amulet_%28u%29",
+  :name "Opal amulet (u)",
+  :value "900",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21099",
+  :ge_value "0",
+  :id 21099,
+  :examine "It needs a string so I can wear it.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21099"},
+ :recipes
+ [{:materials
+   [{:name "Opal", :quantity "1"} {:name "Silver bar", :quantity "1"}],
+   :skills [{:name "Crafting", :level "27", :exp "55"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Amulet mould",
+   :facilities nil}]}

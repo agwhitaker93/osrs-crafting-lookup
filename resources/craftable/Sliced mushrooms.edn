@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Sliced_mushrooms",
+  :name "Sliced mushrooms",
+  :value "42",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7080",
+  :ge_value "0",
+  :id 7080,
+  :examine "A bowl of sliced Bittercap mushrooms.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7080"},
+ :recipes
+ [{:materials
+   [{:name "Mushroom", :quantity "1"} {:name "Bowl", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}]}

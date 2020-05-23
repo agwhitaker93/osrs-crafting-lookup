@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Rune_warhammer",
+  :name "Rune warhammer",
+  :value "41500",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1347",
+  :ge_value "0",
+  :id 1347,
+  :examine "I don't think it's intended for joinery.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1347"},
+ :recipes
+ [{:materials [{:name "Runite bar", :quantity "3"}],
+   :skills [{:name "Smithing", :level "94", :exp "225"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

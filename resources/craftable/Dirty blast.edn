@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Dirty_blast",
+  :name "Dirty blast",
+  :value "30",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7497",
+  :ge_value "0",
+  :id 7497,
+  :examine "A cool refreshing fruit mix. With ash in for some reason.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7497"},
+ :recipes
+ [{:materials
+   [{:name "Fruit blast", :quantity "1"}
+    {:name "Ashes", :quantity "1"}],
+   :skills [{:name "Cooking", :level "10", :exp "5"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

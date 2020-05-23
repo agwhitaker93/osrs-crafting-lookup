@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Uncut_zenyte",
+  :name "Uncut zenyte",
+  :value "75000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19496",
+  :ge_value "0",
+  :id 19496,
+  :examine "This would be worth more cut.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19496"},
+ :recipes
+ [{:materials
+   [{:name "Onyx", :quantity "1"}
+    {:name "Zenyte shard", :quantity "1"}],
+   :skills [{:name "Crafting", :level "0", :exp "15"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Zombie monkey greegree (small)",
+   :facilities "Wall of flame"}]}

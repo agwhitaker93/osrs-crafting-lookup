@@ -1,0 +1,25 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Mixed_dragon",
+  :name "Mixed dragon (shaker)",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9574",
+  :ge_value "0",
+  :id 9574,
+  :examine
+  "This Drunk Dragon needs pouring, pineapple chunks, cream and heating.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9574"},
+ :recipes
+ [{:materials
+   [{:name "Vodka", :quantity "1"}
+    {:name "Gin", :quantity "1"}
+    {:name "Dwellberries", :quantity "1"}],
+   :skills [{:name "Cooking", :level "32", :exp "30"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Cocktail shaker",
+   :facilities nil}]}

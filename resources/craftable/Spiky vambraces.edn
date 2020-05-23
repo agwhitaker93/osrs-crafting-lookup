@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Spiky_vambraces",
+  :name "Spiky vambraces",
+  :value "160",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10077",
+  :ge_value "0",
+  :id 10077,
+  :examine "Attack at your own risk.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10077"},
+ :recipes
+ [{:materials
+   [{:name "Kebbit claws", :quantity "1"}
+    {:name "Leather vambraces", :quantity "1"}],
+   :skills [{:name "Crafting", :level "32", :exp "6"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

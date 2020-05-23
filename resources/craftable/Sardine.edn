@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Sardine",
+  :name "Sardine",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=325",
+  :ge_value "0",
+  :id 325,
+  :examine "Some nicely cooked sardines.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=325"},
+ :recipes
+ [{:materials [{:name "Raw sardine", :quantity "1"}],
+   :skills [{:name "Cooking", :level "5", :exp "40"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

@@ -1,0 +1,26 @@
+{:meta
+ {:tradable true,
+  :wiki
+  "https://oldschool.runescape.wiki/w/Fenkenstrain%27s_castle_teleport",
+  :name "Fenkenstrain's castle teleport (tablet)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19621",
+  :ge_value "0",
+  :id 19621,
+  :examine "A teleport to Fenkenstrain's Castle.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19621"},
+ :recipes
+ [{:materials
+   [{:name "Law rune", :quantity "1"}
+    {:name "Soul rune", :quantity "1"}
+    {:name "Earth rune", :quantity "1"}
+    {:name "Dark essence block", :quantity "1"}],
+   :skills [{:name "Magic", :level "48", :exp "50"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

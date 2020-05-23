@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Incomplete_light_ballista",
+  :name "Incomplete light ballista",
+  :value "50000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19595",
+  :ge_value "0",
+  :id 19595,
+  :examine "The limbs have been attached to the frame.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19595"},
+ :recipes
+ [{:materials
+   [{:name "Light frame", :quantity "1"}
+    {:name "Ballista limbs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "47", :exp "15"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

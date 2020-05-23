@@ -1,0 +1,39 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Fish_chunks",
+  :name "Fish chunks",
+  :value "20",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22818",
+  :ge_value "0",
+  :id 22818,
+  :examine "Apparently Cormorants like to eat this stuff...",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22818"},
+ :recipes
+ [{:materials [{:name "Bluegill", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "3.5"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Knife",
+   :facilities nil}
+  {:materials [{:name "Common tench", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "10"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Knife",
+   :facilities nil}
+  {:materials [{:name "Mottled eel", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "20"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Knife",
+   :facilities nil}
+  {:materials [{:name "Greater siren", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "25"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Knife",
+   :facilities nil}]}

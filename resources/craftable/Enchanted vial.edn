@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Enchanted_vial",
+  :name "Enchanted vial",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=731",
+  :ge_value "0",
+  :id 731,
+  :examine "An enchanted empty glass vial.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=731"},
+ :recipes
+ [{:materials [{:name "Vial", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools "Binding book",
+   :facilities nil}]}

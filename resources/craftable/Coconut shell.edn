@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Coconut_shell",
+  :name "Coconut shell",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5978",
+  :ge_value "0",
+  :id 5978,
+  :examine "All the milk has been removed.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5978"},
+ :recipes
+ [{:materials
+   [{:name "Half coconut", :quantity "1"}
+    {:name "Vial", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

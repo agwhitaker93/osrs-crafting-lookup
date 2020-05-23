@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Steel arrow",
+  :value "12",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 886,
+  :examine "Arrows with steel heads.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Headless arrow", :quantity "15"}
+    {:name "Steel arrowtips", :quantity "15"}],
+   :skills [{:name "Fletching", :level "30", :exp "75"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

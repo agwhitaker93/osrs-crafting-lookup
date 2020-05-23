@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Opulent_table",
+  :name "Opulent table (flatpack)",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8560",
+  :ge_value "0",
+  :id 8560,
+  :examine "How does it all fit in there?",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8560"},
+ :recipes
+ [{:materials
+   [{:name "Mahogany plank", :quantity "6"}
+    {:name "Bolt of cloth", :quantity "4"}
+    {:name "Gold leaf", :quantity "4"}
+    {:name "Marble block", :quantity "2"}],
+   :skills [{:name "Construction", :level "72", :exp "3,100"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Saw, Hammer",
+   :facilities "Workbench"}]}

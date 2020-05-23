@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Splitbark_body",
+  :name "Splitbark body",
+  :value "45000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3387",
+  :ge_value "0",
+  :id 3387,
+  :examine "Provides good protection.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3387"},
+ :recipes
+ [{:materials
+   [{:name "Bark", :quantity "4"}
+    {:name "Fine cloth", :quantity "4"}
+    {:name "Coins", :quantity "37000"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Armoured wizard"}]}

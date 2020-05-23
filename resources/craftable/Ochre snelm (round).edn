@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Ochre_snelm",
+  :name "Ochre snelm (round)",
+  :value "300",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3331",
+  :ge_value "0",
+  :id 3331,
+  :examine "A muddy yellow snail shell helmet.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3331"},
+ :recipes
+ [{:materials [{:name "Blamish ochre shell (round)", :quantity "1"}],
+   :skills [{:name "Crafting", :level "15", :exp "32.5"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Chisel",
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Balloon_structure",
+  :name "Balloon structure",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9933",
+  :ge_value "0",
+  :id 9933,
+  :examine "An incomplete origami balloon.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9933"},
+ :recipes
+ [{:materials
+   [{:name "Papyrus", :quantity "1"}
+    {:name "Ball of wool", :quantity "1"}],
+   :skills [{:name "Crafting", :level "36", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

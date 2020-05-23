@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Tuna",
+  :name "Tuna",
+  :value "40",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=361",
+  :ge_value "0",
+  :id 361,
+  :examine "Wow, this is a big fish.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=361"},
+ :recipes
+ [{:materials [{:name "Raw tuna", :quantity "1"}],
+   :skills [{:name "Cooking", :level "30", :exp "100"}],
+   :members_only false,
+   :ticks "4",
+   :tools nil,
+   :facilities "Cooking range"}]}

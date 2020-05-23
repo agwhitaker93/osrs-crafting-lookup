@@ -1,0 +1,22 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Dark_essence_fragments",
+  :name "Dark essence fragments",
+  :value "18",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7938",
+  :ge_value "0",
+  :id 7938,
+  :examine
+  "Fragments of essence that have been infested with dark power.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7938"},
+ :recipes
+ [{:materials [{:name "Dark essence block", :quantity "1"}],
+   :skills [{:name "Crafting", :level "38", :exp "8"}],
+   :members_only true,
+   :ticks "0",
+   :tools "Chisel",
+   :facilities nil}]}

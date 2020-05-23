@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Ogre_arrow_shaft",
+  :name "Ogre arrow shaft",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2864",
+  :ge_value "0",
+  :id 2864,
+  :examine "A wooden arrow shaft.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2864"},
+ :recipes
+ [{:materials [{:name "Achey tree logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "5", :exp "7.2"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Knife",
+   :facilities nil}]}

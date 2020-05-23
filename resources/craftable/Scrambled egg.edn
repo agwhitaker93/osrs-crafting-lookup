@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Scrambled_egg",
+  :name "Scrambled egg",
+  :value "8",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7078",
+  :ge_value "0",
+  :id 7078,
+  :examine "A bowl of scrambled egg.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7078"},
+ :recipes
+ [{:materials [{:name "Uncooked egg", :quantity "1"}],
+   :skills [{:name "Cooking", :level "13", :exp "50"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities "Cooking range"}]}

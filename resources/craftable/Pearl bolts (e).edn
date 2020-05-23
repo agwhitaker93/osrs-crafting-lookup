@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Pearl_bolts_%28e%29",
+  :name "Pearl bolts (e)",
+  :value "15",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9238",
+  :ge_value "0",
+  :id 9238,
+  :examine "Enchanted Pearl tipped Iron Crossbow Bolts.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9238"},
+ :recipes
+ [{:materials
+   [{:name "Pearl bolts", :quantity "10"}
+    {:name "Water rune", :quantity "2"}
+    {:name "Cosmic rune", :quantity "1"}],
+   :skills [{:name "Magic", :level "24", :exp "29.0"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

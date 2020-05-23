@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Worm_crunchies",
+  :name "Worm crunchies",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2205",
+  :ge_value "0",
+  :id 2205,
+  :examine "It actually smells quite good.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2205"},
+ :recipes
+ [{:materials [{:name "Unfinished crunchy (worm)", :quantity "1"}],
+   :skills [{:name "Cooking", :level "14", :exp "0"}],
+   :members_only true,
+   :ticks nil,
+   :tools "Gnome spice",
+   :facilities nil}]}

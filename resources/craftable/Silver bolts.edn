@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Silver bolts",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 9145,
+  :examine "Silver crossbow bolts.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Silver bolts (unf)", :quantity "10"}
+    {:name "Feather", :quantity "10"}],
+   :skills [{:name "Fletching", :level "43", :exp "25"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

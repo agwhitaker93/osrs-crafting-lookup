@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Shaving_stand",
+  :name "Shaving stand (flatpack)",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8596",
+  :ge_value "0",
+  :id 8596,
+  :examine "How does it all fit in there?",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8596"},
+ :recipes
+ [{:materials
+   [{:name "Plank", :quantity "1"}
+    {:name "Steel nails", :quantity "1"}
+    {:name "Molten glass", :quantity "1"}],
+   :skills [{:name "Construction", :level "21", :exp "30"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Saw, Hammer",
+   :facilities "Workbench"}]}

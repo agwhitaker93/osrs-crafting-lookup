@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Bar_magnet",
+  :name "Bar magnet",
+  :value "15",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10489",
+  :ge_value "0",
+  :id 10489,
+  :examine "A magnet designed for undead chicken use.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10489"},
+ :recipes
+ [{:materials [{:name "Selected iron", :quantity "1"}],
+   :skills [{:name "Crafting", :level "19", :exp "0"}],
+   :members_only true,
+   :ticks nil,
+   :tools "Hammer",
+   :facilities nil}]}

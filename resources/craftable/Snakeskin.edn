@@ -1,0 +1,31 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Snakeskin",
+  :name "Snakeskin",
+  :value "50",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6289",
+  :ge_value "0",
+  :id 6289,
+  :examine "Nicely tanned skin from a snake.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6289"},
+ :recipes
+ [{:materials
+   [{:name "Snake hide", :quantity "1"}
+    {:name "Coins", :quantity "15"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Snake hide (swamp)", :quantity "1"}
+    {:name "Coins", :quantity "20"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

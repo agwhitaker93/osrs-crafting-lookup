@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Red_cape",
+  :name "Red cape",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1007",
+  :ge_value "0",
+  :id 1007,
+  :examine "A bright red cape.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1007"},
+ :recipes
+ [{:materials
+   [{:name "Red dye", :quantity "1"}
+    {:name "Black cape", :quantity "1"}],
+   :skills [{:name "Crafting", :level "1", :exp "3"}],
+   :members_only false,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

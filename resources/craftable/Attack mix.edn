@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Attack mix",
+  :value "6",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 11431,
+  :examine "One dose of fishy Attack potion.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Attack potion(2)", :quantity "1"}
+    {:name "Roe", :quantity "1"}],
+   :skills [{:name "Herblore", :level "4", :exp "8"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

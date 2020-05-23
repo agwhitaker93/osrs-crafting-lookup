@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Unfinished_bowl",
+  :name "Unfinished bowl (worm hole)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9560",
+  :ge_value "0",
+  :id 9560,
+  :examine
+  "This unfinished worm hole needs garnishing with equa leaves.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9560"},
+ :recipes
+ [{:materials [{:name "Half made bowl (worm hole)", :quantity "1"}],
+   :skills [{:name "Cooking", :level "30", :exp "0"}],
+   :members_only true,
+   :ticks "4",
+   :tools nil,
+   :facilities "Cooking range"}]}

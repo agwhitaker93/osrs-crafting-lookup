@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Diamond_bolts",
+  :name "Diamond bolts",
+  :value "192",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9340",
+  :ge_value "0",
+  :id 9340,
+  :examine "Diamond tipped Adamantite crossbow bolts.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9340"},
+ :recipes
+ [{:materials
+   [{:name "Adamant bolts", :quantity "10"}
+    {:name "Diamond bolt tips", :quantity "10"}],
+   :skills [{:name "Fletching", :level "65", :exp "70"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

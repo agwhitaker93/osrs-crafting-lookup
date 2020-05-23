@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Double_eye_patch",
+  :name "Double eye patch",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19727",
+  :ge_value "0",
+  :id 19727,
+  :examine "A black piece of cloth on a string.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19727"},
+ :recipes
+ [{:materials
+   [{:name "Left eye patch", :quantity "1"}
+    {:name "Right eye patch", :quantity "1"}
+    {:name "Coins", :quantity "500"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools "Book o' piracy",
+   :facilities "Patchy"}]}

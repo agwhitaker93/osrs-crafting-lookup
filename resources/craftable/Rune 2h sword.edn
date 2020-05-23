@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Rune_2h_sword",
+  :name "Rune 2h sword",
+  :value "64000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1319,20555",
+  :ge_value "0",
+  :id 131920555,
+  :examine "A two handed sword.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1319,20555"},
+ :recipes
+ [{:materials [{:name "Runite bar", :quantity "3"}],
+   :skills [{:name "Smithing", :level "99", :exp "225"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Suqah_leather",
+  :name "Suqah leather",
+  :value "60",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9081",
+  :ge_value "0",
+  :id 9081,
+  :examine
+  "A piece of Suqah hide that has been expertly tanned into leather.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9081"},
+ :recipes
+ [{:materials
+   [{:name "Suqah hide", :quantity "1"}
+    {:name "Coins", :quantity "100"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Rimae Sirsalis"}]}

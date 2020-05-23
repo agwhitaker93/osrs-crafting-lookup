@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Magic_stock",
+  :name "Magic stock",
+  :value "280",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21952",
+  :ge_value "0",
+  :id 21952,
+  :examine "A magic crossbow stock.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21952"},
+ :recipes
+ [{:materials [{:name "Magic logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "78", :exp "70"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Knife",
+   :facilities nil}]}

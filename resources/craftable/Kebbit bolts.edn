@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Kebbit_bolts",
+  :name "Kebbit bolts",
+  :value "18",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10158",
+  :ge_value "0",
+  :id 10158,
+  :examine "Bolts made from the spikes of a prickly kebbit.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10158"},
+ :recipes
+ [{:materials [{:name "Kebbit spike", :quantity "1"}],
+   :skills [{:name "Fletching", :level "32", :exp "5.8"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Chisel",
+   :facilities nil}]}

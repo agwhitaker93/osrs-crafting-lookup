@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bronze_bar",
+  :name "Bronze bar",
+  :value "8",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2349",
+  :ge_value "0",
+  :id 2349,
+  :examine "It's a bar of bronze.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2349"},
+ :recipes
+ [{:materials
+   [{:name "Copper ore", :quantity "1"}
+    {:name "Tin ore", :quantity "1"}],
+   :skills [{:name "Smithing", :level "1", :exp "6.2"}],
+   :members_only false,
+   :ticks "6",
+   :tools nil,
+   :facilities "Furnace"}]}

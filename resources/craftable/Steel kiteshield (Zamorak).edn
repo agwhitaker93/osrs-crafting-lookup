@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Steel_kiteshield",
+  :name "Steel kiteshield (Zamorak)",
+  :value "900",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8776",
+  :ge_value "0",
+  :id 8776,
+  :examine "A shield with the symbol of Zamorak.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8776"},
+ :recipes
+ [{:materials [{:name "Steel kiteshield", :quantity "1"}],
+   :skills
+   [{:name "Crafting", :level "43", :exp "40"}
+    {:name "Construction", :level "16", :exp "0"}
+    {:name "Prayer", :level "70", :exp "0"}],
+   :members_only true,
+   :ticks "6",
+   :tools nil,
+   :facilities "Shield easel"}]}

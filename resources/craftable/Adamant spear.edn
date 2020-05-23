@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Adamant spear",
+  :value "2080",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 1245,
+  :examine "An adamantite tipped spear.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Adamantite bar", :quantity "1"}
+    {:name "Yew logs", :quantity "1"}],
+   :skills [{:name "Smithing", :level "75", :exp "125"}],
+   :members_only true,
+   :ticks "4",
+   :tools "Hammer",
+   :facilities "Barbarian anvil"}]}

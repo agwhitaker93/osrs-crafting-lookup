@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Phoenix_necklace",
+  :name "Phoenix necklace",
+  :value "4050",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11090",
+  :ge_value "0",
+  :id 11090,
+  :examine "In case of emergency, wear necklace.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11090"},
+ :recipes
+ [{:materials
+   [{:name "Diamond necklace", :quantity "1"}
+    {:name "Cosmic rune", :quantity "1"}
+    {:name "Earth rune", :quantity "10"}],
+   :skills [{:name "Magic", :level "57", :exp "67"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

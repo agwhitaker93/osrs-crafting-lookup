@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Teleport_to_house",
+  :name "Teleport to house (tablet)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8013",
+  :ge_value "0",
+  :id 8013,
+  :examine "A teleport to one's own house.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8013"},
+ :recipes
+ [{:materials
+   [{:name "Law rune", :quantity "1"}
+    {:name "Air rune", :quantity "1"}
+    {:name "Earth rune", :quantity "1"}
+    {:name "Soft clay", :quantity "1"}],
+   :skills [{:name "Magic", :level "40", :exp "30"}],
+   :members_only true,
+   :ticks "4",
+   :tools nil,
+   :facilities "Mahogany eagle lectern"}]}

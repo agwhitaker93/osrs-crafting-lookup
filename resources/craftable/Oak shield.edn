@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Oak_shield",
+  :name "Oak shield",
+  :value "80",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22251",
+  :ge_value "0",
+  :id 22251,
+  :examine "A solid oaken shield.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22251"},
+ :recipes
+ [{:materials [{:name "Oak logs", :quantity "2"}],
+   :skills [{:name "Fletching", :level "27", :exp "50"}],
+   :members_only true,
+   :ticks "7",
+   :tools "Knife",
+   :facilities nil}]}

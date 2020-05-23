@@ -1,0 +1,25 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Mixed_blast",
+  :name "Mixed blast",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9568",
+  :ge_value "0",
+  :id 9568,
+  :examine
+  "This Fruit Blast cocktail needs pouring and a lemon slice.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9568"},
+ :recipes
+ [{:materials
+   [{:name "Pineapple", :quantity "1"}
+    {:name "Lemon", :quantity "1"}
+    {:name "Orange", :quantity "1"}],
+   :skills [{:name "Cooking", :level "6", :exp "30"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Cocktail shaker",
+   :facilities nil}]}

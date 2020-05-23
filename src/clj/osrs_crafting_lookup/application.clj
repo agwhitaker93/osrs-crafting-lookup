@@ -7,7 +7,8 @@
             [system.components.jetty :refer [new-web-server]]
             [osrs-crafting-lookup.components.server-info :refer [server-info]]
             [osrs-crafting-lookup [config :refer [config]]
-             [routes :refer [home-routes]]]))
+             [routes :refer [home-routes]]]
+            [osrs-crafting-lookup.database :as database]))
 
 (defn app-system [config]
   (component/system-map
@@ -20,6 +21,7 @@
    :server-info (server-info (:http-port config))))
 
 (defn -main [& _]
+  (database/init)
   (let [config (config)]
     (-> config
         app-system

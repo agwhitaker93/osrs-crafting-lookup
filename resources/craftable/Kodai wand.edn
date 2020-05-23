@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Kodai_wand",
+  :name "Kodai wand",
+  :value "150000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21006",
+  :ge_value "0",
+  :id 21006,
+  :examine "A wand of an ancient Kodai mage.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21006"},
+ :recipes
+ [{:materials
+   [{:name "Master wand", :quantity "1"}
+    {:name "Kodai insignia", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Oak_longbow",
+  :name "Oak longbow",
+  :value "160",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=845",
+  :ge_value "0",
+  :id 845,
+  :examine "A nice sturdy bow made out of oak.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=845"},
+ :recipes
+ [{:materials
+   [{:name "Oak longbow (u)", :quantity "1"}
+    {:name "Bow string", :quantity "1"}],
+   :skills [{:name "Fletching", :level "25", :exp "25"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Jungle_camo_legs",
+  :name "Jungle camo legs",
+  :value "20",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10059",
+  :ge_value "0",
+  :id 10059,
+  :examine "These should make me harder to spot in jungle areas.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10059"},
+ :recipes
+ [{:materials
+   [{:name "Feldip weasel fur", :quantity "2"}
+    {:name "Coins", :quantity "20"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities "Fancy Clothes Store"}]}

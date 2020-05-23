@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Unstrung_light_ballista",
+  :name "Unstrung light ballista",
+  :value "50000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19604",
+  :ge_value "0",
+  :id 19604,
+  :examine "Needs a suitably simian rope.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19604"},
+ :recipes
+ [{:materials
+   [{:name "Incomplete light ballista", :quantity "1"}
+    {:name "Ballista spring", :quantity "1"}],
+   :skills [{:name "Fletching", :level "47", :exp "15"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

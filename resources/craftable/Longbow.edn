@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Longbow",
+  :name "Longbow",
+  :value "80",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=839",
+  :ge_value "0",
+  :id 839,
+  :examine "A nice sturdy bow.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=839"},
+ :recipes
+ [{:materials
+   [{:name "Longbow (u)", :quantity "1"}
+    {:name "Bow string", :quantity "1"}],
+   :skills [{:name "Fletching", :level "10", :exp "10"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

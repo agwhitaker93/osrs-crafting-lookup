@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Potato_with_cheese",
+  :name "Potato with cheese",
+  :value "8",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6705",
+  :ge_value "0",
+  :id 6705,
+  :examine "A baked potato with butter and cheese.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6705"},
+ :recipes
+ [{:materials
+   [{:name "Potato with butter", :quantity "1"}
+    {:name "Cheese", :quantity "1"}],
+   :skills [{:name "Cooking", :level "47", :exp "40"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

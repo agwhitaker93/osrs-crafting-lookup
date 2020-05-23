@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Chopped_tuna",
+  :name "Chopped tuna",
+  :value "104",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7086",
+  :ge_value "0",
+  :id 7086,
+  :examine "A bowl of finely chopped tuna.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7086"},
+ :recipes
+ [{:materials
+   [{:name "Bowl", :quantity "1"} {:name "Tuna", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}]}

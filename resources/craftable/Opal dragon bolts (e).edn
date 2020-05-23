@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Opal_dragon_bolts_%28e%29",
+  :name "Opal dragon bolts (e)",
+  :value "580",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21932",
+  :ge_value "0",
+  :id 21932,
+  :examine "Enchanted Dragon crossbow bolts, tipped with opal.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21932"},
+ :recipes
+ [{:materials
+   [{:name "Opal dragon bolts", :quantity "10"}
+    {:name "Air rune", :quantity "2"}
+    {:name "Cosmic rune", :quantity "1"}],
+   :skills [{:name "Magic", :level "4", :exp "9"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

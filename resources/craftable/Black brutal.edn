@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Black_brutal",
+  :name "Black brutal",
+  :value "35",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4788",
+  :ge_value "0",
+  :id 4788,
+  :examine "Blunt black arrow... ouch.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4788"},
+ :recipes
+ [{:materials
+   [{:name "Flighted ogre arrow", :quantity "6"}
+    {:name "Black nails", :quantity "6"}],
+   :skills [{:name "Fletching", :level "36", :exp "39"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Hammer",
+   :facilities nil}]}

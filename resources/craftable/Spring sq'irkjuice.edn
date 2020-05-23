@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Spring_sq%27irkjuice",
+  :name "Spring sq'irkjuice",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10848",
+  :ge_value "0",
+  :id 10848,
+  :examine "Made from 4 spring sq'irks.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10848"},
+ :recipes
+ [{:materials
+   [{:name "Spring sq'irk", :quantity "4"}
+    {:name "Beer glass", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools "Pestle and mortar",
+   :facilities nil}]}

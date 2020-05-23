@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Pitta_bread",
+  :name "Pitta bread",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1865",
+  :ge_value "0",
+  :id 1865,
+  :examine
+  "Nicely baked pitta bread. Needs more ingredients to make a kebab.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1865"},
+ :recipes
+ [{:materials [{:name "Pitta dough", :quantity "1"}],
+   :skills [{:name "Cooking", :level "58", :exp "40"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

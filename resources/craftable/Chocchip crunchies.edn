@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Chocchip_crunchies",
+  :name "Chocchip crunchies",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2209",
+  :ge_value "0",
+  :id 2209,
+  :examine "Yum... smells good.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2209"},
+ :recipes
+ [{:materials
+   [{:name "Unfinished crunchy (chocchip)", :quantity "1"}
+    {:name "Chocolate dust", :quantity "1"}],
+   :skills [{:name "Cooking", :level "16", :exp "46"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

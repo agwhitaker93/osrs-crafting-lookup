@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Splitbark_legs",
+  :name "Splitbark legs",
+  :value "40000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3389",
+  :ge_value "0",
+  :id 3389,
+  :examine "These should protect my legs.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3389"},
+ :recipes
+ [{:materials
+   [{:name "Bark", :quantity "3"}
+    {:name "Fine cloth", :quantity "3"}
+    {:name "Coins", :quantity "32000"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Armoured wizard"}]}

@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Shortbow_%28u%29",
+  :name "Shortbow (u)",
+  :value "23",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=50",
+  :ge_value "0",
+  :id 50,
+  :examine "I need to find a string for this.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=50"},
+ :recipes
+ [{:materials [{:name "Logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "5", :exp "5"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Knife",
+   :facilities nil}]}

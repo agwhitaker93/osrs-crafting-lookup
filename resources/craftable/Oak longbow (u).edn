@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Oak_longbow_%28u%29",
+  :name "Oak longbow (u)",
+  :value "80",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=56",
+  :ge_value "0",
+  :id 56,
+  :examine "An unstrung oak longbow; I need a bowstring for this.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=56"},
+ :recipes
+ [{:materials [{:name "Oak logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "25", :exp "25"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Knife",
+   :facilities nil}]}

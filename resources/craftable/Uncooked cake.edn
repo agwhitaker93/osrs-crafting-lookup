@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Uncooked_cake",
+  :name "Uncooked cake",
+  :value "20",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1889",
+  :ge_value "0",
+  :id 1889,
+  :examine "Now all I need to do is cook it.",
+  :members_only false,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1889"},
+ :recipes
+ [{:materials
+   [{:name "Egg", :quantity "1"}
+    {:name "Bucket of milk", :quantity "1"}
+    {:name "Pot of flour", :quantity "1"}],
+   :skills [{:name "Cooking", :level "40", :exp "0"}],
+   :members_only false,
+   :ticks "2",
+   :tools "Cake tin",
+   :facilities nil}]}

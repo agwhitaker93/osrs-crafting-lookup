@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Short_green_guy",
+  :name "Short green guy",
+  :value "30",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2080",
+  :ge_value "0",
+  :id 2080,
+  :examine "A Short Green Guy... looks good.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2080"},
+ :recipes
+ [{:materials
+   [{:name "Mixed sgg", :quantity "1"}
+    {:name "Lime slices", :quantity "1"}
+    {:name "Equa leaves", :quantity "1"}
+    {:name "Cocktail glass", :quantity "1"}],
+   :skills [{:name "Cooking", :level "20", :exp "90"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

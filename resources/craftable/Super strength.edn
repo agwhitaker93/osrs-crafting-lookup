@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Super strength",
+  :value "110",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 161,
+  :examine "1 dose of super Strength potion.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Kwuarm potion (unf)", :quantity "1"}
+    {:name "Limpwurt root", :quantity "1"}],
+   :skills [{:name "Herblore", :level "55", :exp "125"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Rune_platelegs",
+  :name "Rune platelegs",
+  :value "64000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1079,20422",
+  :ge_value "0",
+  :id 107920422,
+  :examine "These look pretty heavy.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1079,20422"},
+ :recipes
+ [{:materials [{:name "Runite bar", :quantity "3"}],
+   :skills [{:name "Smithing", :level "99", :exp "225"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

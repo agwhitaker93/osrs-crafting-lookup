@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki
+  "https://oldschool.runescape.wiki/w/Topaz_dragon_bolts_%28e%29",
+  :name "Topaz dragon bolts (e)",
+  :value "730",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21938",
+  :ge_value "0",
+  :id 21938,
+  :examine "Enchanted Dragon crossbow bolts, tipped with red topaz.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21938"},
+ :recipes
+ [{:materials
+   [{:name "Topaz dragon bolts", :quantity "10"}
+    {:name "Fire rune", :quantity "2"}
+    {:name "Cosmic rune", :quantity "1"}],
+   :skills [{:name "Magic", :level "49", :exp "33.0"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

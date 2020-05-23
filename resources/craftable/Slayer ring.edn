@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Slayer ring",
+  :value "930",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 11873,
+  :examine "A beautifully mounted Slayer gem.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Enchanted gem", :quantity "1"}
+    {:name "Gold bar", :quantity "1"}],
+   :skills [{:name "Crafting", :level "75", :exp "15"}],
+   :members_only true,
+   :ticks nil,
+   :tools "Ring mould",
+   :facilities "Furnace"}]}

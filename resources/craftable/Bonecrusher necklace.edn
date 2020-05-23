@@ -1,0 +1,25 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Bonecrusher_necklace",
+  :name "Bonecrusher necklace",
+  :value "80000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22986",
+  :ge_value "0",
+  :id 22986,
+  :examine
+  "A necklace made out of dragon bones, hydra tail and a bonecrusher.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22986"},
+ :recipes
+ [{:materials
+   [{:name "Bonecrusher", :quantity "1"}
+    {:name "Dragonbone necklace", :quantity "1"}
+    {:name "Hydra tail", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

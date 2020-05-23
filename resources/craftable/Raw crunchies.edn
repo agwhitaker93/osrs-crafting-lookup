@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Raw_crunchies",
+  :name "Raw crunchies",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2202",
+  :ge_value "0",
+  :id 2202,
+  :examine "These crunchies need cooking.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2202"},
+ :recipes
+ [{:materials [{:name "Gianne dough", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Crunchy tray",
+   :facilities nil}]}

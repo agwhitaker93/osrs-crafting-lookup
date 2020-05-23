@@ -1,0 +1,31 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Onion_%26_tomato",
+  :name "Onion & tomato",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1875",
+  :ge_value "0",
+  :id 1875,
+  :examine "A mixture of chopped onions and tomatoes in a bowl.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1875"},
+ :recipes
+ [{:materials
+   [{:name "Chopped onion", :quantity "1"}
+    {:name "Tomato", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}
+  {:materials
+   [{:name "Chopped tomato", :quantity "1"}
+    {:name "Onion", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}]}

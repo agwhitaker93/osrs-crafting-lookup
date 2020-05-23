@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Seasoned_sardine",
+  :name "Seasoned sardine",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1552",
+  :ge_value "0",
+  :id 1552,
+  :examine "Sardine flavoured with doogle leaves.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1552"},
+ :recipes
+ [{:materials
+   [{:name "Raw sardine", :quantity "1"}
+    {:name "Doogle leaves", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

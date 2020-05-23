@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Eldritch_nightmare_staff",
+  :name "Eldritch nightmare staff",
+  :value "4600000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=24425",
+  :ge_value "0",
+  :id 24425,
+  :examine
+  "An ancient staff corrupted by darkness. An eldritch orb has been added to it.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=24425"},
+ :recipes
+ [{:materials
+   [{:name "Nightmare staff", :quantity "1"}
+    {:name "Eldritch orb", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

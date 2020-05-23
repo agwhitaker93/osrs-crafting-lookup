@@ -1,0 +1,29 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Runite_bar",
+  :name "Runite bar",
+  :value "5000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2363",
+  :ge_value "0",
+  :id 2363,
+  :examine "It's a bar of runite.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2363"},
+ :recipes
+ [{:materials
+   [{:name "Runite ore", :quantity "1"} {:name "Coal", :quantity "8"}],
+   :skills [{:name "Smithing", :level "85", :exp "50"}],
+   :members_only false,
+   :ticks "4",
+   :tools nil,
+   :facilities "Furnace"}
+  {:materials
+   [{:name "Runite ore", :quantity "1"} {:name "Coal", :quantity "4"}],
+   :skills [{:name "Smithing", :level "85", :exp "50"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Blast furnace"}]}

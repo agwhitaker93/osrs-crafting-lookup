@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Dragon_sq_shield",
+  :name "Dragon sq shield",
+  :value "500000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1187",
+  :ge_value "0",
+  :id 1187,
+  :examine "An ancient and powerful looking Dragon Square shield.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1187"},
+ :recipes
+ [{:materials
+   [{:name "Shield left half", :quantity "1"}
+    {:name "Shield right half", :quantity "1"}],
+   :skills [{:name "Smithing", :level "60", :exp "75"}],
+   :members_only true,
+   :ticks nil,
+   :tools "Hammer",
+   :facilities "Anvil"}]}

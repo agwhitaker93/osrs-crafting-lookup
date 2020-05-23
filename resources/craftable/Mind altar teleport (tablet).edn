@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Mind_altar_teleport",
+  :name "Mind altar teleport (tablet)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19617",
+  :ge_value "0",
+  :id 19617,
+  :examine "A teleport to the Mind Altar.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19617"},
+ :recipes
+ [{:materials
+   [{:name "Law rune", :quantity "1"}
+    {:name "Mind rune", :quantity "2"}
+    {:name "Dark essence block", :quantity "1"}],
+   :skills [{:name "Magic", :level "28", :exp "22"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

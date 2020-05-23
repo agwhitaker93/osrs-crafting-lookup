@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/M%27speak_amulet",
+  :name "M'speak amulet",
+  :value "550",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4021",
+  :ge_value "0",
+  :id 4021,
+  :examine
+  "It's an Amulet of Monkey Speak. It makes vague chattering noises.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4021"},
+ :recipes
+ [{:materials
+   [{:name "M'speak amulet (unstrung)", :quantity "1"}
+    {:name "Ball of wool", :quantity "1"}],
+   :skills [{:name "Crafting", :level "0", :exp "4"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

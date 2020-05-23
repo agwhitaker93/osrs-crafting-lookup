@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Green_d%27hide_chaps",
+  :name "Green d'hide chaps",
+  :value "3900",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1099",
+  :ge_value "0",
+  :id 1099,
+  :examine "Made from 100% real dragonhide.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1099"},
+ :recipes
+ [{:materials
+   [{:name "Green dragon leather", :quantity "2"}
+    {:name "Thread", :quantity "1"}],
+   :skills [{:name "Crafting", :level "60", :exp "124"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Needle",
+   :facilities nil}]}

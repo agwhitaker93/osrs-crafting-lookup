@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Cooked_oomlie_wrap",
+  :name "Cooked oomlie wrap",
+  :value "35",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2343",
+  :ge_value "0",
+  :id 2343,
+  :examine "Deliciously cooked oomlie meat in a palm leaf pouch.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2343"},
+ :recipes
+ [{:materials [{:name "Wrapped oomlie", :quantity "1"}],
+   :skills [{:name "Cooking", :level "50", :exp "30"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

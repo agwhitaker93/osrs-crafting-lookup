@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Lunar_helm",
+  :name "Lunar helm",
+  :value "100",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9096",
+  :ge_value "0",
+  :id 9096,
+  :examine "A mystical helmet.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9096"},
+ :recipes
+ [{:materials [{:name "Lunar bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "0", :exp "25"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

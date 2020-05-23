@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Black_dragon_leather",
+  :name "Black dragon leather",
+  :value "110",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2509",
+  :ge_value "0",
+  :id 2509,
+  :examine "It's a piece of prepared black dragonhide.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2509"},
+ :recipes
+ [{:materials
+   [{:name "Black dragonhide", :quantity "1"}
+    {:name "Coins", :quantity "20"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

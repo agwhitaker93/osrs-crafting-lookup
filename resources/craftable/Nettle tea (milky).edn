@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Nettle_tea",
+  :name "Nettle tea (milky)",
+  :value "4",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4240",
+  :ge_value "0",
+  :id 4240,
+  :examine "It's a bowl of milky nettle tea.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4240"},
+ :recipes
+ [{:materials
+   [{:name "Nettle tea", :quantity "1"}
+    {:name "Bucket of milk", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

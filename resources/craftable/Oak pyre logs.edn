@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Oak_pyre_logs",
+  :name "Oak pyre logs",
+  :value "40",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3440",
+  :ge_value "0",
+  :id 3440,
+  :examine "Oak logs prepared with sacred oil for a funeral pyre.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3440"},
+ :recipes
+ [{:materials
+   [{:name "Oak logs", :quantity "1"}
+    {:name "Sacred oil(2)", :quantity "1"}],
+   :skills [{:name "Firemaking", :level "20", :exp "12"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

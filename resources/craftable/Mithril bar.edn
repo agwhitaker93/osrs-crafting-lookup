@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Mithril_bar",
+  :name "Mithril bar",
+  :value "300",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2359",
+  :ge_value "0",
+  :id 2359,
+  :examine "It's a bar of mithril.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2359"},
+ :recipes
+ [{:materials
+   [{:name "Mithril ore", :quantity "1"}
+    {:name "Coal", :quantity "4"}],
+   :skills [{:name "Smithing", :level "50", :exp "30"}],
+   :members_only false,
+   :ticks "4",
+   :tools nil,
+   :facilities "Furnace"}]}

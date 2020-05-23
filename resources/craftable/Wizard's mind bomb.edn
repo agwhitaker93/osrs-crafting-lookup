@@ -1,0 +1,26 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Wizard%27s_mind_bomb",
+  :name "Wizard's mind bomb",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1907",
+  :ge_value "0",
+  :id 1907,
+  :examine "It's got strange bubbles in it.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1907"},
+ :recipes
+ [{:materials
+   [{:name "Bucket of water", :quantity "2"}
+    {:name "Barley malt", :quantity "2"}
+    {:name "Yanillian hops", :quantity "4"}
+    {:name "Ale yeast", :quantity "1"}
+    {:name "Beer glass", :quantity "8"}],
+   :skills [{:name "Cooking", :level "34", :exp "314"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Brewery"}]}

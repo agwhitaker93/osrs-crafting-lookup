@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Comp_ogre_bow",
+  :name "Comp ogre bow",
+  :value "180",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4827",
+  :ge_value "0",
+  :id 4827,
+  :examine "A composite ogre bow.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4827"},
+ :recipes
+ [{:materials
+   [{:name "Unstrung comp bow", :quantity "1"}
+    {:name "Bow string", :quantity "1"}],
+   :skills [{:name "Fletching", :level "30", :exp "45"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

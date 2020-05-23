@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Pre-nature_amulet",
+  :name "Pre-nature amulet",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6041",
+  :ge_value "0",
+  :id 6041,
+  :examine "Strung with the root of a Magic Tree; needs enchanting.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6041"},
+ :recipes
+ [{:materials
+   [{:name "Emerald amulet (u)", :quantity "1"}
+    {:name "Magic string", :quantity "1"}],
+   :skills [{:name "Crafting", :level "1", :exp "4"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

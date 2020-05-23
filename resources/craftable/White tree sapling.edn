@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/White_tree_sapling",
+  :name "White tree sapling",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6464",
+  :ge_value "0",
+  :id 6464,
+  :examine "A young White Tree sapling.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6464"},
+ :recipes
+ [{:materials [{:name "White tree shoot (w)", :quantity "1"}],
+   :skills [{:name "Farming", :level "25", :exp "0"}],
+   :members_only true,
+   :ticks "Varies",
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Magic_shortbow",
+  :name "Magic shortbow",
+  :value "1600",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=861,20558",
+  :ge_value "0",
+  :id 86120558,
+  :examine "Short and magical, but still effective.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=861,20558"},
+ :recipes
+ [{:materials
+   [{:name "Magic shortbow (u)", :quantity "1"}
+    {:name "Bow string", :quantity "1"}],
+   :skills [{:name "Fletching", :level "80", :exp "83.3"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

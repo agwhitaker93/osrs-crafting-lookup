@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Super combat potion",
+  :value "40",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 12701,
+  :examine "1 dose of super combat potion.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Super attack(4)", :quantity "1"}
+    {:name "Super defence(4)", :quantity "1"}
+    {:name "Super strength(4)", :quantity "1"}
+    {:name "Torstol", :quantity "1"}],
+   :skills [{:name "Herblore", :level "90", :exp "150"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

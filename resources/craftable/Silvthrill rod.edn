@@ -1,0 +1,25 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Silvthrill_rod",
+  :name "Silvthrill rod",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 7637,
+  :examine
+  "A silvery rod of mithril and silver with a sapphire on the top.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Silver bar", :quantity "1"}
+    {:name "Mithril bar", :quantity "1"}
+    {:name "Sapphire", :quantity "1"}],
+   :skills [{:name "Smithing", :level "25", :exp "55"}],
+   :members_only true,
+   :ticks nil,
+   :tools "Rod clay mould",
+   :facilities "Furnace"}]}

@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bow_string",
+  :name "Bow string",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1777",
+  :ge_value "0",
+  :id 1777,
+  :examine "I need a bow stave to attach this to.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1777"},
+ :recipes
+ [{:materials [{:name "Flax", :quantity "1"}],
+   :skills [{:name "Crafting", :level "10", :exp "15"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Spinning wheel"}]}

@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Skewered_bird_meat",
+  :name "Skewered bird meat",
+  :value "81",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9984",
+  :ge_value "0",
+  :id 9984,
+  :examine "Skewered bird meat.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9984"},
+ :recipes
+ [{:materials [{:name "Raw bird meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "11", :exp "0"}],
+   :members_only true,
+   :ticks "0",
+   :tools "Iron spit",
+   :facilities nil}]}

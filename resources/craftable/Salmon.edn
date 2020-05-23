@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Salmon",
+  :name "Salmon",
+  :value "30",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=329",
+  :ge_value "0",
+  :id 329,
+  :examine "Some nicely cooked salmon.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=329"},
+ :recipes
+ [{:materials [{:name "Raw salmon", :quantity "1"}],
+   :skills [{:name "Cooking", :level "25", :exp "90"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

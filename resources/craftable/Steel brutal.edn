@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Steel_brutal",
+  :name "Steel brutal",
+  :value "20",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4783",
+  :ge_value "0",
+  :id 4783,
+  :examine "Blunt steel arrow... ouch.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4783"},
+ :recipes
+ [{:materials
+   [{:name "Flighted ogre arrow", :quantity "6"}
+    {:name "Steel nails", :quantity "6"}],
+   :skills [{:name "Fletching", :level "33", :exp "30.6"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Hammer",
+   :facilities nil}]}

@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Anchovies",
+  :name "Anchovies",
+  :value "15",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=319",
+  :ge_value "0",
+  :id 319,
+  :examine "Some nicely cooked anchovies.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=319"},
+ :recipes
+ [{:materials [{:name "Raw anchovies", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "30"}],
+   :members_only false,
+   :ticks "4",
+   :tools nil,
+   :facilities "Cooking range"}]}

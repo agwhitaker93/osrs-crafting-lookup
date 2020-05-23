@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Manta_ray",
+  :name "Manta ray",
+  :value "200",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=391",
+  :ge_value "0",
+  :id 391,
+  :examine "A rare catch.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=391"},
+ :recipes
+ [{:materials [{:name "Raw manta ray", :quantity "1"}],
+   :skills [{:name "Cooking", :level "91", :exp "216.3"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

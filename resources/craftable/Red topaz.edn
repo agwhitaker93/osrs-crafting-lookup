@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Red_topaz",
+  :name "Red topaz",
+  :value "200",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1613",
+  :ge_value "0",
+  :id 1613,
+  :examine "A semi precious stone.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1613"},
+ :recipes
+ [{:materials [{:name "Uncut red topaz", :quantity "1"}],
+   :skills [{:name "Crafting", :level "16", :exp "25"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Chisel",
+   :facilities nil}]}

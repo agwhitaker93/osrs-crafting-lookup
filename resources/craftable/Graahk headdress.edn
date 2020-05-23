@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Graahk_headdress",
+  :name "Graahk headdress",
+  :value "750",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10051",
+  :ge_value "0",
+  :id 10051,
+  :examine "This should make me harder to spot in desert areas.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10051"},
+ :recipes
+ [{:materials
+   [{:name "Graahk fur", :quantity "1"}
+    {:name "Coins", :quantity "750"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities "Fancy Clothes Store"}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Onyx_bolts",
+  :name "Onyx bolts",
+  :value "13633",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9342",
+  :ge_value "0",
+  :id 9342,
+  :examine "Onyx tipped Runite crossbow bolts.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9342"},
+ :recipes
+ [{:materials
+   [{:name "Runite bolts", :quantity "10"}
+    {:name "Onyx bolt tips", :quantity "10"}],
+   :skills [{:name "Fletching", :level "73", :exp "94"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

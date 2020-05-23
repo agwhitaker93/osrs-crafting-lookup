@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Sapphire_dragon_bolts",
+  :name "Sapphire dragon bolts",
+  :value "750",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21963",
+  :ge_value "0",
+  :id 21963,
+  :examine "Dragon crossbow bolts, tipped with sapphire.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21963"},
+ :recipes
+ [{:materials
+   [{:name "Dragon bolts", :quantity "10"}
+    {:name "Sapphire bolt tips", :quantity "10"}],
+   :skills [{:name "Fletching", :level "84", :exp "47"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

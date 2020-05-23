@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Skeletal_top",
+  :name "Skeletal top",
+  :value "45000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6139",
+  :ge_value "0",
+  :id 6139,
+  :examine
+  "The bones in this armour seem to vibrate with a magical quality...",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6139"},
+ :recipes
+ [{:materials
+   [{:name "Dagannoth hide", :quantity "3"}
+    {:name "Ribcage piece", :quantity "1"}
+    {:name "Coins", :quantity "10000"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Peer the Seer"}]}

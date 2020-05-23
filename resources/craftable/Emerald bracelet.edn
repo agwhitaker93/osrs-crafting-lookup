@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Emerald_bracelet",
+  :name "Emerald bracelet",
+  :value "1525",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11076",
+  :ge_value "0",
+  :id 11076,
+  :examine "I wonder if this is valuable.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11076"},
+ :recipes
+ [{:materials
+   [{:name "Emerald", :quantity "1"}
+    {:name "Gold bar", :quantity "1"}],
+   :skills [{:name "Crafting", :level "30", :exp "65"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Bracelet mould",
+   :facilities "Furnace"}]}

@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Amulet_of_accuracy",
+  :name "Amulet of accuracy",
+  :value "100",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1478,20584",
+  :ge_value "0",
+  :id 147820584,
+  :examine "It increases my aim.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1478,20584"},
+ :recipes
+ [{:materials
+   [{:name "Black bead", :quantity "1"}
+    {:name "Red bead", :quantity "1"}
+    {:name "White bead", :quantity "1"}
+    {:name "Yellow bead", :quantity "1"}],
+   :skills [],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Wizard Mizgog"}]}

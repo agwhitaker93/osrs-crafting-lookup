@@ -1,0 +1,57 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Arrow_shaft",
+  :name "Arrow shaft",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=52",
+  :ge_value "0",
+  :id 52,
+  :examine "A wooden arrow shaft.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=52"},
+ :recipes
+ [{:materials [{:name "Logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "1", :exp "5"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}
+  {:materials [{:name "Oak logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "15", :exp "10"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}
+  {:materials [{:name "Willow logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "30", :exp "15"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}
+  {:materials [{:name "Maple logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "45", :exp "20"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}
+  {:materials [{:name "Yew logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "60", :exp "25"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}
+  {:materials [{:name "Magic logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "75", :exp "30"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}
+  {:materials [{:name "Redwood logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "90", :exp "35"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}]}

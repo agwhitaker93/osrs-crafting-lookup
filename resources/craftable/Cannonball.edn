@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Cannonball",
+  :name "Cannonball",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2",
+  :ge_value "0",
+  :id 2,
+  :examine "Ammo for the Dwarf Cannon.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2"},
+ :recipes
+ [{:materials [{:name "Steel bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "35", :exp "25.6"}],
+   :members_only true,
+   :ticks "8",
+   :tools "Ammo mould",
+   :facilities "Furnace"}]}

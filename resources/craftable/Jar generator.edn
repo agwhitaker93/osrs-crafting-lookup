@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Jar_generator",
+  :name "Jar generator",
+  :value "600",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11258",
+  :ge_value "0",
+  :id 11258,
+  :examine "Creates butterfly and impling jars.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11258"},
+ :recipes
+ [{:materials
+   [{:name "Essence impling jar", :quantity "3"}
+    {:name "Eclectic impling jar", :quantity "2"}
+    {:name "Nature impling jar", :quantity "1"}],
+   :skills [],
+   :members_only false,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

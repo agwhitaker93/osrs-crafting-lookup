@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Mahogany_stock",
+  :name "Mahogany stock",
+  :value "133",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9450",
+  :ge_value "0",
+  :id 9450,
+  :examine "A mahogany crossbow stock.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9450"},
+ :recipes
+ [{:materials [{:name "Mahogany logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "61", :exp "41"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Knife",
+   :facilities nil}]}

@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Steel_bar",
+  :name "Steel bar",
+  :value "100",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2353",
+  :ge_value "0",
+  :id 2353,
+  :examine "It's a bar of steel.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2353"},
+ :recipes
+ [{:materials
+   [{:name "Iron ore", :quantity "1"} {:name "Coal", :quantity "2"}],
+   :skills [{:name "Smithing", :level "30", :exp "17.5"}],
+   :members_only false,
+   :ticks "4",
+   :tools nil,
+   :facilities "Furnace"}]}

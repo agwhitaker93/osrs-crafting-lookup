@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Emerald_bolts_%28e%29",
+  :name "Emerald bolts (e)",
+  :value "59",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9241",
+  :ge_value "0",
+  :id 9241,
+  :examine "Enchanted Emerald tipped Mithril Crossbow Bolts.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9241"},
+ :recipes
+ [{:materials
+   [{:name "Emerald bolts", :quantity "10"}
+    {:name "Air rune", :quantity "3"}
+    {:name "Nature rune", :quantity "1"}
+    {:name "Cosmic rune", :quantity "1"}],
+   :skills [{:name "Magic", :level "27", :exp "37.0"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

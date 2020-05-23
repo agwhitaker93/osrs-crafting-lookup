@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Steel_longsword",
+  :name "Steel longsword",
+  :value "500",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1295",
+  :ge_value "0",
+  :id 1295,
+  :examine "A razor sharp longsword.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1295"},
+ :recipes
+ [{:materials [{:name "Steel bar", :quantity "2"}],
+   :skills [{:name "Smithing", :level "35", :exp "75"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

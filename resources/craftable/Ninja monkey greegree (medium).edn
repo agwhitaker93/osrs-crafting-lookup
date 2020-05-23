@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Ninja_monkey_greegree",
+  :name "Ninja monkey greegree (medium)",
+  :value "6000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4025",
+  :ge_value "0",
+  :id 4025,
+  :examine
+  "A magical talisman in the shape of a medium ninja monkey head.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4025"},
+ :recipes
+ [{:materials
+   [{:name "Monkey talisman", :quantity "1"}
+    {:name "Monkey bones (medium ninja)", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Zooknock"}]}

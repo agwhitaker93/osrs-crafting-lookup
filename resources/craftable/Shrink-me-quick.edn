@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Shrink-me-quick",
+  :name "Shrink-me-quick",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11204",
+  :ge_value "0",
+  :id 11204,
+  :examine "Apparently it shrinks you. Very fast.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11204"},
+ :recipes
+ [{:materials
+   [{:name "Tarromin potion (unf)", :quantity "1"}
+    {:name "Shrunk ogleroot", :quantity "1"}],
+   :skills [{:name "Herblore", :level "52", :exp "6"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

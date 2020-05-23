@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Servery_plain_pizza",
+  :name "Servery plain pizza",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13409",
+  :ge_value "0",
+  :id 13409,
+  :examine "The soldiers won't want it without pineapple.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13409"},
+ :recipes
+ [{:materials [{:name "Servery uncooked pizza", :quantity "1"}],
+   :skills [{:name "Cooking", :level "65", :exp "5"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Clay oven"}]}

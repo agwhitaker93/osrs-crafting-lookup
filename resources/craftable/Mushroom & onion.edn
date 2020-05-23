@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Mushroom_%26_onion",
+  :name "Mushroom & onion",
+  :value "45",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7066",
+  :ge_value "0",
+  :id 7066,
+  :examine "A bowl of fried mushroom and onions.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7066"},
+ :recipes
+ [{:materials
+   [{:name "Fried mushrooms", :quantity "1"}
+    {:name "Fried onions", :quantity "1"}],
+   :skills [{:name "Cooking", :level "57", :exp "120"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

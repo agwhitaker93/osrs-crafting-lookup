@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Ruby_necklace",
+  :name "Ruby necklace",
+  :value "2175",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1660",
+  :ge_value "0",
+  :id 1660,
+  :examine "I wonder if this is valuable.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1660"},
+ :recipes
+ [{:materials
+   [{:name "Ruby", :quantity "1"} {:name "Gold bar", :quantity "1"}],
+   :skills [{:name "Crafting", :level "40", :exp "75"}],
+   :members_only false,
+   :ticks "3",
+   :tools "Necklace mould",
+   :facilities "Furnace"}]}

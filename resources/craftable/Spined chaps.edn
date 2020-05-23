@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Spined_chaps",
+  :name "Spined chaps",
+  :value "3900",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6135",
+  :ge_value "0",
+  :id 6135,
+  :examine
+  "Stylish leg armour for rangers with a lingering smell of raw fish...",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6135"},
+ :recipes
+ [{:materials
+   [{:name "Dagannoth hide", :quantity "2"}
+    {:name "Stretched hide", :quantity "1"}
+    {:name "Coins", :quantity "7500"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Sigli the Huntsman"}]}

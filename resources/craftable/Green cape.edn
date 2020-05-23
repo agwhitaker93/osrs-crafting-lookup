@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Green_cape",
+  :name "Green cape",
+  :value "32",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1027",
+  :ge_value "0",
+  :id 1027,
+  :examine "A thick green cape.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1027"},
+ :recipes
+ [{:materials
+   [{:name "Green dye", :quantity "1"}
+    {:name "Black cape", :quantity "1"}],
+   :skills [{:name "Crafting", :level "1", :exp "3"}],
+   :members_only false,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

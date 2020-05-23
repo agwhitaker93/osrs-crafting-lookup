@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Fish_food",
+  :name "Fish food",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=272",
+  :ge_value "0",
+  :id 272,
+  :examine "Keeps your pet fish strong and healthy.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=272"},
+ :recipes
+ [{:materials
+   [{:name "Ground guam", :quantity "1"}
+    {:name "Ground seaweed", :quantity "1"}
+    {:name "An empty box", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "62.0"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

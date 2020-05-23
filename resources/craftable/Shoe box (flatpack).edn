@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Shoe_box",
+  :name "Shoe box (flatpack)",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8610",
+  :ge_value "0",
+  :id 8610,
+  :examine "How does it all fit in there?",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8610"},
+ :recipes
+ [{:materials
+   [{:name "Plank", :quantity "2"}
+    {:name "Steel nails", :quantity "2"}],
+   :skills [{:name "Construction", :level "20", :exp "58"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Saw, Hammer",
+   :facilities "Workbench"}]}

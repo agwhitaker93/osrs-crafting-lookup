@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Dragon_plateskirt_%28g%29",
+  :name "Dragon plateskirt (g)",
+  :value "270000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=12416",
+  :ge_value "0",
+  :id 12416,
+  :examine "Heavy protective legwear with a gold trim.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=12416"},
+ :recipes
+ [{:materials
+   [{:name "Dragon plateskirt", :quantity "1"}
+    {:name "Dragon legs/skirt ornament kit", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

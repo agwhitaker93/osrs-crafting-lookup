@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Yew_shield",
+  :name "Yew shield",
+  :value "640",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22260",
+  :ge_value "0",
+  :id 22260,
+  :examine "A solid yew shield.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22260"},
+ :recipes
+ [{:materials [{:name "Yew logs", :quantity "2"}],
+   :skills [{:name "Fletching", :level "72", :exp "150"}],
+   :members_only true,
+   :ticks "7",
+   :tools "Knife",
+   :facilities nil}]}

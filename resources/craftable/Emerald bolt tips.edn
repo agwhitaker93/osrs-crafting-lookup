@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Emerald_bolt_tips",
+  :name "Emerald bolt tips",
+  :value "33",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9190",
+  :ge_value "0",
+  :id 9190,
+  :examine "Emerald bolt tips.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9190"},
+ :recipes
+ [{:materials [{:name "Emerald", :quantity "1"}],
+   :skills [{:name "Fletching", :level "58", :exp "5.5"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Chisel",
+   :facilities nil}]}

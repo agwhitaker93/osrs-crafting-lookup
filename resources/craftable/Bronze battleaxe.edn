@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bronze_battleaxe",
+  :name "Bronze battleaxe",
+  :value "52",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1375",
+  :ge_value "0",
+  :id 1375,
+  :examine "A vicious looking axe.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1375"},
+ :recipes
+ [{:materials [{:name "Bronze bar", :quantity "3"}],
+   :skills [{:name "Smithing", :level "10", :exp "37.5"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

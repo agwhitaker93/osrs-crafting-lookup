@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Extended antifire mix",
+  :value "160",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 11962,
+  :examine "One dose of fishy extended anti-firebreath potion.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Extended antifire(2)", :quantity "1"}
+    {:name "Caviar", :quantity "1"}],
+   :skills [{:name "Herblore", :level "91", :exp "61"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

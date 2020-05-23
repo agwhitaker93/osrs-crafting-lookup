@@ -1,0 +1,29 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Spicy_tomato",
+  :name "Spicy tomato",
+  :value "3",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9994",
+  :ge_value "0",
+  :id 9994,
+  :examine "A bowl of chopped tomatoes with an extra kick.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9994"},
+ :recipes
+ [{:materials [{:name "Chopped tomato", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "0"}],
+   :members_only true,
+   :ticks "0",
+   :tools "Gnome spice",
+   :facilities nil}
+  {:materials
+   [{:name "Chopped tomato", :quantity "1"}
+    {:name "Spice", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "0"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

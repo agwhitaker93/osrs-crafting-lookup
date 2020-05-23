@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Bow-sword",
+  :name "Bow-sword",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6818",
+  :ge_value "0",
+  :id 6818,
+  :examine "A sharp sword that can also fire arrows.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6818"},
+ :recipes
+ [{:materials
+   [{:name "Bow string", :quantity "1"}
+    {:name "Slender blade", :quantity "1"}],
+   :skills [{:name "Fletching", :level "50", :exp "50"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

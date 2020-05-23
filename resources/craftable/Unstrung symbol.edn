@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Unstrung_symbol",
+  :name "Unstrung symbol",
+  :value "200",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1714",
+  :ge_value "0",
+  :id 1714,
+  :examine "It needs a string so I can wear it.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1714"},
+ :recipes
+ [{:materials [{:name "Silver bar", :quantity "1"}],
+   :skills [{:name "Crafting", :level "16", :exp "50"}],
+   :members_only false,
+   :ticks "3",
+   :tools "Holy mould",
+   :facilities "Furnace"}]}

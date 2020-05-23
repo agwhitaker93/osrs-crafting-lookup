@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Poisoned_fish_food",
+  :name "Poisoned fish food",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=274",
+  :ge_value "0",
+  :id 274,
+  :examine "Doesn't seem very nice to the poor fishes.",
+  :members_only false,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=274"},
+ :recipes
+ [{:materials
+   [{:name "Fish food", :quantity "1"}
+    {:name "Poison (item)", :quantity "1"}],
+   :skills [],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

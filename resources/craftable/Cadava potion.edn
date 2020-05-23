@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Cadava_potion",
+  :name "Cadava potion",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=756",
+  :ge_value "0",
+  :id 756,
+  :examine "I'm meant to give this to Juliet.",
+  :members_only false,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=756"},
+ :recipes
+ [{:materials [{:name "Cadava berries", :quantity "1"}],
+   :skills [],
+   :members_only false,
+   :ticks "0",
+   :tools nil,
+   :facilities "Apothecary"}]}

@@ -1,0 +1,25 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Dynamite_pot",
+  :name "Dynamite pot",
+  :value "90",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13572",
+  :ge_value "0",
+  :id 13572,
+  :examine "A pot of dynamite for blast mining. Needs a fuse.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13572"},
+ :recipes
+ [{:materials
+   [{:name "Pot", :quantity "1"}
+    {:name "Saltpetre", :quantity "1"}
+    {:name "Juniper charcoal", :quantity "1"}
+    {:name "Volcanic sulphur", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

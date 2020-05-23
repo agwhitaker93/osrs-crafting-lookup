@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Rock-shell_helm",
+  :name "Rock-shell helm",
+  :value "35200",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6128",
+  :ge_value "0",
+  :id 6128,
+  :examine
+  "Protective headwear made from crabs. Better than that sounds.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6128"},
+ :recipes
+ [{:materials
+   [{:name "Dagannoth hide", :quantity "1"}
+    {:name "Rock-shell chunk", :quantity "1"}
+    {:name "Coins", :quantity "5000"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Skulgrimen"}]}

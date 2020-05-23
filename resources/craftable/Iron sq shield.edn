@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Iron_sq_shield",
+  :name "Iron sq shield",
+  :value "168",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1175",
+  :ge_value "0",
+  :id 1175,
+  :examine "A medium square shield.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1175"},
+ :recipes
+ [{:materials [{:name "Iron bar", :quantity "2"}],
+   :skills [{:name "Smithing", :level "23", :exp "50"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

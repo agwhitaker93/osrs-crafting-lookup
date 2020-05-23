@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Cannon_ball",
+  :name "Cannon ball (Between a Rock...)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4579",
+  :ge_value "0",
+  :id 4579,
+  :examine "A heavy gold metal sphere.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4579"},
+ :recipes
+ [{:materials [{:name "Gold bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "?", :exp "37.5"}],
+   :members_only true,
+   :ticks nil,
+   :tools "Ammo mould",
+   :facilities "Furnace"}]}

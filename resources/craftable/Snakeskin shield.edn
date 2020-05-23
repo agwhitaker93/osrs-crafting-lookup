@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Snakeskin_shield",
+  :name "Snakeskin shield",
+  :value "920",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22272",
+  :ge_value "0",
+  :id 22272,
+  :examine "A solid willow shield covered in snakeskin leather.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22272"},
+ :recipes
+ [{:materials
+   [{:name "Snakeskin", :quantity "2"}
+    {:name "Willow shield", :quantity "1"}
+    {:name "Iron nails", :quantity "15"}],
+   :skills [{:name "Crafting", :level "56", :exp "100"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities nil}]}

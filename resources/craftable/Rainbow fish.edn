@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Rainbow_fish",
+  :name "Rainbow fish",
+  :value "120",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10136",
+  :ge_value "0",
+  :id 10136,
+  :examine "Well, this would certainly add some colour to a meal.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10136"},
+ :recipes
+ [{:materials [{:name "Raw rainbow fish", :quantity "1"}],
+   :skills [{:name "Cooking", :level "35", :exp "110"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

@@ -1,0 +1,25 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Half_made_bowl",
+  :name "Half made bowl (veg ball)",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9561",
+  :ge_value "0",
+  :id 9561,
+  :examine
+  "This unfinished veg ball needs baking and garnishing with equa leaves.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9561"},
+ :recipes
+ [{:materials
+   [{:name "Half baked bowl", :quantity "1"}
+    {:name "Potato", :quantity "2"}
+    {:name "Onion", :quantity "2"}],
+   :skills [{:name "Cooking", :level "35", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Gnome spice",
+   :facilities nil}]}

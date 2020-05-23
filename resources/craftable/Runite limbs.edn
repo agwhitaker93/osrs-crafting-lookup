@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Runite_limbs",
+  :name "Runite limbs",
+  :value "16000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9431",
+  :ge_value "0",
+  :id 9431,
+  :examine "A pair of runite crossbow limbs.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9431"},
+ :recipes
+ [{:materials [{:name "Runite bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "91", :exp "75"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

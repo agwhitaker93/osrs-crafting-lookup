@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Unfired_pot_lid",
+  :name "Unfired pot lid",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4438",
+  :ge_value "0",
+  :id 4438,
+  :examine
+  "This needs firing, then it should fit on a normal-sized pot.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4438"},
+ :recipes
+ [{:materials [{:name "Soft clay", :quantity "1"}],
+   :skills [{:name "Crafting", :level "25", :exp "20"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Pottery wheel"}]}

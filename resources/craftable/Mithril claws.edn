@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Mithril_claws",
+  :name "Mithril claws",
+  :value "475",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3099",
+  :ge_value "0",
+  :id 3099,
+  :examine "A set of fighting claws.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3099"},
+ :recipes
+ [{:materials [{:name "Mithril bar", :quantity "2"}],
+   :skills [{:name "Smithing", :level "63", :exp "100"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

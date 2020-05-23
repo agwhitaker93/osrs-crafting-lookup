@@ -1,0 +1,29 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Spicy_minced_meat",
+  :name "Spicy minced meat",
+  :value "8",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9996",
+  :ge_value "0",
+  :id 9996,
+  :examine "A bowl of fiery minced meat.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9996"},
+ :recipes
+ [{:materials [{:name "Minced meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "0"}],
+   :members_only true,
+   :ticks "0",
+   :tools "Gnome spice",
+   :facilities nil}
+  {:materials
+   [{:name "Minced meat", :quantity "1"}
+    {:name "Spice", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "0"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

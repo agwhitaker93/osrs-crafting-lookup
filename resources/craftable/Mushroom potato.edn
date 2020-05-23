@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Mushroom_potato",
+  :name "Mushroom potato",
+  :value "45",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7058",
+  :ge_value "0",
+  :id 7058,
+  :examine "A baked potato with mushroom and onions.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7058"},
+ :recipes
+ [{:materials
+   [{:name "Mushroom & onion", :quantity "1"}
+    {:name "Potato with butter", :quantity "1"}],
+   :skills [{:name "Cooking", :level "64", :exp "55"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

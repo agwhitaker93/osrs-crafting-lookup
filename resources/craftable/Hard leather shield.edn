@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Hard_leather_shield",
+  :name "Hard leather shield",
+  :value "500",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22269",
+  :ge_value "0",
+  :id 22269,
+  :examine "A solid oaken shield covered in hard leather.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22269"},
+ :recipes
+ [{:materials
+   [{:name "Hard leather", :quantity "2"}
+    {:name "Oak shield", :quantity "1"}
+    {:name "Bronze nails", :quantity "15"}],
+   :skills [{:name "Crafting", :level "41", :exp "70"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities nil}]}

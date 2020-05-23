@@ -1,0 +1,34 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Servery_pineapple_pizza",
+  :name "Servery pineapple pizza",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13412",
+  :ge_value "0",
+  :id 13412,
+  :examine "Put it on the servery table to feed the troops.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13412"},
+ :recipes
+ [{:materials
+   [{:name "Bowl of water", :quantity "1"}
+    {:name "Servery flour", :quantity "1"}
+    {:name "Servery tomato", :quantity "1"}
+    {:name "Servery cheese", :quantity "1"}
+    {:name "Servery pineapple", :quantity "1"}],
+   :skills [{:name "Cooking", :level "65", :exp "20"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Knife",
+   :facilities "Clay oven"}
+  {:materials
+   [{:name "Servery plain pizza", :quantity "1"}
+    {:name "Servery pineapple chunks", :quantity "1"}],
+   :skills [{:name "Cooking", :level "65", :exp "15"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

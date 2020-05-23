@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Iron_arrowtips",
+  :name "Iron arrowtips",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=40",
+  :ge_value "0",
+  :id 40,
+  :examine "I can make some arrows with these.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=40"},
+ :recipes
+ [{:materials [{:name "Iron bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "20", :exp "25"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

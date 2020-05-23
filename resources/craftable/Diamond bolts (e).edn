@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Diamond_bolts_%28e%29",
+  :name "Diamond bolts (e)",
+  :value "211",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9243",
+  :ge_value "0",
+  :id 9243,
+  :examine "Enchanted Diamond tipped Adamantite Crossbow Bolts.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9243"},
+ :recipes
+ [{:materials
+   [{:name "Diamond bolts", :quantity "10"}
+    {:name "Earth rune", :quantity "10"}
+    {:name "Cosmic rune", :quantity "1"}
+    {:name "Law rune", :quantity "2"}],
+   :skills [{:name "Magic", :level "57", :exp "67.0"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

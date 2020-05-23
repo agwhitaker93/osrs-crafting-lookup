@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Uncooked_pizza",
+  :name "Uncooked pizza",
+  :value "25",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2287",
+  :ge_value "0",
+  :id 2287,
+  :examine "This needs cooking.",
+  :members_only false,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2287"},
+ :recipes
+ [{:materials [{:name "Incomplete pizza", :quantity "1"}],
+   :skills [{:name "Cooking", :level "35", :exp "0"}],
+   :members_only false,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

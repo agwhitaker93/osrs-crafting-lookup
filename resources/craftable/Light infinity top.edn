@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Light_infinity_top",
+  :name "Light infinity top",
+  :value "140000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=12420",
+  :ge_value "0",
+  :id 12420,
+  :examine "Mystical robes with a light recolour.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=12420"},
+ :recipes
+ [{:materials
+   [{:name "Infinity top", :quantity "1"}
+    {:name "Light infinity colour kit", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

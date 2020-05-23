@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Salve_graveyard_teleport",
+  :name "Salve graveyard teleport (tablet)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19619",
+  :ge_value "0",
+  :id 19619,
+  :examine "A teleport to the Salve graveyard.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19619"},
+ :recipes
+ [{:materials
+   [{:name "Law rune", :quantity "1"}
+    {:name "Soul rune", :quantity "2"}
+    {:name "Dark essence block", :quantity "1"}],
+   :skills [{:name "Magic", :level "40", :exp "30"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

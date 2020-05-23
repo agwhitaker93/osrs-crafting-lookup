@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Steel_2h_sword",
+  :name "Steel 2h sword",
+  :value "1000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1311",
+  :ge_value "0",
+  :id 1311,
+  :examine "A two handed sword.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1311"},
+ :recipes
+ [{:materials [{:name "Steel bar", :quantity "3"}],
+   :skills [{:name "Smithing", :level "44", :exp "112.5"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Red_d%27hide_shield",
+  :name "Red d'hide shield",
+  :value "11000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22281",
+  :ge_value "0",
+  :id 22281,
+  :examine "A solid magic wood shield covered in red dragon leather.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22281"},
+ :recipes
+ [{:materials
+   [{:name "Red dragon leather", :quantity "2"}
+    {:name "Magic shield", :quantity "1"}
+    {:name "Adamantite nails", :quantity "15"}],
+   :skills [{:name "Crafting", :level "76", :exp "156"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities nil}]}

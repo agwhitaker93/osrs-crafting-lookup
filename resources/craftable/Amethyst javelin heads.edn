@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Amethyst_javelin_heads",
+  :name "Amethyst javelin heads",
+  :value "1520",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21352",
+  :ge_value "0",
+  :id 21352,
+  :examine "Needs a shaft.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21352"},
+ :recipes
+ [{:materials [{:name "Amethyst", :quantity "1"}],
+   :skills [{:name "Crafting", :level "87", :exp "60"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Chisel",
+   :facilities nil}]}

@@ -1,0 +1,26 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Pineapple_punch",
+  :name "Pineapple punch",
+  :value "30",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2048",
+  :ge_value "0",
+  :id 2048,
+  :examine "A fresh healthy fruit mix.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2048"},
+ :recipes
+ [{:materials
+   [{:name "Mixed punch", :quantity "1"}
+    {:name "Lime chunks", :quantity "1"}
+    {:name "Pineapple chunks", :quantity "1"}
+    {:name "Orange slices", :quantity "1"}
+    {:name "Cocktail glass", :quantity "1"}],
+   :skills [{:name "Cooking", :level "8", :exp "0"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

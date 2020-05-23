@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Dragon_sq_shield_%28g%29",
+  :name "Dragon sq shield (g)",
+  :value "500000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=12418",
+  :ge_value "0",
+  :id 12418,
+  :examine
+  "An ancient and powerful looking Dragon Square shield with gold trim.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=12418"},
+ :recipes
+ [{:materials
+   [{:name "Dragon sq shield", :quantity "1"}
+    {:name "Dragon sq shield ornament kit", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

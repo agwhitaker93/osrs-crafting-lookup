@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Unstrung_lyre",
+  :name "Unstrung lyre",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3688",
+  :ge_value "0",
+  :id 3688,
+  :examine "It's almost a musical instrument.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3688"},
+ :recipes
+ [{:materials [{:name "Branch", :quantity "1"}],
+   :skills [{:name "Crafting", :level "1", :exp "1"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}]}

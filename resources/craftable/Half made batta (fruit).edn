@@ -1,0 +1,26 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Half_made_batta",
+  :name "Half made batta (fruit)",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9478",
+  :ge_value "0",
+  :id 9478,
+  :examine "This fruit batta needs baking and garnishing with spice.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9478"},
+ :recipes
+ [{:materials
+   [{:name "Half baked batta", :quantity "1"}
+    {:name "Equa leaves", :quantity "4"}
+    {:name "Lime chunks", :quantity "1"}
+    {:name "Orange chunks", :quantity "1"}
+    {:name "Pineapple chunks", :quantity "1"}],
+   :skills [{:name "Cooking", :level "25", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

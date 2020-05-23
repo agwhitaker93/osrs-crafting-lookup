@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki
+  "https://oldschool.runescape.wiki/w/Dragonstone_amulet_%28u%29",
+  :name "Dragonstone amulet (u)",
+  :value "17625",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1683",
+  :ge_value "0",
+  :id 1683,
+  :examine "It needs a string so I can wear it.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1683"},
+ :recipes
+ [{:materials
+   [{:name "Gold bar", :quantity "1"}
+    {:name "Dragonstone", :quantity "1"}],
+   :skills [{:name "Crafting", :level "80", :exp "150"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Amulet mould",
+   :facilities "Furnace"}]}

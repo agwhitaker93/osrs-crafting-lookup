@@ -1,0 +1,31 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Candle_lantern",
+  :name "Candle lantern",
+  :value "15",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 4529,
+  :examine "A candle in a glass cage.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Empty candle lantern", :quantity "1"}
+    {:name "Candle", :quantity "1"}],
+   :skills [{:name "Firemaking", :level "4", :exp "0"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Empty candle lantern", :quantity "1"}
+    {:name "Black candle", :quantity "1"}],
+   :skills [{:name "Firemaking", :level "4", :exp "0"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

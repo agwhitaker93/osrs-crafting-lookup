@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Diamond_amulet",
+  :name "Diamond amulet",
+  :value "3525",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1700",
+  :ge_value "0",
+  :id 1700,
+  :examine "I wonder if I can get this enchanted.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1700"},
+ :recipes
+ [{:materials
+   [{:name "Diamond amulet (u)", :quantity "1"}
+    {:name "Ball of wool", :quantity "1"}],
+   :skills [{:name "Crafting", :level "1", :exp "4"}],
+   :members_only false,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

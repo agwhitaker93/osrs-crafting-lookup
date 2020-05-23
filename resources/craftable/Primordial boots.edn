@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Primordial_boots",
+  :name "Primordial boots",
+  :value "75000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13239",
+  :ge_value "0",
+  :id 13239,
+  :examine "A pair of upgraded dragon boots.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13239"},
+ :recipes
+ [{:materials
+   [{:name "Dragon boots", :quantity "1"}
+    {:name "Primordial crystal", :quantity "1"}],
+   :skills
+   [{:name "Magic", :level "60", :exp "200"}
+    {:name "Runecraft", :level "60", :exp "200"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

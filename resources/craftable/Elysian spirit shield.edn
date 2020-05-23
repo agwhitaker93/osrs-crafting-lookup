@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Elysian_spirit_shield",
+  :name "Elysian spirit shield",
+  :value "2000000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=12817",
+  :ge_value "0",
+  :id 12817,
+  :examine "An ethereal shield with an elysian sigil attached to it.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=12817"},
+ :recipes
+ [{:materials
+   [{:name "Blessed spirit shield", :quantity "1"}
+    {:name "Elysian sigil", :quantity "1"}],
+   :skills
+   [{:name "Prayer", :level "90", :exp "0"}
+    {:name "Smithing", :level "85", :exp "1800"}],
+   :members_only true,
+   :ticks nil,
+   :tools "Hammer",
+   :facilities "Anvil"}]}

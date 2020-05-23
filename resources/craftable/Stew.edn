@@ -1,0 +1,39 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Stew",
+  :name "Stew",
+  :value "20",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2003",
+  :ge_value "0",
+  :id 2003,
+  :examine "It's a meat and potato stew.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2003"},
+ :recipes
+ [{:materials
+   [{:name "Bowl of water", :quantity "1"}
+    {:name "Potato", :quantity "1"}
+    {:name "Cooked meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "25", :exp "117"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}
+  {:materials
+   [{:name "Bowl of water", :quantity "1"}
+    {:name "Potato", :quantity "1"}
+    {:name "Cooked chicken", :quantity "1"}],
+   :skills [{:name "Cooking", :level "25", :exp "117"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}
+  {:materials [{:name "Uncooked stew", :quantity "1"}],
+   :skills [{:name "Cooking", :level "25", :exp "117"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

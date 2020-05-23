@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Pyre_logs",
+  :name "Pyre logs",
+  :value "8",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3438",
+  :ge_value "0",
+  :id 3438,
+  :examine "Logs prepared with sacred oil for a funeral pyre.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3438"},
+ :recipes
+ [{:materials
+   [{:name "Logs", :quantity "1"}
+    {:name "Sacred oil(2)", :quantity "1"}],
+   :skills [{:name "Firemaking", :level "5", :exp "12"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

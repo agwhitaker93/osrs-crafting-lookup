@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki
+  "https://oldschool.runescape.wiki/w/Lumbridge_graveyard_teleport",
+  :name "Lumbridge graveyard teleport (tablet)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19613",
+  :ge_value "0",
+  :id 19613,
+  :examine "A teleport to Lumbridge graveyard.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19613"},
+ :recipes
+ [{:materials
+   [{:name "Law rune", :quantity "1"}
+    {:name "Earth rune", :quantity "2"}
+    {:name "Dark essence block", :quantity "1"}],
+   :skills [{:name "Magic", :level "6", :exp "10"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

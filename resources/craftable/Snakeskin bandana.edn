@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Snakeskin_bandana",
+  :name "Snakeskin bandana",
+  :value "300",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6326",
+  :ge_value "0",
+  :id 6326,
+  :examine "Lightweight head protection.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6326"},
+ :recipes
+ [{:materials
+   [{:name "Snakeskin", :quantity "5"}
+    {:name "Thread", :quantity "1"}],
+   :skills [{:name "Crafting", :level "48", :exp "45"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Needle",
+   :facilities nil}]}

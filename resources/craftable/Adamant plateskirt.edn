@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Adamant_plateskirt",
+  :name "Adamant plateskirt",
+  :value "6400",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1091",
+  :ge_value "0",
+  :id 1091,
+  :examine "Designer leg protection.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1091"},
+ :recipes
+ [{:materials [{:name "Adamantite bar", :quantity "3"}],
+   :skills [{:name "Smithing", :level "86", :exp "187.5"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

@@ -1,0 +1,26 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Crystal pickaxe",
+  :value "520000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 23680,
+  :examine "If rocks could feel fear, they'd fear this.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Dragon pickaxe", :quantity "1"}
+    {:name "Crystal tool seed", :quantity "1"}
+    {:name "Crystal shard", :quantity "120"}],
+   :skills
+   [{:name "Smithing", :level "76", :exp "6,000"}
+    {:name "Crafting", :level "76", :exp "6,000"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Singing bowl"}]}

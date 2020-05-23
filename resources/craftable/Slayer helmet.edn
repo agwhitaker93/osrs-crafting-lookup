@@ -1,0 +1,27 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Slayer_helmet",
+  :name "Slayer helmet",
+  :value "40000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11864",
+  :ge_value "0",
+  :id 11864,
+  :examine "You don't want to wear it inside-out.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11864"},
+ :recipes
+ [{:materials
+   [{:name "Black mask", :quantity "1"}
+    {:name "Earmuffs", :quantity "1"}
+    {:name "Facemask", :quantity "1"}
+    {:name "Nose peg", :quantity "1"}
+    {:name "Spiny helmet", :quantity "1"}
+    {:name "Enchanted gem", :quantity "1"}],
+   :skills [{:name "Crafting", :level "55", :exp "100"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

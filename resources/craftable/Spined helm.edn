@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Spined_helm",
+  :name "Spined helm",
+  :value "60000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6131",
+  :ge_value "0",
+  :id 6131,
+  :examine "A helm fit for any Fremennik ranger.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6131"},
+ :recipes
+ [{:materials
+   [{:name "Dagannoth hide", :quantity "1"}
+    {:name "Circular hide", :quantity "1"}
+    {:name "Coins", :quantity "5000"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Sigli the Huntsman"}]}

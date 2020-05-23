@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Broken_bark_snelm",
+  :name "Broken bark snelm",
+  :value "300",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3335",
+  :ge_value "0",
+  :id 3335,
+  :examine "An orange and bark coloured snail shell helmet.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3335"},
+ :recipes
+ [{:materials [{:name "Blamish bark shell", :quantity "1"}],
+   :skills [{:name "Crafting", :level "15", :exp "32.5"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Chisel",
+   :facilities nil}]}

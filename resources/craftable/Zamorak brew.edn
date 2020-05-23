@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Zamorak brew",
+  :value "125",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 193,
+  :examine "1 dose of Zamorak brew.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Torstol potion (unf)", :quantity "1"}
+    {:name "Jangerberries", :quantity "1"}],
+   :skills [{:name "Herblore", :level "78", :exp "175"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

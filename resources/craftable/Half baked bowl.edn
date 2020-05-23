@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Half_baked_bowl",
+  :name "Half baked bowl",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2177",
+  :ge_value "0",
+  :id 2177,
+  :examine "This gnome bowl is in the early stages of preparation.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2177"},
+ :recipes
+ [{:materials [{:name "Raw gnomebowl", :quantity "1"}],
+   :skills [{:name "Cooking", :level "30", :exp "0"}],
+   :members_only true,
+   :ticks "4",
+   :tools nil,
+   :facilities "Cooking range"}]}

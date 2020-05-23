@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Mahogany_plank",
+  :name "Mahogany plank",
+  :value "1500",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8782",
+  :ge_value "0",
+  :id 8782,
+  :examine "A plank of expensive mahogany.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8782"},
+ :recipes
+ [{:materials
+   [{:name "Mahogany logs", :quantity "1"}
+    {:name "Coins", :quantity "1500"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Sawmill"}]}

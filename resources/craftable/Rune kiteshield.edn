@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Rune_kiteshield",
+  :name "Rune kiteshield",
+  :value "54400",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1201",
+  :ge_value "0",
+  :id 1201,
+  :examine "A large metal shield.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1201"},
+ :recipes
+ [{:materials [{:name "Runite bar", :quantity "3"}],
+   :skills [{:name "Smithing", :level "97", :exp "225"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

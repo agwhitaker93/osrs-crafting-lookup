@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Incomplete_heavy_ballista",
+  :name "Incomplete heavy ballista",
+  :value "50000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19598",
+  :ge_value "0",
+  :id 19598,
+  :examine "The limbs have been attached to the frame.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19598"},
+ :recipes
+ [{:materials
+   [{:name "Heavy frame", :quantity "1"}
+    {:name "Ballista limbs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "72", :exp "30"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

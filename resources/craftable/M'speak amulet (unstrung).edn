@@ -1,0 +1,22 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/M%27speak_amulet",
+  :name "M'speak amulet (unstrung)",
+  :value "500",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4022",
+  :ge_value "0",
+  :id 4022,
+  :examine
+  "It's an unstrung Amulet of Monkey Speak. It makes vague chattering noises.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4022"},
+ :recipes
+ [{:materials [{:name "Enchanted bar", :quantity "1"}],
+   :skills [{:name "Crafting", :level "1", :exp "200"}],
+   :members_only true,
+   :ticks nil,
+   :tools "M'amulet mould",
+   :facilities "Wall of flame"}]}

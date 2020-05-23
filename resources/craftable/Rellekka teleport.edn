@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Rellekka_teleport",
+  :name "Rellekka teleport",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11744",
+  :ge_value "0",
+  :id 11744,
+  :examine "This tablet has been redirected to the Rellekka portal.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11744"},
+ :recipes
+ [{:materials
+   [{:name "Teleport to house (tablet)", :quantity "1"}
+    {:name "Scroll of redirection", :quantity "1"}],
+   :skills [{:name "Construction", :level "30", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

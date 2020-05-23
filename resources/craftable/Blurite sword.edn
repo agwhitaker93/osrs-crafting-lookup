@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Blurite_sword",
+  :name "Blurite sword",
+  :value "200",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=667",
+  :ge_value "0",
+  :id 667,
+  :examine "A Faladian Knight's sword.",
+  :members_only false,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=667"},
+ :recipes
+ [{:materials
+   [{:name "Iron bar", :quantity "2"}
+    {:name "Blurite ore", :quantity "1"}],
+   :skills [],
+   :members_only false,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

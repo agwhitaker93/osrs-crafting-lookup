@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Chaos_tiara",
+  :name "Chaos tiara",
+  :value "100",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5543",
+  :ge_value "0",
+  :id 5543,
+  :examine "A tiara infused with the properties of chaos.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5543"},
+ :recipes
+ [{:materials
+   [{:name "Tiara", :quantity "1"}
+    {:name "Chaos talisman", :quantity "1"}],
+   :skills [{:name "Runecraft", :level "0", :exp "42.5"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities "Chaos altar"}]}

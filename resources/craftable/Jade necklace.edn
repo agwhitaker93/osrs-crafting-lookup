@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Jade_necklace",
+  :name "Jade necklace",
+  :value "1275",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21093",
+  :ge_value "0",
+  :id 21093,
+  :examine "I wonder if this is valuable.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21093"},
+ :recipes
+ [{:materials
+   [{:name "Jade", :quantity "1"} {:name "Silver bar", :quantity "1"}],
+   :skills [{:name "Crafting", :level "25", :exp "54"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Necklace mould",
+   :facilities "furnace"}]}

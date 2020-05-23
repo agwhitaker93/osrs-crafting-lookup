@@ -1,0 +1,31 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Ugthanki_%26_onion",
+  :name "Ugthanki & onion",
+  :value "7",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1877",
+  :ge_value "0",
+  :id 1877,
+  :examine "A mixture of chopped onions and ugthanki meat in a bowl.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1877"},
+ :recipes
+ [{:materials
+   [{:name "Chopped onion", :quantity "1"}
+    {:name "Ugthanki meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Chopped ugthanki", :quantity "1"}
+    {:name "Onion", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

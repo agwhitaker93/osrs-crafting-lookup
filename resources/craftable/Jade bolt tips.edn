@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Jade_bolt_tips",
+  :name "Jade bolt tips",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9187",
+  :ge_value "0",
+  :id 9187,
+  :examine "Jade bolt tips.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9187"},
+ :recipes
+ [{:materials [{:name "Jade", :quantity "1"}],
+   :skills [{:name "Fletching", :level "26", :exp "2"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Chisel",
+   :facilities nil}]}

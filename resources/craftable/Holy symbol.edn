@@ -1,0 +1,27 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Holy_symbol",
+  :name "Holy symbol",
+  :value "300",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1718",
+  :ge_value "0",
+  :id 1718,
+  :examine "A blessed holy symbol of Saradomin.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1718"},
+ :recipes
+ [{:materials [{:name "Unblessed symbol", :quantity "1"}],
+   :skills [{:name "Prayer", :level "50", :exp "0"}],
+   :members_only true,
+   :ticks "4",
+   :tools "Holy book, Book of balance",
+   :facilities nil}
+  {:materials [{:name "Unblessed symbol", :quantity "1"}],
+   :skills [{:name "Prayer", :level "31", :exp "0"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Brother Jered"}]}

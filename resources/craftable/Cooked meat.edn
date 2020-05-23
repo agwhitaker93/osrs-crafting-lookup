@@ -1,0 +1,39 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Cooked_meat",
+  :name "Cooked meat",
+  :value "4",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2142",
+  :ge_value "0",
+  :id 2142,
+  :examine "Mmm this looks tasty.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2142"},
+ :recipes
+ [{:materials [{:name "Raw beef", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "30"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}
+  {:materials [{:name "Raw bear meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "30"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}
+  {:materials [{:name "Raw rat meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "30"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}
+  {:materials [{:name "Raw yak meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "40"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

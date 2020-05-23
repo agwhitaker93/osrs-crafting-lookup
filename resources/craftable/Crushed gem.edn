@@ -1,0 +1,33 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Crushed_gem",
+  :name "Crushed gem",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1633",
+  :ge_value "0",
+  :id 1633,
+  :examine "This gem is crushed and broken.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1633"},
+ :recipes
+ [{:materials [{:name "Uncut opal", :quantity "1"}],
+   :skills [{:name "Crafting", :level "1", :exp "3.8"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Chisel",
+   :facilities nil}
+  {:materials [{:name "Uncut jade", :quantity "1"}],
+   :skills [{:name "Crafting", :level "13", :exp "5"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Chisel",
+   :facilities nil}
+  {:materials [{:name "Uncut red topaz", :quantity "1"}],
+   :skills [{:name "Crafting", :level "16", :exp "6.3"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Chisel",
+   :facilities nil}]}

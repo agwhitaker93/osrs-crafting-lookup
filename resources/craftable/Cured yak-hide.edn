@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Cured_yak-hide",
+  :name "Cured yak-hide",
+  :value "100",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10820",
+  :ge_value "0",
+  :id 10820,
+  :examine "Ready to be cut and sewn into armour.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10820"},
+ :recipes
+ [{:materials
+   [{:name "Yak-hide", :quantity "1"} {:name "Coins", :quantity "5"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Thakkrad Sigmundson"}]}

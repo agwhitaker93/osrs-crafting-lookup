@@ -1,0 +1,22 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Salve_amulet_%28e%29",
+  :name "Salve amulet (e)",
+  :value "300",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10588",
+  :ge_value "0",
+  :id 10588,
+  :examine
+  "Increases the wearer's Strength and accuracy by 20% when fighting the undead.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10588"},
+ :recipes
+ [{:materials [{:name "Salve amulet", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools "Tarn's diary",
+   :facilities nil}]}

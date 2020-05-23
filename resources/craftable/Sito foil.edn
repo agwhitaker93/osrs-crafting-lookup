@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Sito_foil",
+  :name "Sito foil",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1530",
+  :ge_value "0",
+  :id 1530,
+  :examine "This herb is Sito Foil.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1530"},
+ :recipes
+ [{:materials [{:name "Grimy sito foil", :quantity "1"}],
+   :skills [{:name "Herblore", :level "3", :exp "2.5"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

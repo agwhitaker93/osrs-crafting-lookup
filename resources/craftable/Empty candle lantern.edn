@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Empty_candle_lantern",
+  :name "Empty candle lantern",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4527",
+  :ge_value "0",
+  :id 4527,
+  :examine "Put a candle in to complete it.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4527"},
+ :recipes
+ [{:materials [{:name "Molten glass", :quantity "1"}],
+   :skills [{:name "Crafting", :level "4", :exp "19"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Glassblowing pipe",
+   :facilities nil}]}

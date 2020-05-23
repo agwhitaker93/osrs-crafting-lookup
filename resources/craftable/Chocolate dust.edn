@@ -1,0 +1,27 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Chocolate_dust",
+  :name "Chocolate dust",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1975",
+  :ge_value "0",
+  :id 1975,
+  :examine "It's ground up chocolate.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1975"},
+ :recipes
+ [{:materials [{:name "Chocolate bar", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools "Pestle and mortar",
+   :facilities nil}
+  {:materials [{:name "Chocolate bar", :quantity "1"}],
+   :skills [],
+   :members_only false,
+   :ticks "0",
+   :tools "Knife",
+   :facilities nil}]}

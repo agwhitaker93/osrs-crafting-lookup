@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki
+  "https://oldschool.runescape.wiki/w/Cadantine_blood_potion_%28unf%29",
+  :name "Cadantine blood potion (unf)",
+  :value "165",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22443",
+  :ge_value "0",
+  :id 22443,
+  :examine "I need another ingredient to finish this blood potion.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22443"},
+ :recipes
+ [{:materials
+   [{:name "Cadantine", :quantity "1"}
+    {:name "Vial of blood", :quantity "1"}],
+   :skills [{:name "Herblore", :level "80", :exp "N/A"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

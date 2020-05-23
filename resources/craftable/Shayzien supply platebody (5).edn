@@ -1,0 +1,22 @@
+{:meta
+ {:tradable false,
+  :wiki
+  "https://oldschool.runescape.wiki/w/Shayzien_supply_platebody_%285%29",
+  :name "Shayzien supply platebody (5)",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13562",
+  :ge_value "0",
+  :id 13562,
+  :examine "Supplies for the Shayzien soldiers.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13562"},
+ :recipes
+ [{:materials [{:name "Lovakite bar", :quantity "4"}],
+   :skills [{:name "Smithing", :level "93", :exp "40"}],
+   :members_only true,
+   :ticks "4",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

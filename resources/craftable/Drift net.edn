@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Drift_net",
+  :name "Drift net",
+  :value "20",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21652",
+  :ge_value "0",
+  :id 21652,
+  :examine "A very large net, too big to be used by hand.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21652"},
+ :recipes
+ [{:materials [{:name "Jute fibre", :quantity "2"}],
+   :skills [{:name "Crafting", :level "26", :exp "55"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Loom"}]}

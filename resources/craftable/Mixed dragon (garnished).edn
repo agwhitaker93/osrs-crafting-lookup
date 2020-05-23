@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Mixed_dragon",
+  :name "Mixed dragon (garnished)",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9576",
+  :ge_value "0",
+  :id 9576,
+  :examine "This Drunk Dragon needs heating to finish.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9576"},
+ :recipes
+ [{:materials
+   [{:name "Mixed dragon (poured)", :quantity "1"}
+    {:name "Pineapple chunks", :quantity "1"}
+    {:name "Pot of cream", :quantity "1"}],
+   :skills [{:name "Cooking", :level "32", :exp "0"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

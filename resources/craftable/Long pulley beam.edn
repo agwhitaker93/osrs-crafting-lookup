@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Long_pulley_beam",
+  :name "Long pulley beam",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7970",
+  :ge_value "0",
+  :id 7970,
+  :examine "A long beam with a pulley attached.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7970"},
+ :recipes
+ [{:materials
+   [{:name "Beam", :quantity "1"}
+    {:name "Pulley beam", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Dark_infinity_hat",
+  :name "Dark infinity hat",
+  :value "17000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=12457",
+  :ge_value "0",
+  :id 12457,
+  :examine "A mystic hat with a dark recolour.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=12457"},
+ :recipes
+ [{:materials
+   [{:name "Infinity hat", :quantity "1"}
+    {:name "Dark infinity colour kit", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Lyre",
+  :name "Lyre",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3689",
+  :ge_value "0",
+  :id 3689,
+  :examine "It's a musical instrument I don't know how to play.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3689"},
+ :recipes
+ [{:materials
+   [{:name "Unstrung lyre", :quantity "1"}
+    {:name "Golden wool", :quantity "1"}],
+   :skills [{:name "Fletching", :level "25", :exp "1"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

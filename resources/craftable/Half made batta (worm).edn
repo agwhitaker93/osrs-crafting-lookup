@@ -1,0 +1,25 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Half_made_batta",
+  :name "Half made batta (worm)",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9480",
+  :ge_value "0",
+  :id 9480,
+  :examine
+  "This worm batta needs baking and garnishing with equa leaves.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9480"},
+ :recipes
+ [{:materials
+   [{:name "Half baked batta", :quantity "1"}
+    {:name "King worm", :quantity "1"}
+    {:name "Cheese", :quantity "1"}],
+   :skills [{:name "Cooking", :level "27", :exp "40"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Gnome spice",
+   :facilities nil}]}

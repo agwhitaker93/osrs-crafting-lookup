@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Torstol",
+  :name "Torstol",
+  :value "75",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=269",
+  :ge_value "0",
+  :id 269,
+  :examine "A powerful herb.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=269"},
+ :recipes
+ [{:materials [{:name "Grimy torstol", :quantity "1"}],
+   :skills [{:name "Herblore", :level "75", :exp "15"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

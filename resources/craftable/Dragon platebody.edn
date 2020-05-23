@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Dragon_platebody",
+  :name "Dragon platebody",
+  :value "2000000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21892",
+  :ge_value "0",
+  :id 21892,
+  :examine "Provides excellent protection.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21892"},
+ :recipes
+ [{:materials
+   [{:name "Dragon chainbody", :quantity "1"}
+    {:name "Dragon metal lump", :quantity "1"}
+    {:name "Dragon metal shard", :quantity "1"}],
+   :skills [{:name "Smithing", :level "90", :exp "2000"}],
+   :members_only true,
+   :ticks nil,
+   :tools "Hammer",
+   :facilities "Dragon forge"}]}

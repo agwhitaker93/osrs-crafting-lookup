@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Clockwork_suit",
+  :name "Clockwork suit",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10595,10596",
+  :ge_value "0",
+  :id 1059510596,
+  :examine "A clockwork penguin suit.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10595,10596"},
+ :recipes
+ [{:materials
+   [{:name "Clockwork", :quantity "1"}
+    {:name "Plank", :quantity "1"}
+    {:name "Silk", :quantity "1"}],
+   :skills [{:name "Crafting", :level "30", :exp "15"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Crafting table 3"}]}

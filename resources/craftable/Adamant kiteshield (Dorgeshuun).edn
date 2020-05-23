@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Adamant_kiteshield",
+  :name "Adamant kiteshield (Dorgeshuun)",
+  :value "5440",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22131",
+  :ge_value "0",
+  :id 22131,
+  :examine "A shield with a picture of the Dorgeshuun brooch.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22131"},
+ :recipes
+ [{:materials [{:name "Adamant kiteshield", :quantity "1"}],
+   :skills
+   [{:name "Crafting", :level "43", :exp "40"}
+    {:name "Construction", :level "16", :exp "0"}],
+   :members_only true,
+   :ticks "6",
+   :tools nil,
+   :facilities "Shield easel"}]}

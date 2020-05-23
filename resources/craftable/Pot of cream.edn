@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Pot_of_cream",
+  :name "Pot of cream",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2130",
+  :ge_value "0",
+  :id 2130,
+  :examine "Fresh cream.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2130"},
+ :recipes
+ [{:materials [{:name "Bucket of milk", :quantity "1"}],
+   :skills [{:name "Cooking", :level "21", :exp "18"}],
+   :members_only true,
+   :ticks "10",
+   :tools nil,
+   :facilities "Dairy churn"}]}

@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bones_to_peaches",
+  :name "Bones to peaches (tablet)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8015",
+  :ge_value "0",
+  :id 8015,
+  :examine "A tablet containing a magic spell.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8015"},
+ :recipes
+ [{:materials
+   [{:name "Nature rune", :quantity "2"}
+    {:name "Earth rune", :quantity "4"}
+    {:name "Water rune", :quantity "4"}
+    {:name "Soft clay", :quantity "1"}],
+   :skills [{:name "Magic", :level "60", :exp "35.5"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities "Mahogany demon lectern"}]}

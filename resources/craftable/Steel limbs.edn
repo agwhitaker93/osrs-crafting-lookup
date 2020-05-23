@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Steel_limbs",
+  :name "Steel limbs",
+  :value "250",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9425",
+  :ge_value "0",
+  :id 9425,
+  :examine "A pair of steel crossbow limbs.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9425"},
+ :recipes
+ [{:materials [{:name "Steel bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "36", :exp "37.5"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

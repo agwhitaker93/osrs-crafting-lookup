@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Lunar_gloves",
+  :name "Lunar gloves",
+  :value "100",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9099",
+  :ge_value "0",
+  :id 9099,
+  :examine "These should keep my hands safe.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9099"},
+ :recipes
+ [{:materials
+   [{:name "Suqah leather", :quantity "1"}
+    {:name "Thread", :quantity "1"}],
+   :skills [{:name "Crafting", :level "61", :exp "25"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Needle",
+   :facilities nil}]}

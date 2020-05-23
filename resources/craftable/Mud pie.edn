@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Mud_pie",
+  :name "Mud pie",
+  :value "54",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7170",
+  :ge_value "0",
+  :id 7170,
+  :examine "All the good of the earth.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7170"},
+ :recipes
+ [{:materials [{:name "Raw mud pie", :quantity "1"}],
+   :skills [{:name "Cooking", :level "29", :exp "128"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

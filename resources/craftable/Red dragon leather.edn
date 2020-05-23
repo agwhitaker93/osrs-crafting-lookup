@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Red_dragon_leather",
+  :name "Red dragon leather",
+  :value "90",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2507",
+  :ge_value "0",
+  :id 2507,
+  :examine "It's a piece of prepared red dragonhide.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2507"},
+ :recipes
+ [{:materials
+   [{:name "Red dragonhide", :quantity "1"}
+    {:name "Coins", :quantity "20"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

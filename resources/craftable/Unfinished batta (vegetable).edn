@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Unfinished_batta",
+  :name "Unfinished batta (vegetable)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2279",
+  :ge_value "0",
+  :id 2279,
+  :examine
+  "This batta is just missing those little finishing touches.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2279"},
+ :recipes
+ [{:materials [{:name "Half made batta (vegetable)", :quantity "1"}],
+   :skills [{:name "Cooking", :level "28", :exp "0"}],
+   :members_only true,
+   :ticks "4",
+   :tools nil,
+   :facilities "Cooking range"}]}

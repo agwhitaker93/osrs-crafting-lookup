@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Pearl_bolts",
+  :name "Pearl bolts",
+  :value "13",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=880",
+  :ge_value "0",
+  :id 880,
+  :examine "Pearl tipped Iron crossbow bolts.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=880"},
+ :recipes
+ [{:materials
+   [{:name "Iron bolts", :quantity "10"}
+    {:name "Pearl bolt tips", :quantity "10"}],
+   :skills [{:name "Fletching", :level "41", :exp "32"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Topaz_dragon_bolts",
+  :name "Topaz dragon bolts",
+  :value "700",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21961",
+  :ge_value "0",
+  :id 21961,
+  :examine "Dragon crossbow bolts, tipped with red topaz.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21961"},
+ :recipes
+ [{:materials
+   [{:name "Dragon bolts", :quantity "10"}
+    {:name "Topaz bolt tips", :quantity "10"}],
+   :skills [{:name "Fletching", :level "84", :exp "39"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

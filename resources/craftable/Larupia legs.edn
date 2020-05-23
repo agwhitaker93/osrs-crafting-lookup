@@ -1,0 +1,32 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Larupia_legs",
+  :name "Larupia legs",
+  :value "100",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10041",
+  :ge_value "0",
+  :id 10041,
+  :examine
+  "These should make me harder to spot in woodland and jungle areas.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10041"},
+ :recipes
+ [{:materials
+   [{:name "Larupia fur", :quantity "1"}
+    {:name "Coins", :quantity "100"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities "Fancy Clothes Store"}
+  {:materials
+   [{:name "Tatty larupia fur", :quantity "1"}
+    {:name "Coins", :quantity "100"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities "Fancy Clothes Store"}]}

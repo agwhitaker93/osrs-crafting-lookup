@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Godsword_shards_2_%26_3",
+  :name "Godsword shards 2 & 3",
+  :value "500000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11800",
+  :ge_value "0",
+  :id 11800,
+  :examine "Godsword shards 2 and 3.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11800"},
+ :recipes
+ [{:materials
+   [{:name "Godsword shard 2", :quantity "1"}
+    {:name "Godsword shard 3", :quantity "1"}],
+   :skills [{:name "Smithing", :level "80", :exp "100"}],
+   :members_only true,
+   :ticks "7",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

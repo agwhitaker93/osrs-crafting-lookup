@@ -1,0 +1,25 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Infernal harpoon",
+  :value "99801",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 21031,
+  :examine "A very powerful, fiery harpoon.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Dragon harpoon", :quantity "1"}
+    {:name "Smouldering stone", :quantity "1"}],
+   :skills
+   [{:name "Fishing", :level "75", :exp "200"}
+    {:name "Cooking", :level "85", :exp "350"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

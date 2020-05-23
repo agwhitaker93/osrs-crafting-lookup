@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Skeletal_bottoms",
+  :name "Skeletal bottoms",
+  :value "40000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6141",
+  :ge_value "0",
+  :id 6141,
+  :examine
+  "A superior set of strengthened slacks for any self respecting seer.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6141"},
+ :recipes
+ [{:materials
+   [{:name "Dagannoth hide", :quantity "2"}
+    {:name "Fibula piece", :quantity "1"}
+    {:name "Coins", :quantity "7500"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Peer the Seer"}]}

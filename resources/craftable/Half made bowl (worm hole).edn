@@ -1,0 +1,25 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Half_made_bowl",
+  :name "Half made bowl (worm hole)",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9559",
+  :ge_value "0",
+  :id 9559,
+  :examine
+  "This unfinished worm hole needs baking and garnishing with equa leaves.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9559"},
+ :recipes
+ [{:materials
+   [{:name "Half baked bowl", :quantity "1"}
+    {:name "King worm", :quantity "4"}
+    {:name "Onion", :quantity "2"}],
+   :skills [{:name "Cooking", :level "30", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Gnome spice",
+   :facilities nil}]}

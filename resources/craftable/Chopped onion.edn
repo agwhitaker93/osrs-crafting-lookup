@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Chopped_onion",
+  :name "Chopped onion",
+  :value "3",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1871",
+  :ge_value "0",
+  :id 1871,
+  :examine "A mixture of onions in a bowl.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1871"},
+ :recipes
+ [{:materials
+   [{:name "Bowl", :quantity "1"} {:name "Onion", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Knife",
+   :facilities nil}]}

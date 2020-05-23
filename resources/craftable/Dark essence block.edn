@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Dark_essence_block",
+  :name "Dark essence block",
+  :value "30",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13446",
+  :ge_value "0",
+  :id 13446,
+  :examine "A dark power infests this dense essence block.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13446"},
+ :recipes
+ [{:materials [{:name "Dense essence block", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Dark Altar"}]}

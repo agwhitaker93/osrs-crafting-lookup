@@ -1,0 +1,22 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/V_sigil",
+  :name "V sigil",
+  :value "100",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=24258",
+  :ge_value "0",
+  :id 24258,
+  :examine
+  "A sigil of V, needing to be enchanted by a powerful spirit before able to be adorned on his mighty shield.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=24258"},
+ :recipes
+ [{:materials [{:name "Lunar bar", :quantity "3"}],
+   :skills [{:name "Smithing", :level "60", :exp "25"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

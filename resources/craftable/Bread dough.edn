@@ -1,0 +1,39 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bread_dough",
+  :name "Bread dough",
+  :value "4",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2307",
+  :ge_value "0",
+  :id 2307,
+  :examine "Some uncooked dough.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2307"},
+ :recipes
+ [{:materials
+   [{:name "Pot of flour", :quantity "1"}
+    {:name "Bucket of water", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Pot of flour", :quantity "1"}
+    {:name "Bowl of water", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Pot of flour", :quantity "1"}
+    {:name "Jug of water", :quantity "1"}],
+   :skills [{:name "Cooking", :level "0", :exp "0"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

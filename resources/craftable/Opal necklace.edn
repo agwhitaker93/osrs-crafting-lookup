@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Opal_necklace",
+  :name "Opal necklace",
+  :value "1050",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21090",
+  :ge_value "0",
+  :id 21090,
+  :examine "I wonder if this is valuable.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21090"},
+ :recipes
+ [{:materials
+   [{:name "Opal", :quantity "1"} {:name "Silver bar", :quantity "1"}],
+   :skills [{:name "Crafting", :level "16", :exp "35"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Necklace mould",
+   :facilities nil}]}

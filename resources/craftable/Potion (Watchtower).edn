@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Potion",
+  :name "Potion (Watchtower)",
+  :value "120",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2394",
+  :ge_value "0",
+  :id 2394,
+  :examine "A strange brew.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2394"},
+ :recipes
+ [{:materials
+   [{:name "Vial (jangerberries and guam leaf)", :quantity "1"}
+    {:name "Ground bat bones", :quantity "1"}],
+   :skills [{:name "Herblore", :level "14", :exp "10"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

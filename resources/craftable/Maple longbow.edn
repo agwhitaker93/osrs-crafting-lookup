@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Maple_longbow",
+  :name "Maple longbow",
+  :value "640",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=851",
+  :ge_value "0",
+  :id 851,
+  :examine "A nice sturdy bow made out of Maple.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=851"},
+ :recipes
+ [{:materials
+   [{:name "Maple longbow (u)", :quantity "1"}
+    {:name "Bow string", :quantity "1"}],
+   :skills [{:name "Fletching", :level "55", :exp "58.3"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

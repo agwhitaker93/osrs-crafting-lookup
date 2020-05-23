@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Zamorakian_hasta",
+  :name "Zamorakian hasta",
+  :value "300000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11889",
+  :ge_value "0",
+  :id 11889,
+  :examine "An evil one-handed spear.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11889"},
+ :recipes
+ [{:materials
+   [{:name "Zamorakian spear", :quantity "1"}
+    {:name "Coins", :quantity "300000"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Otto Godblessed"}]}

@@ -1,0 +1,25 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Mixed_punch",
+  :name "Mixed punch",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9569",
+  :ge_value "0",
+  :id 9569,
+  :examine
+  "This Pineapple Punch needs pouring, lime and pineapple chunks and a",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9569"},
+ :recipes
+ [{:materials
+   [{:name "Pineapple", :quantity "2"}
+    {:name "Lemon", :quantity "1"}
+    {:name "Orange", :quantity "1"}],
+   :skills [{:name "Cooking", :level "8", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Cocktail shaker",
+   :facilities nil}]}

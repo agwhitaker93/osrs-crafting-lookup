@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Nettle-water",
+  :name "Nettle-water",
+  :value "4",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4237",
+  :ge_value "0",
+  :id 4237,
+  :examine "It's a bowl of water, with some nettles in it.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4237"},
+ :recipes
+ [{:materials
+   [{:name "Nettles", :quantity "1"}
+    {:name "Bowl of water", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "1"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

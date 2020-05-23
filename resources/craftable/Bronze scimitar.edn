@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bronze_scimitar",
+  :name "Bronze scimitar",
+  :value "32",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1321",
+  :ge_value "0",
+  :id 1321,
+  :examine "A vicious, curved sword.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1321"},
+ :recipes
+ [{:materials [{:name "Bronze bar", :quantity "2"}],
+   :skills [{:name "Smithing", :level "5", :exp "25"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

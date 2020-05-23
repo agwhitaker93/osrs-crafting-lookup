@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Redwood_sapling",
+  :name "Redwood sapling",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22859",
+  :ge_value "0",
+  :id 22859,
+  :examine "This sapling is ready to be replanted in a Redwood patch.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22859"},
+ :recipes
+ [{:materials [{:name "Redwood seedling (w)", :quantity "1"}],
+   :skills [{:name "Farming", :level "90", :exp "0"}],
+   :members_only true,
+   :ticks "Varies",
+   :tools nil,
+   :facilities nil}]}

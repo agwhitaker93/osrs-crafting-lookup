@@ -1,0 +1,33 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Sanfew serum",
+  :value "120",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 10931,
+  :examine "A 1 dose Sanfew Serum.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Super restore(4)", :quantity "1"}
+    {:name "Unicorn horn dust", :quantity "1"}
+    {:name "Snake weed", :quantity "1"}
+    {:name "Nail beast nails", :quantity "1"}],
+   :skills [{:name "Herblore", :level "65", :exp "192"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Mixture - step 2(4)", :quantity "1"}
+    {:name "Nail beast nails", :quantity "1"}],
+   :skills [{:name "Herblore", :level "65", :exp "72"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

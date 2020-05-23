@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Rune_nails",
+  :name "Rune nails",
+  :value "220",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4824",
+  :ge_value "0",
+  :id 4824,
+  :examine "Keeps things in place fairly permanently.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4824"},
+ :recipes
+ [{:materials [{:name "Runite bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "89", :exp "75"}],
+   :members_only true,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

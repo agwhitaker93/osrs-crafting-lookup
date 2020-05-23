@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Zulrah%27s_scales",
+  :name "Zulrah's scales",
+  :value "20",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=12934",
+  :ge_value "0",
+  :id 12934,
+  :examine "Flakes of toxic snakeskin.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=12934"},
+ :recipes
+ [{:materials [{:name "Sacred eel", :quantity "1"}],
+   :skills [{:name "Cooking", :level "72", :exp "0"}],
+   :members_only true,
+   :ticks "0",
+   :tools "Knife",
+   :facilities nil}]}

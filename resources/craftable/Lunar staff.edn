@@ -1,0 +1,27 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Lunar_staff",
+  :name "Lunar staff",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9084",
+  :ge_value "0",
+  :id 9084,
+  :examine "A Moonclan staff.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9084"},
+ :recipes
+ [{:materials [{:name "Dramen staff", :quantity "1"}],
+   :skills [{:name "Crafting", :level "61", :exp "0"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Air altar, Fire altar, Water altar, Earth altar"}
+  {:materials [{:name "Lunar staff - pt3", :quantity "1"}],
+   :skills [{:name "Crafting", :level "61", :exp "0"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Earth altar"}]}

@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Amulet_of_nature",
+  :name "Amulet of nature",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6040",
+  :ge_value "0",
+  :id 6040,
+  :examine "An Amulet of Nature.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6040"},
+ :recipes
+ [{:materials
+   [{:name "Pre-nature amulet", :quantity "1"}
+    {:name "Cosmic rune", :quantity "1"}
+    {:name "Air rune", :quantity "3"}],
+   :skills [{:name "Magic", :level "27", :exp "37"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

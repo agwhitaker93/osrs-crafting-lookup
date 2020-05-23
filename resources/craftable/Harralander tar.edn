@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Harralander_tar",
+  :name "Harralander tar",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10145",
+  :ge_value "0",
+  :id 10145,
+  :examine "A dark, thick, foul-smelling, tar-like substance.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10145"},
+ :recipes
+ [{:materials
+   [{:name "Swamp tar", :quantity "15"}
+    {:name "Harralander", :quantity "1"}],
+   :skills [{:name "Herblore", :level "44", :exp "72.5"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

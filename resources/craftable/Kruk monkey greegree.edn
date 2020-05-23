@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Kruk_monkey_greegree",
+  :name "Kruk monkey greegree",
+  :value "6000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19525",
+  :ge_value "0",
+  :id 19525,
+  :examine "A magical talisman in the shape of Kruk's head.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19525"},
+ :recipes
+ [{:materials
+   [{:name "Monkey talisman", :quantity "1"}
+    {:name "Kruk's paw", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Zooknock"}]}

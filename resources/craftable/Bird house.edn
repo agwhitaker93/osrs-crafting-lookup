@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bird_house",
+  :name "Bird house",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21512",
+  :ge_value "0",
+  :id 21512,
+  :examine
+  "Feed and catch the birds by placing this in the right spot.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21512"},
+ :recipes
+ [{:materials
+   [{:name "Logs", :quantity "1"} {:name "Clockwork", :quantity "1"}],
+   :skills [{:name "Crafting", :level "5", :exp "15"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Chisel, Hammer",
+   :facilities nil}]}

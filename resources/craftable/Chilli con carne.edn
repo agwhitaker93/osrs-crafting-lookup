@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Chilli_con_carne",
+  :name "Chilli con carne",
+  :value "13",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7062",
+  :ge_value "0",
+  :id 7062,
+  :examine "A bowl of meat in chilli-con-carne sauce.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7062"},
+ :recipes
+ [{:materials
+   [{:name "Spicy sauce", :quantity "1"}
+    {:name "Cooked meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "11", :exp "25"}],
+   :members_only true,
+   :ticks nil,
+   :tools "Knife",
+   :facilities nil}]}

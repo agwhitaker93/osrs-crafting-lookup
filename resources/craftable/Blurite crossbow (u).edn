@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Blurite_crossbow_%28u%29",
+  :name "Blurite crossbow (u)",
+  :value "60",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9456",
+  :ge_value "0",
+  :id 9456,
+  :examine "An unstrung blurite crossbow.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9456"},
+ :recipes
+ [{:materials
+   [{:name "Oak stock", :quantity "1"}
+    {:name "Blurite limbs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "24", :exp "32"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Hammer",
+   :facilities nil}]}

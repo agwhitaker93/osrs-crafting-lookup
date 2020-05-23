@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Unfermented_wine",
+  :name "Unfermented wine",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1995",
+  :ge_value "0",
+  :id 1995,
+  :examine "This wine needs to ferment before it can be drunk.",
+  :members_only false,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1995"},
+ :recipes
+ [{:materials
+   [{:name "Jug of water", :quantity "1"}
+    {:name "Grapes", :quantity "1"}],
+   :skills [{:name "Cooking", :level "35", :exp "0"}],
+   :members_only false,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

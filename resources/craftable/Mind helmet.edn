@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Mind_helmet",
+  :name "Mind helmet",
+  :value "3000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9733",
+  :ge_value "0",
+  :id 9733,
+  :examine "A magic helmet.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9733"},
+ :recipes
+ [{:materials [{:name "Primed mind bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "30", :exp "30"}],
+   :members_only true,
+   :ticks "4",
+   :tools "Hammer, Beaten book",
+   :facilities "Anvil"}]}

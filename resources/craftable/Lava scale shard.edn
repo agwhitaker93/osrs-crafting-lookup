@@ -1,0 +1,27 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Lava_scale_shard",
+  :name "Lava scale shard",
+  :value "20",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11994",
+  :ge_value "0",
+  :id 11994,
+  :examine "Ground-up lava dragon scale.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11994"},
+ :recipes
+ [{:materials [{:name "Lava scale", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools "Pestle and mortar",
+   :facilities nil}
+  {:materials [{:name "Infernal eel", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools "Hammer",
+   :facilities nil}]}

@@ -1,0 +1,33 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Karambwan_paste",
+  :name "Karambwan paste",
+  :value "15",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 3152,
+  :examine "Freshly made octopus paste.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials [{:name "Raw karambwan", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "3",
+   :tools "Pestle and mortar",
+   :facilities nil}
+  {:materials [{:name "Poison karambwan", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "3",
+   :tools "Pestle and mortar",
+   :facilities nil}
+  {:materials [{:name "Cooked karambwan", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "3",
+   :tools "Pestle and mortar",
+   :facilities nil}]}

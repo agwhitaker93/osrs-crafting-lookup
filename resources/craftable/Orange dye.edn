@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Orange_dye",
+  :name "Orange dye",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1769",
+  :ge_value "0",
+  :id 1769,
+  :examine "A little bottle of orange dye.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1769"},
+ :recipes
+ [{:materials
+   [{:name "Red dye", :quantity "1"}
+    {:name "Yellow dye", :quantity "1"}],
+   :skills [],
+   :members_only false,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

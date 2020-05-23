@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Watermelon_slice",
+  :name "Watermelon slice",
+  :value "16",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5984",
+  :ge_value "0",
+  :id 5984,
+  :examine "A slice of watermelon.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5984"},
+ :recipes
+ [{:materials [{:name "Watermelon", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "4",
+   :tools "Knife",
+   :facilities nil}]}

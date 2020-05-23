@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Dragon_platebody_%28g%29",
+  :name "Dragon platebody (g)",
+  :value "2000000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22242",
+  :ge_value "0",
+  :id 22242,
+  :examine "A Dragon platebody with a gold trim.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22242"},
+ :recipes
+ [{:materials
+   [{:name "Dragon platebody", :quantity "1"}
+    {:name "Dragon platebody ornament kit", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

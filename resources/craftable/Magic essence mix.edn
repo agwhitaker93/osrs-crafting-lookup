@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Magic essence mix",
+  :value "130",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 11491,
+  :examine "One dose of fishy Magic essence.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Magic essence(2)", :quantity "1"}
+    {:name "Caviar", :quantity "1"}],
+   :skills [{:name "Herblore", :level "61", :exp "43"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

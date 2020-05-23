@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Mixed_sgg",
+  :name "Mixed sgg",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9567",
+  :ge_value "0",
+  :id 9567,
+  :examine
+  "This Short Green Guy cocktail needs pouring, a lime slice and equa leaves..",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9567"},
+ :recipes
+ [{:materials
+   [{:name "Vodka", :quantity "1"} {:name "Lime", :quantity "3"}],
+   :skills [{:name "Cooking", :level "20", :exp "30"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Cocktail shaker",
+   :facilities nil}]}

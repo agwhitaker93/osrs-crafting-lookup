@@ -1,0 +1,28 @@
+{:meta
+ {:tradable false,
+  :wiki
+  "https://oldschool.runescape.wiki/w/Shayzien_supply_set_%284%29",
+  :name "Shayzien supply set (4)",
+  :value "55",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13568",
+  :ge_value "0",
+  :id 13568,
+  :examine "Supplies for the Shayzien soldiers.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13568"},
+ :recipes
+ [{:materials
+   [{:name "Shayzien supply crate", :quantity "1"}
+    {:name "Shayzien supply helm (4)", :quantity "1"}
+    {:name "Shayzien supply platebody (4)", :quantity "1"}
+    {:name "Shayzien supply gloves (4)", :quantity "1"}
+    {:name "Shayzien supply greaves (4)", :quantity "1"}
+    {:name "Shayzien supply boots (4)", :quantity "1"}],
+   :skills [{:name "Smithing", :level "83", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

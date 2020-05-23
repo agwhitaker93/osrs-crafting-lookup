@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Jade_amulet_%28u%29",
+  :name "Jade amulet (u)",
+  :value "1050",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21102",
+  :ge_value "0",
+  :id 21102,
+  :examine "It needs a string so I can wear it.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21102"},
+ :recipes
+ [{:materials
+   [{:name "Jade", :quantity "1"} {:name "Silver bar", :quantity "1"}],
+   :skills [{:name "Crafting", :level "34", :exp "70"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Amulet mould",
+   :facilities "Furnace"}]}

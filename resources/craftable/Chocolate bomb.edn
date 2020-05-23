@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Chocolate_bomb",
+  :name "Chocolate bomb",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2185",
+  :ge_value "0",
+  :id 2185,
+  :examine "Full of creamy, chocolately goodness.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2185"},
+ :recipes
+ [{:materials
+   [{:name "Unfinished bowl (chocolate bomb)", :quantity "1"}
+    {:name "Chocolate dust", :quantity "1"}
+    {:name "Pot of cream", :quantity "2"}],
+   :skills [{:name "Cooking", :level "42", :exp "110"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

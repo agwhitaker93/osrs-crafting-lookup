@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Half_coconut",
+  :name "Half coconut",
+  :value "87",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5976",
+  :ge_value "0",
+  :id 5976,
+  :examine "It's a coconut.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5976"},
+ :recipes
+ [{:materials [{:name "Coconut", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "1",
+   :tools "Hammer",
+   :facilities nil}]}

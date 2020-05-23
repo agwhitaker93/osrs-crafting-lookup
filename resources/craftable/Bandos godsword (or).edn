@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Bandos_godsword_%28or%29",
+  :name "Bandos godsword (or)",
+  :value "1250000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=20370",
+  :ge_value "0",
+  :id 20370,
+  :examine "An ornamented, brutally heavy sword.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=20370"},
+ :recipes
+ [{:materials
+   [{:name "Bandos godsword", :quantity "1"}
+    {:name "Bandos godsword ornament kit", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

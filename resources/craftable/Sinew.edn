@@ -1,0 +1,33 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Sinew",
+  :name "Sinew",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9436",
+  :ge_value "0",
+  :id 9436,
+  :examine "I can use this to make a crossbow string.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9436"},
+ :recipes
+ [{:materials [{:name "Damaged monkey tail", :quantity "1"}],
+   :skills [{:name "Crafting", :level "10", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Knife",
+   :facilities nil}
+  {:materials [{:name "Raw beef", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "3"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}
+  {:materials [{:name "Raw bear meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "3"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

@@ -1,0 +1,27 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Mixed_special",
+  :name "Mixed special",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9570",
+  :ge_value "0",
+  :id 9570,
+  :examine
+  "This Blurberry Special needs pouring, orange and lemon chunks, a lime slice and equa leaves.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9570"},
+ :recipes
+ [{:materials
+   [{:name "Vodka", :quantity "1"}
+    {:name "Brandy", :quantity "1"}
+    {:name "Gin", :quantity "1"}
+    {:name "Lemon", :quantity "2"}
+    {:name "Orange", :quantity "1"}],
+   :skills [{:name "Cooking", :level "37", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools "Cocktail shaker",
+   :facilities nil}]}

@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Ruby_bolts_%28e%29",
+  :name "Ruby bolts (e)",
+  :value "138",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9242",
+  :ge_value "0",
+  :id 9242,
+  :examine "Enchanted Ruby tipped Adamantite Crossbow Bolts.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9242"},
+ :recipes
+ [{:materials
+   [{:name "Ruby bolts", :quantity "10"}
+    {:name "Fire rune", :quantity "5"}
+    {:name "Blood rune", :quantity "1"}
+    {:name "Cosmic rune", :quantity "1"}],
+   :skills [{:name "Magic", :level "49", :exp "59.0"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

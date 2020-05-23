@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Opal_ring",
+  :name "Opal ring",
+  :value "1050",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21081",
+  :ge_value "0",
+  :id 21081,
+  :examine "A valuable ring.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21081"},
+ :recipes
+ [{:materials
+   [{:name "Opal", :quantity "1"} {:name "Silver bar", :quantity "1"}],
+   :skills [{:name "Crafting", :level "1", :exp "10"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Ring mould",
+   :facilities nil}]}

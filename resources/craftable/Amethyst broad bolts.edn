@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Amethyst_broad_bolts",
+  :name "Amethyst broad bolts",
+  :value "240",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21316",
+  :ge_value "0",
+  :id 21316,
+  :examine "Crossbow bolts with amethyst broad tips.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21316"},
+ :recipes
+ [{:materials
+   [{:name "Broad bolts", :quantity "10"}
+    {:name "Amethyst bolt tips", :quantity "10"}],
+   :skills [{:name "Fletching", :level "76", :exp "106"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

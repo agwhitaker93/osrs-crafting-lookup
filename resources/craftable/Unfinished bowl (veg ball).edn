@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Unfinished_bowl",
+  :name "Unfinished bowl (veg ball)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9562",
+  :ge_value "0",
+  :id 9562,
+  :examine
+  "This unfinished veg ball needs garnishing with equa leaves.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9562"},
+ :recipes
+ [{:materials [{:name "Half made bowl (veg ball)", :quantity "1"}],
+   :skills [{:name "Cooking", :level "35", :exp "0"}],
+   :members_only true,
+   :ticks "4",
+   :tools nil,
+   :facilities "Cooking range"}]}

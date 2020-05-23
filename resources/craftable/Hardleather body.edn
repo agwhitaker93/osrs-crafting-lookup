@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Hardleather_body",
+  :name "Hardleather body",
+  :value "170",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1131",
+  :ge_value "0",
+  :id 1131,
+  :examine "Harder than normal leather.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1131"},
+ :recipes
+ [{:materials
+   [{:name "Hard leather", :quantity "1"}
+    {:name "Thread", :quantity "1"}],
+   :skills [{:name "Crafting", :level "28", :exp "35"}],
+   :members_only false,
+   :ticks "3",
+   :tools "Needle",
+   :facilities nil}]}

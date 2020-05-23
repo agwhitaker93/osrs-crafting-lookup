@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Potato_with_butter",
+  :name "Potato with butter",
+  :value "8",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6703",
+  :ge_value "0",
+  :id 6703,
+  :examine "A baked potato with butter.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6703"},
+ :recipes
+ [{:materials
+   [{:name "Baked potato", :quantity "1"}
+    {:name "Pat of butter", :quantity "1"}],
+   :skills [{:name "Cooking", :level "39", :exp "40"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

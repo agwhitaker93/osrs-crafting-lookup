@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Blue_spiky_vambraces",
+  :name "Blue spiky vambraces",
+  :value "3000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10081",
+  :ge_value "0",
+  :id 10081,
+  :examine
+  "Vambraces made from 100% real dragonhide. Now with added spikiness.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10081"},
+ :recipes
+ [{:materials
+   [{:name "Kebbit claws", :quantity "1"}
+    {:name "Blue d'hide vambraces", :quantity "1"}],
+   :skills [{:name "Crafting", :level "32", :exp "6"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities nil}]}

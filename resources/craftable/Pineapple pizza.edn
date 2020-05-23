@@ -1,0 +1,31 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Pineapple pizza",
+  :value "100",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 2301,
+  :examine "A tropicana pizza.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Plain pizza", :quantity "1"}
+    {:name "Pineapple ring", :quantity "1"}],
+   :skills [{:name "Cooking", :level "65", :exp "45"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}
+  {:materials
+   [{:name "Plain pizza", :quantity "1"}
+    {:name "Pineapple chunks", :quantity "1"}],
+   :skills [{:name "Cooking", :level "65", :exp "45"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

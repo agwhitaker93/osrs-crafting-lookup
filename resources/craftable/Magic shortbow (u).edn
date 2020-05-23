@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Magic_shortbow_%28u%29",
+  :name "Magic shortbow (u)",
+  :value "800",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=72",
+  :ge_value "0",
+  :id 72,
+  :examine "An unstrung magic shortbow; I need a bowstring for this.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=72"},
+ :recipes
+ [{:materials [{:name "Magic logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "80", :exp "83.3"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Knife",
+   :facilities nil}]}

@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Lunar_bar",
+  :name "Lunar bar",
+  :value "8",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9077",
+  :ge_value "0",
+  :id 9077,
+  :examine "It's a bar of magic metal.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9077"},
+ :recipes
+ [{:materials [{:name "Lunar ore", :quantity "1"}],
+   :skills [{:name "Smithing", :level "1", :exp "6.2"}],
+   :members_only true,
+   :ticks "6",
+   :tools nil,
+   :facilities "Furnace"}]}

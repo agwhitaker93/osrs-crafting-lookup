@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Ogre_relic",
+  :name "Ogre relic",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2372",
+  :ge_value "0",
+  :id 2372,
+  :examine "An old statue of an ogre warrior.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2372"},
+ :recipes
+ [{:materials
+   [{:name "Relic part 1", :quantity "1"}
+    {:name "Relic part 2", :quantity "1"}
+    {:name "Relic part 3", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Watchtower Wizard"}]}

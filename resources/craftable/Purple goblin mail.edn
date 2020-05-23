@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Purple_goblin_mail",
+  :name "Purple goblin mail",
+  :value "40",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9058",
+  :ge_value "0",
+  :id 9058,
+  :examine "Armour designed to fit goblins.",
+  :members_only false,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9058"},
+ :recipes
+ [{:materials
+   [{:name "Goblin mail", :quantity "1"}
+    {:name "Purple dye", :quantity "1"}],
+   :skills [],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

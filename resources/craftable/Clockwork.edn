@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Clockwork",
+  :name "Clockwork",
+  :value "500",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8792",
+  :ge_value "0",
+  :id 8792,
+  :examine "A clockwork mechanism.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8792"},
+ :recipes
+ [{:materials [{:name "Steel bar", :quantity "1"}],
+   :skills [{:name "Crafting", :level "8", :exp "15"}],
+   :members_only true,
+   :ticks "3",
+   :tools nil,
+   :facilities "Crafting table 2"}]}

@@ -1,0 +1,25 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Banner",
+  :name "Banner (Varrock)",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=8678",
+  :ge_value "0",
+  :id 8678,
+  :examine "A banner with the symbol of Varrock.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=8678"},
+ :recipes
+ [{:materials
+   [{:name "Bolt of cloth", :quantity "1"}
+    {:name "Plank", :quantity "1"}],
+   :skills
+   [{:name "Crafting", :level "48", :exp "43"}
+    {:name "Construction", :level "16", :exp "0"}],
+   :members_only true,
+   :ticks "6",
+   :tools nil,
+   :facilities "Banner easel"}]}

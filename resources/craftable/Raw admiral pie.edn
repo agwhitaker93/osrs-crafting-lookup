@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Raw_admiral_pie",
+  :name "Raw admiral pie",
+  :value "155",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7196",
+  :ge_value "0",
+  :id 7196,
+  :examine "This would taste a lot better cooked.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7196"},
+ :recipes
+ [{:materials
+   [{:name "Pie shell", :quantity "1"}
+    {:name "Salmon", :quantity "1"}
+    {:name "Tuna", :quantity "1"}
+    {:name "Potato", :quantity "1"}],
+   :skills [{:name "Cooking", :level "70", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Hangover_cure",
+  :name "Hangover cure",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1504",
+  :ge_value "0",
+  :id 1504,
+  :examine "It doesn't look very tasty.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1504"},
+ :recipes
+ [{:materials
+   [{:name "Snape grass", :quantity "1"}
+    {:name "Chocolatey milk", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

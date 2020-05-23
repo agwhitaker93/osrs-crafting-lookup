@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Leather_boots",
+  :name "Leather boots",
+  :value "6",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1061",
+  :ge_value "0",
+  :id 1061,
+  :examine "Comfortable leather boots.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1061"},
+ :recipes
+ [{:materials
+   [{:name "Leather", :quantity "1"} {:name "Thread", :quantity "1"}],
+   :skills [{:name "Crafting", :level "7", :exp "16.2"}],
+   :members_only false,
+   :ticks "3",
+   :tools "Needle",
+   :facilities nil}]}

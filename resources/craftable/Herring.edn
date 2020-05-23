@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Herring",
+  :name "Herring",
+  :value "10",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=347",
+  :ge_value "0",
+  :id 347,
+  :examine "Some nicely cooked herring.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=347"},
+ :recipes
+ [{:materials [{:name "Raw herring", :quantity "1"}],
+   :skills [{:name "Cooking", :level "5", :exp "50"}],
+   :members_only false,
+   :ticks "4",
+   :tools nil,
+   :facilities "Cooking range"}]}

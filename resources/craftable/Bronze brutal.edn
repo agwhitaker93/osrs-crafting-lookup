@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Bronze_brutal",
+  :name "Bronze brutal",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4773",
+  :ge_value "0",
+  :id 4773,
+  :examine "Blunt bronze arrow... ouch.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4773"},
+ :recipes
+ [{:materials
+   [{:name "Flighted ogre arrow", :quantity "6"}
+    {:name "Bronze nails", :quantity "6"}],
+   :skills [{:name "Fletching", :level "7", :exp "8.4"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Hammer",
+   :facilities nil}]}

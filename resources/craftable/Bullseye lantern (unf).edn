@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki
+  "https://oldschool.runescape.wiki/w/Bullseye_lantern_%28unf%29",
+  :name "Bullseye lantern (unf)",
+  :value "300",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4544",
+  :ge_value "0",
+  :id 4544,
+  :examine "You need to add a lens before you can use it.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4544"},
+ :recipes
+ [{:materials [{:name "Steel bar", :quantity "1"}],
+   :skills [{:name "Smithing", :level "49", :exp "37.5"}],
+   :members_only true,
+   :ticks "4",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

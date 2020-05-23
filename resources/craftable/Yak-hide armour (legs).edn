@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Yak-hide_armour",
+  :name "Yak-hide armour (legs)",
+  :value "500",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10824",
+  :ge_value "0",
+  :id 10824,
+  :examine "Leg protection, made from smelly yak-hide.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10824"},
+ :recipes
+ [{:materials
+   [{:name "Cured yak-hide", :quantity "1"}
+    {:name "Thread", :quantity "1"}],
+   :skills [{:name "Crafting", :level "43", :exp "32"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Needle",
+   :facilities nil}]}

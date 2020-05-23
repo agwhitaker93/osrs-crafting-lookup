@@ -1,0 +1,25 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Enhanced_crystal_key",
+  :name "Enhanced crystal key",
+  :value "500",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=23951",
+  :ge_value "0",
+  :id 23951,
+  :examine "A mysterious key with some added crystal to embellish it.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=23951"},
+ :recipes
+ [{:materials
+   [{:name "Crystal key", :quantity "1"}
+    {:name "Crystal shard", :quantity "10"}],
+   :skills
+   [{:name "Smithing", :level "80", :exp "500"}
+    {:name "Crafting", :level "80", :exp "500"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Singing bowl"}]}

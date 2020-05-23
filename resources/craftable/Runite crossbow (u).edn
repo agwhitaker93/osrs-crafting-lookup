@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Runite_crossbow_%28u%29",
+  :name "Runite crossbow (u)",
+  :value "16167",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9465",
+  :ge_value "0",
+  :id 9465,
+  :examine "An unstrung runite crossbow.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9465"},
+ :recipes
+ [{:materials
+   [{:name "Yew stock", :quantity "1"}
+    {:name "Runite limbs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "69", :exp "100"}],
+   :members_only true,
+   :ticks "2",
+   :tools "Hammer",
+   :facilities nil}]}

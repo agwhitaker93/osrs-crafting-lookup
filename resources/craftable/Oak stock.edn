@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Oak_stock",
+  :name "Oak stock",
+  :value "27",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9442",
+  :ge_value "0",
+  :id 9442,
+  :examine "An oak crossbow stock.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9442"},
+ :recipes
+ [{:materials [{:name "Oak logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "24", :exp "16"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Knife",
+   :facilities nil}]}

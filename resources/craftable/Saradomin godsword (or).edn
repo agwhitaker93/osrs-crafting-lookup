@@ -1,0 +1,24 @@
+{:meta
+ {:tradable false,
+  :wiki
+  "https://oldschool.runescape.wiki/w/Saradomin_godsword_%28or%29",
+  :name "Saradomin godsword (or)",
+  :value "1250000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=20372",
+  :ge_value "0",
+  :id 20372,
+  :examine "An ornamented, gracious, heavy sword.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=20372"},
+ :recipes
+ [{:materials
+   [{:name "Saradomin godsword", :quantity "1"}
+    {:name "Saradomin godsword ornament kit", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

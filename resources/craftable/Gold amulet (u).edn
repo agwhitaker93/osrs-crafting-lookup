@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Gold_amulet_%28u%29",
+  :name "Gold amulet (u)",
+  :value "350",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1673",
+  :ge_value "0",
+  :id 1673,
+  :examine "It needs a string so I can wear it.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1673"},
+ :recipes
+ [{:materials [{:name "Gold bar", :quantity "1"}],
+   :skills [{:name "Crafting", :level "8", :exp "30"}],
+   :members_only false,
+   :ticks "3",
+   :tools "Amulet mould",
+   :facilities "Furnace"}]}

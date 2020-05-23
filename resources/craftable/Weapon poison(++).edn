@@ -1,0 +1,25 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Weapon_poison%28%2B%2B%29",
+  :name "Weapon poison(++)",
+  :value "432",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5940",
+  :ge_value "0",
+  :id 5940,
+  :examine
+  "A vial of super strong weapon poison, for spears and daggers.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5940"},
+ :recipes
+ [{:materials
+   [{:name "Coconut milk", :quantity "1"}
+    {:name "Cave nightshade", :quantity "1"}
+    {:name "Poison ivy berries", :quantity "1"}],
+   :skills [{:name "Herblore", :level "82", :exp "190"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

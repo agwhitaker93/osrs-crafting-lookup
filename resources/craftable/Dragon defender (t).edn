@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Dragon_defender_%28t%29",
+  :name "Dragon defender (t)",
+  :value "68007",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19722",
+  :ge_value "0",
+  :id 19722,
+  :examine "A defensive weapon trimmed with gold.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19722"},
+ :recipes
+ [{:materials
+   [{:name "Dragon defender", :quantity "1"}
+    {:name "Dragon defender ornament kit", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

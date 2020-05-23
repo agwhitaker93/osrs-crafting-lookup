@@ -1,0 +1,21 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Snake_weed",
+  :name "Snake weed",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1526",
+  :ge_value "0",
+  :id 1526,
+  :examine "This herb is Snake Weed.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1526"},
+ :recipes
+ [{:materials [{:name "Grimy snake weed", :quantity "1"}],
+   :skills [{:name "Herblore", :level "3", :exp "2.5"}],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities nil}]}

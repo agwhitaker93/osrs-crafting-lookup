@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Abyssal_tentacle",
+  :name "Abyssal tentacle",
+  :value "289800",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=12006",
+  :ge_value "0",
+  :id 12006,
+  :examine "A weapon from the abyss, embedded in a slimy tentacle.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=12006"},
+ :recipes
+ [{:materials
+   [{:name "Abyssal whip", :quantity "1"}
+    {:name "Kraken tentacle", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

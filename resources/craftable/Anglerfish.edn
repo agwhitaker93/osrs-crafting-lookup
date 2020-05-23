@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Anglerfish",
+  :name "Anglerfish",
+  :value "450",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=13441",
+  :ge_value "0",
+  :id 13441,
+  :examine "I hope this tastes better than it looks.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=13441"},
+ :recipes
+ [{:materials [{:name "Raw anglerfish", :quantity "1"}],
+   :skills [{:name "Cooking", :level "84", :exp "230"}],
+   :members_only true,
+   :ticks "4",
+   :tools nil,
+   :facilities "Cooking range"}]}

@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Amulet_of_defence",
+  :name "Amulet of defence",
+  :value "1275",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1729",
+  :ge_value "0",
+  :id 1729,
+  :examine "An enchanted emerald amulet of protection.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1729"},
+ :recipes
+ [{:materials
+   [{:name "Emerald amulet", :quantity "1"}
+    {:name "Cosmic rune", :quantity "1"}
+    {:name "Air rune", :quantity "3"}],
+   :skills [{:name "Magic", :level "27", :exp "37"}],
+   :members_only false,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

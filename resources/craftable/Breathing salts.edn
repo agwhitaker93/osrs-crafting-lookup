@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Breathing_salts",
+  :name "Breathing salts",
+  :value "1",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4442",
+  :ge_value "0",
+  :id 4442,
+  :examine
+  "An airtight pot with something inside, most likely breathing salts.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4442"},
+ :recipes
+ [{:materials
+   [{:name "Pot", :quantity "1"} {:name "Pot lid", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Apothecary"}]}

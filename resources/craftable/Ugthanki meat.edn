@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Ugthanki_meat",
+  :name "Ugthanki meat",
+  :value "5",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1861",
+  :ge_value "0",
+  :id 1861,
+  :examine "Freshly cooked ugthanki meat.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1861"},
+ :recipes
+ [{:materials [{:name "Raw ugthanki meat", :quantity "1"}],
+   :skills [{:name "Cooking", :level "1", :exp "40"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities "Cooking range"}]}

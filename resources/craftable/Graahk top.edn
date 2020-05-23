@@ -1,0 +1,31 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Graahk_top",
+  :name "Graahk top",
+  :value "150",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10049",
+  :ge_value "0",
+  :id 10049,
+  :examine "This should make me harder to spot in desert areas.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10049"},
+ :recipes
+ [{:materials
+   [{:name "Graahk fur", :quantity "1"}
+    {:name "Coins", :quantity "150"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities "Fancy Clothes Store"}
+  {:materials
+   [{:name "Tatty graahk fur", :quantity "1"}
+    {:name "Coins", :quantity "150"}],
+   :skills [],
+   :members_only true,
+   :ticks "0",
+   :tools nil,
+   :facilities "Fancy Clothes Store"}]}

@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Sapphire_ring",
+  :name "Sapphire ring",
+  :value "900",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1637",
+  :ge_value "0",
+  :id 1637,
+  :examine "A valuable ring.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1637"},
+ :recipes
+ [{:materials
+   [{:name "Gold bar", :quantity "1"}
+    {:name "Sapphire", :quantity "1"}],
+   :skills [{:name "Crafting", :level "20", :exp "40"}],
+   :members_only false,
+   :ticks "3",
+   :tools "Ring mould",
+   :facilities "Furnace"}]}

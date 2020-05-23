@@ -1,0 +1,25 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Eternal_teleport_crystal",
+  :name "Eternal teleport crystal",
+  :value "500",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=23946",
+  :ge_value "0",
+  :id 23946,
+  :examine "A powerful teleportation crystal.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=23946"},
+ :recipes
+ [{:materials
+   [{:name "Enhanced crystal teleport seed", :quantity "1"}
+    {:name "Crystal shard", :quantity "100"}],
+   :skills
+   [{:name "Smithing", :level "80", :exp "5,000"}
+    {:name "Crafting", :level "80", :exp "5,000"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Singing bowl"}]}

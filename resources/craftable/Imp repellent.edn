@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Imp_repellent",
+  :name "Imp repellent",
+  :value "50",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11262",
+  :ge_value "0",
+  :id 11262,
+  :examine "Imps seem to hate this stuff. Can't say I blame them.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11262"},
+ :recipes
+ [{:materials
+   [{:name "Anchovy oil", :quantity "1"}
+    {:name "Assorted flowers", :quantity "1"}],
+   :skills [{:name "Herblore", :level "1", :exp "5"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities nil}]}

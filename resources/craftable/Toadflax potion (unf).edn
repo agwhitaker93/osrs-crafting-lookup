@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Toadflax_potion_%28unf%29",
+  :name "Toadflax potion (unf)",
+  :value "48",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3002",
+  :ge_value "0",
+  :id 3002,
+  :examine "I need another ingredient to finish this Toadflax potion.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3002"},
+ :recipes
+ [{:materials
+   [{:name "Vial of water", :quantity "1"}
+    {:name "Toadflax", :quantity "1"}],
+   :skills [{:name "Herblore", :level "34", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

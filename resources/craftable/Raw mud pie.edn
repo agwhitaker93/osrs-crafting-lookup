@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Raw_mud_pie",
+  :name "Raw mud pie",
+  :value "27",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7168",
+  :ge_value "0",
+  :id 7168,
+  :examine "Needs to be baked before I can use it.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7168"},
+ :recipes
+ [{:materials
+   [{:name "Clay", :quantity "1"}
+    {:name "Part mud pie (water)", :quantity "1"}],
+   :skills [{:name "Cooking", :level "29", :exp "N/A"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

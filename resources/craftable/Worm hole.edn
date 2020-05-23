@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Worm_hole",
+  :name "Worm hole",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2191",
+  :ge_value "0",
+  :id 2191,
+  :examine "It actually smells quite good.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2191"},
+ :recipes
+ [{:materials
+   [{:name "Unfinished bowl (worm hole)", :quantity "1"}
+    {:name "Equa leaves", :quantity "1"}],
+   :skills [{:name "Cooking", :level "30", :exp "0"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

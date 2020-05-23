@@ -1,0 +1,26 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/Blade_of_saeldor_%28c%29",
+  :name "Blade of saeldor (c)",
+  :value "5000000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=24551",
+  :ge_value "0",
+  :id 24551,
+  :examine
+  "A magical elven sword, corrupted through the addition of too many shards.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=24551"},
+ :recipes
+ [{:materials
+   [{:name "Blade of saeldor (inactive)", :quantity "1"}
+    {:name "Crystal shard", :quantity "1000"}],
+   :skills
+   [{:name "Crafting", :level "82", :exp "0"}
+    {:name "Smithing", :level "82", :exp "0"}],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Singing bowl"}]}

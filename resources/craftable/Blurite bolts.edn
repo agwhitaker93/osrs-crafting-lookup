@@ -1,0 +1,23 @@
+{:meta
+ {:tradable false,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Blurite bolts",
+  :value "2",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 9139,
+  :examine "Blurite crossbow bolts.",
+  :members_only true,
+  :exchange false,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Blurite bolts (unf)", :quantity "10"}
+    {:name "Feather", :quantity "10"}],
+   :skills [{:name "Fletching", :level "24", :exp "10"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

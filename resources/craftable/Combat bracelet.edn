@@ -1,0 +1,26 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/",
+  :name "Combat bracelet",
+  :value "21040",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  :ge_value "0",
+  :id 11126,
+  :examine
+  "You will need to recharge the bracelet at the Legends Guild.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+ :recipes
+ [{:materials
+   [{:name "Dragonstone bracelet", :quantity "1"}
+    {:name "Cosmic rune", :quantity "1"}
+    {:name "Water rune", :quantity "15"}
+    {:name "Earth rune", :quantity "15"}],
+   :skills [{:name "Magic", :level "68", :exp "78"}],
+   :members_only true,
+   :ticks "1",
+   :tools nil,
+   :facilities nil}]}

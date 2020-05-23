@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Teak_stock",
+  :name "Teak stock",
+  :value "77",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9446",
+  :ge_value "0",
+  :id 9446,
+  :examine "A teak crossbow stock.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9446"},
+ :recipes
+ [{:materials [{:name "Teak logs", :quantity "1"}],
+   :skills [{:name "Fletching", :level "46", :exp "27"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Knife",
+   :facilities nil}]}

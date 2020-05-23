@@ -1,0 +1,23 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Uncooked_dragonfruit_pie",
+  :name "Uncooked dragonfruit pie",
+  :value "40",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22789",
+  :ge_value "0",
+  :id 22789,
+  :examine "This would be much tastier cooked.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22789"},
+ :recipes
+ [{:materials
+   [{:name "Dragonfruit", :quantity "1"}
+    {:name "Pie shell", :quantity "1"}],
+   :skills [{:name "Cooking", :level "73", :exp "0"}],
+   :members_only true,
+   :ticks "2",
+   :tools nil,
+   :facilities nil}]}

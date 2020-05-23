@@ -1,0 +1,21 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Rune_full_helm",
+  :name "Rune full helm",
+  :value "35200",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1163",
+  :ge_value "0",
+  :id 1163,
+  :examine "A full face helmet.",
+  :members_only false,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1163"},
+ :recipes
+ [{:materials [{:name "Runite bar", :quantity "2"}],
+   :skills [{:name "Smithing", :level "92", :exp "150"}],
+   :members_only false,
+   :ticks "5",
+   :tools "Hammer",
+   :facilities "Anvil"}]}

@@ -1,0 +1,22 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Zenyte_necklace",
+  :name "Zenyte necklace",
+  :value "202000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19535",
+  :ge_value "0",
+  :id 19535,
+  :examine "A fiery glow emanates from this necklace.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19535"},
+ :recipes
+ [{:materials
+   [{:name "Gold bar", :quantity "1"} {:name "Zenyte", :quantity "1"}],
+   :skills [{:name "Crafting", :level "92", :exp "165"}],
+   :members_only true,
+   :ticks "3",
+   :tools "Necklace mould",
+   :facilities "Furnace"}]}

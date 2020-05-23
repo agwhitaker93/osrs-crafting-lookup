@@ -1,0 +1,24 @@
+{:meta
+ {:tradable true,
+  :wiki "https://oldschool.runescape.wiki/w/Odium_ward",
+  :name "Odium ward",
+  :value "45000",
+  :icon
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11926",
+  :ge_value "0",
+  :id 11926,
+  :examine "An ancient, evil shield forged by Volcanic heat.",
+  :members_only true,
+  :exchange true,
+  :icon_large
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11926"},
+ :recipes
+ [{:materials
+   [{:name "Odium shard 1", :quantity "1"}
+    {:name "Odium shard 2", :quantity "1"}
+    {:name "Odium shard 3", :quantity "1"}],
+   :skills [],
+   :members_only true,
+   :ticks nil,
+   :tools nil,
+   :facilities "Volcanic Forge"}]}
