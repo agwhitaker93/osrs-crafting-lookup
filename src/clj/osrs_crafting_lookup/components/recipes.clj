@@ -18,5 +18,8 @@
 
 (defn get-recipes [{name :name limit :limit page :page}]
   (let [limit (if (nil? limit) 15 (parse-int limit))
-        page (if (nil? page) 1 (parse-int page))]
-    {:body {:results (get-item-details-matching-name name limit (* (dec page) limit)) :pages (memoized-page-count name limit)}}))
+        page (if (nil? page) 1 (parse-int page))
+        offset (* (dec page) limit)]
+    (->> (get-item-details-matching-name name limit offset)
+         (map #(assoc %1 :more_details (format "/api/recipe?id=%s" (:id %1))))
+         (assoc-in {:body {:pages (memoized-page-count name limit)}} [:body :results]))))

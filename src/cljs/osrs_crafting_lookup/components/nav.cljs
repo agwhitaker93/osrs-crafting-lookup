@@ -1,17 +1,13 @@
 (ns osrs-crafting-lookup.components.nav
-  (:require [rum.core :as rum]
-            [ajax.core :refer [GET]]))
+  (:require [rum.core :as rum]))
 
 (defonce search-term (atom ""))
 
 (defn submit-search [handler]
-  (handler "Fetching results...")
-  (GET "/api/recipes" {:params  {:name (deref search-term)}
-                       :response-format :json
-                       :keywords? true
-                       :handler #(-> %1
-                                     (:results)
-                                     (handler))}))
+  (let [search-term (deref search-term)
+        page-title (. js/document -title)]
+    (handler "recipes" search-term)
+    (js/history.pushState {"recipes" search-term} page-title (str "?recipes=" search-term))))
 
 (defn listen-enter [event cb]
   (if (= (.-key event) "Enter")
@@ -23,15 +19,16 @@
                                .-value))))
 
 (rum/defc home []
-  [:button {:class "nav-inner nav-home"} "Home"])
+  [:ul {:class "nav-left"}
+   [:li {:class "nav-left-contents"} [:a {:class "nav-left-link" :href "/"} "Home"]]])
 
 (rum/defc search [search-result-cb]
-  [:div {} [:input {:class       "nav-inner nav-search"
+  [:div {} [:input {:class       "nav-search"
                     :type        "text"
                     :placeholder "Search..."
                     :on-key-down #(listen-enter %1 search-result-cb)
                     :on-change   update-search-term}]
-   [:button {:class    "nav-inner nav-search-button"
+   [:button {:class    "nav-search-button"
              :on-click #(submit-search search-result-cb)} "Search"]])
 
 (rum/defc nav [search-result-cb]

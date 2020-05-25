@@ -114,8 +114,7 @@
                              [cider/piggieback "0.4.0"]
                              [cider/cider-nrepl "0.18.0"]
                              [lein-doo "0.1.11"]
-                             [reloaded.repl "0.2.4"]
-                             [cljs-ajax "0.8.0"]]
+                             [reloaded.repl "0.2.4"]]
 
               :plugins [[lein-figwheel "0.5.18"]
                         [lein-doo "0.1.11"]]
