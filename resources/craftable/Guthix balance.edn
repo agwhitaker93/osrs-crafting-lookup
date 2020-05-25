@@ -1,10 +1,10 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki "https://oldschool.runescape.wiki/w/Guthix_balance",
   :name "Guthix balance",
   :value "200",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7666",
   :ge_value "0",
   :id 7666,
   :examine
@@ -12,7 +12,7 @@
   :members_only true,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7666"},
  :recipes
  [{:materials
    [{:name "Guthix balance (unf)", :quantity "1"}

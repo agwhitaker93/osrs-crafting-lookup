@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Carved_oak_bench",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Carved_oak_bench_%28flatpack%29",
   :name "Carved oak bench (flatpack)",
   :value "10",
   :icon

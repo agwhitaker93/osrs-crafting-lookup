@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Ardougne_teleport",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Ardougne_teleport_%28tablet%29",
   :name "Ardougne teleport (tablet)",
   :value "1",
   :icon

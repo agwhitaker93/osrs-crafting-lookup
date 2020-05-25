@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Cider_barrel",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Cider_barrel_%28flatpack%29",
   :name "Cider barrel (flatpack)",
   :value "10",
   :icon

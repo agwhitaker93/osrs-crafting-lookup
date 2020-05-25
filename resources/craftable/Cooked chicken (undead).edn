@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Cooked_chicken",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Cooked_chicken_%28undead%29",
   :name "Cooked chicken (undead)",
   :value "4",
   :icon

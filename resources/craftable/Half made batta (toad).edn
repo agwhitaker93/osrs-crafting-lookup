@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Half_made_batta",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Half_made_batta_%28toad%29",
   :name "Half made batta (toad)",
   :value "2",
   :icon

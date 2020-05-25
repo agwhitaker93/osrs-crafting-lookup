@@ -1,17 +1,17 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki "https://oldschool.runescape.wiki/w/Fishbowl",
   :name "Fishbowl",
   :value "1",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6667",
   :ge_value "0",
   :id 6667,
   :examine "An empty fishbowl.",
   :members_only true,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6667"},
  :recipes
  [{:materials [{:name "Molten glass", :quantity "1"}],
    :skills [{:name "Crafting", :level "42", :exp "42.5"}],

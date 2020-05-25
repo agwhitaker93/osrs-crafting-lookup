@@ -1,17 +1,17 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki "https://oldschool.runescape.wiki/w/Magic_essence",
   :name "Magic essence",
   :value "130",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=9024",
   :ge_value "0",
   :id 9024,
   :examine "1 dose of magic essence potion.",
   :members_only true,
   :exchange false,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=9024"},
  :recipes
  [{:materials
    [{:name "Magic essence (unf)", :quantity "1"}

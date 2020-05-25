@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Kitchen_table",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Kitchen_table_%28flatpack%29",
   :name "Kitchen table (flatpack)",
   :value "10",
   :icon

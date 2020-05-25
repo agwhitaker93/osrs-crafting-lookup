@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Half_made_crunchy",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Half_made_crunchy_%28worm%29",
   :name "Half made crunchy (worm)",
   :value "2",
   :icon

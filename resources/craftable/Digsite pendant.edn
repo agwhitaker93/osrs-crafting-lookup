@@ -1,17 +1,17 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki "https://oldschool.runescape.wiki/w/Digsite_pendant",
   :name "Digsite pendant",
   :value "2400",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11190",
   :ge_value "0",
   :id 11190,
   :examine "An enchanted necklace.",
   :members_only true,
   :exchange false,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11190"},
  :recipes
  [{:materials
    [{:name "Ruby necklace", :quantity "1"}

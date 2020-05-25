@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Part_summer_pie",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Part_summer_pie_%28strawberry%29",
   :name "Part summer pie (strawberry)",
   :value "21",
   :icon

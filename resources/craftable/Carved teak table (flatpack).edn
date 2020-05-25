@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Carved_teak_table",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Carved_teak_table_%28flatpack%29",
   :name "Carved teak table (flatpack)",
   :value "10",
   :icon

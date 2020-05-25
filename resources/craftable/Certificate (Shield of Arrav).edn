@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Certificate",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Certificate_%28Shield_of_Arrav%29",
   :name "Certificate (Shield of Arrav)",
   :value "1",
   :icon

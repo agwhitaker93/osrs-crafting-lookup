@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Oak_armchair",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Oak_armchair_%28flatpack%29",
   :name "Oak armchair (flatpack)",
   :value "10",
   :icon

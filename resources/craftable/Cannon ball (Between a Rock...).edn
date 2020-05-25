@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Cannon_ball",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Cannon_ball_%28Between_a_Rock...%29",
   :name "Cannon ball (Between a Rock...)",
   :value "1",
   :icon

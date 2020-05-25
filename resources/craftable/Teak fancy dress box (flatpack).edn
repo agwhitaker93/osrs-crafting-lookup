@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Teak_fancy_dress_box",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Teak_fancy_dress_box_%28flatpack%29",
   :name "Teak fancy dress box (flatpack)",
   :value "10",
   :icon

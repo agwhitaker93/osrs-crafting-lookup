@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Large_teak_bed",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Large_teak_bed_%28flatpack%29",
   :name "Large teak bed (flatpack)",
   :value "10",
   :icon

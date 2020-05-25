@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Mahogany_armour_case",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Mahogany_armour_case_%28flatpack%29",
   :name "Mahogany armour case (flatpack)",
   :value "10",
   :icon

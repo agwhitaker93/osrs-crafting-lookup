@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Teak_cape_rack",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Teak_cape_rack_%28flatpack%29",
   :name "Teak cape rack (flatpack)",
   :value "10",
   :icon

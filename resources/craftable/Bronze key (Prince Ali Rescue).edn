@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Bronze_key",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Bronze_key_%28Prince_Ali_Rescue%29",
   :name "Bronze key (Prince Ali Rescue)",
   :value "1",
   :icon

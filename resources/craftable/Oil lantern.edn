@@ -4,14 +4,14 @@
   :name "Oil lantern",
   :value "125",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4537",
   :ge_value "0",
   :id 4537,
   :examine "An unlit oil lantern.",
   :members_only true,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4537"},
  :recipes
  [{:materials
    [{:name "Empty oil lantern", :quantity "1"}

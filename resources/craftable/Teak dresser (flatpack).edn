@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Teak_dresser",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Teak_dresser_%28flatpack%29",
   :name "Teak dresser (flatpack)",
   :value "10",
   :icon

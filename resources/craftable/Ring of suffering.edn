@@ -1,10 +1,10 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki "https://oldschool.runescape.wiki/w/Ring_of_suffering",
   :name "Ring of suffering",
   :value "201000",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=19550",
   :ge_value "0",
   :id 19550,
   :examine
@@ -12,7 +12,7 @@
   :members_only true,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=19550"},
  :recipes
  [{:materials
    [{:name "Zenyte ring", :quantity "1"}

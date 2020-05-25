@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Vial",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Vial_%28jangerberries_and_guam_leaf%29",
   :name "Vial (jangerberries and guam leaf)",
   :value "1",
   :icon

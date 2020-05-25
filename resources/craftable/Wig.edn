@@ -4,14 +4,14 @@
   :name "Wig",
   :value "1",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2421",
   :ge_value "0",
   :id 2421,
   :examine "A grey woollen wig.",
   :members_only false,
   :exchange false,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2421"},
  :recipes
  [{:materials [{:name "Ball of wool", :quantity "3"}],
    :skills [],

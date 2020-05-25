@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Unfinished_crunchy",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Unfinished_crunchy_%28chocchip%29",
   :name "Unfinished crunchy (chocchip)",
   :value "2",
   :icon

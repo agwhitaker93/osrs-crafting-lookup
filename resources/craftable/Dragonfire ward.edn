@@ -4,14 +4,14 @@
   :name "Dragonfire ward",
   :value "2000000",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=22003",
   :ge_value "0",
   :id 22003,
   :examine "A light shield with a haunting, skeletal visage.",
   :members_only true,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=22003"},
  :recipes
  [{:materials
    [{:name "Skeletal visage", :quantity "1"}

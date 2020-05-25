@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Bruise_blue_snelm",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Bruise_blue_snelm_%28round%29",
   :name "Bruise blue snelm (round)",
   :value "300",
   :icon

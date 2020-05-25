@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Part_wild_pie",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Part_wild_pie_%28raw_bear_meat%29",
   :name "Part wild pie (raw bear meat)",
   :value "5",
   :icon

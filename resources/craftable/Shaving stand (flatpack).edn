@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Shaving_stand",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Shaving_stand_%28flatpack%29",
   :name "Shaving stand (flatpack)",
   :value "10",
   :icon

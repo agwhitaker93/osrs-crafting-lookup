@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Half_made_crunchy",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Half_made_crunchy_%28toad%29",
   :name "Half made crunchy (toad)",
   :value "2",
   :icon

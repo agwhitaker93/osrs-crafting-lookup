@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Blood%27n%27tar_snelm",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Blood%27n%27tar_snelm_%28pointed%29",
   :name "Blood'n'tar snelm (pointed)",
   :value "300",
   :icon

@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Unfinished_batta",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Unfinished_batta_%28vegetable%29",
   :name "Unfinished batta (vegetable)",
   :value "1",
   :icon

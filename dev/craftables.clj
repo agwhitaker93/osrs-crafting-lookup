@@ -120,7 +120,8 @@
        (map (fn [craftable]
               {:meta    (merge (remap required-from->to craftable)
                                (remap optional-from->to craftable)
-                               (static-vals (get-in craftable [:infobox :id]) (get-in craftable [:infobox :name])))
+                               (static-vals (or (get-in craftable [:infobox :id]) (get-in craftable [:infobox :id1]))
+                                            (or (get craftable :name) (get-in craftable [:infobox :name]) (get-in craftable [:infobox :name1]))))
                :recipes (reduce #(conj %1 (remap recipe-from->to %2)) [] (:recipe craftable))}))
        (map #(pr-edn transformed-target (get-in %1 [:meta :name]) %1))))
 

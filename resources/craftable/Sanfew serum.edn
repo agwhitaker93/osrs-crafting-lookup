@@ -1,17 +1,17 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki "https://oldschool.runescape.wiki/w/Sanfew_serum",
   :name "Sanfew serum",
   :value "120",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=10931",
   :ge_value "0",
   :id 10931,
   :examine "A 1 dose Sanfew Serum.",
   :members_only true,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=10931"},
  :recipes
  [{:materials
    [{:name "Super restore(4)", :quantity "1"}

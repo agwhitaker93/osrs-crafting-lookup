@@ -4,14 +4,14 @@
   :name "Ancient wyvern shield",
   :value "2000000",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=21634",
   :ge_value "0",
   :id 21634,
   :examine "A magical shield with a wyvern visage.",
   :members_only true,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=21634"},
  :recipes
  [{:materials
    [{:name "Wyvern visage", :quantity "1"}

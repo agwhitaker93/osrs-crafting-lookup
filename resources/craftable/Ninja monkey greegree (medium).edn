@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Ninja_monkey_greegree",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Ninja_monkey_greegree_%28medium%29",
   :name "Ninja monkey greegree (medium)",
   :value "6000",
   :icon

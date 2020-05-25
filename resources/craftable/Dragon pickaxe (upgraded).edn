@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Dragon_pickaxe",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Dragon_pickaxe_%28upgraded%29",
   :name "Dragon pickaxe (upgraded)",
   :value "97960",
   :icon

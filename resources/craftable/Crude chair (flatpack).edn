@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Crude_chair",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Crude_chair_%28flatpack%29",
   :name "Crude chair (flatpack)",
   :value "10",
   :icon

@@ -1,17 +1,17 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki "https://oldschool.runescape.wiki/w/Mithril_hasta",
   :name "Mithril hasta",
   :value "845",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11373",
   :ge_value "0",
   :id 11373,
   :examine "A mithril-tipped, one-handed hasta.",
   :members_only true,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11373"},
  :recipes
  [{:materials
    [{:name "Maple logs", :quantity "1"}

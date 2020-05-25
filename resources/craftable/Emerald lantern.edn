@@ -4,14 +4,14 @@
   :name "Emerald lantern",
   :value "600",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=20722",
   :ge_value "0",
   :id 20722,
   :examine "You need to add lamp oil before you can use it.",
   :members_only true,
   :exchange false,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=20722"},
  :recipes
  [{:materials
    [{:name "Bullseye lantern (unf)", :quantity "1"}

@@ -1,17 +1,17 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki "https://oldschool.runescape.wiki/w/Meat_pie",
   :name "Meat pie",
   :value "15",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=2327",
   :ge_value "0",
   :id 2327,
   :examine "Not for vegetarians.",
   :members_only false,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=2327"},
  :recipes
  [{:materials [{:name "Uncooked meat pie", :quantity "1"}],
    :skills [{:name "Cooking", :level "20", :exp "110"}],

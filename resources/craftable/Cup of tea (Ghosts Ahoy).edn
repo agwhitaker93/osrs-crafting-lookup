@@ -1,17 +1,18 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Cup_of_tea",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Cup_of_tea_%28Ghosts_Ahoy%29",
   :name "Cup of tea (Ghosts Ahoy)",
   :value "10",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4245",
   :ge_value "0",
   :id 4245,
   :examine "Some nettle tea in a porcelain cup.",
   :members_only true,
   :exchange false,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4245"},
  :recipes
  [{:materials
    [{:name "Porcelain cup", :quantity "1"}

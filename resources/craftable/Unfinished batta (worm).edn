@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Unfinished_batta",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Unfinished_batta_%28worm%29",
   :name "Unfinished batta (worm)",
   :value "1",
   :icon

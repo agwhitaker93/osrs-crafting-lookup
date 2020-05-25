@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/M%27speak_amulet",
+  :wiki
+  "https://oldschool.runescape.wiki/w/M%27speak_amulet_%28unstrung%29",
   :name "M'speak amulet (unstrung)",
   :value "500",
   :icon

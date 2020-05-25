@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Ugthanki_kebab",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Ugthanki_kebab_%28smelling%29",
   :name "Ugthanki kebab (smelling)",
   :value "20",
   :icon

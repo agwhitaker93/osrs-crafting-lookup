@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Mixed_dragon",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Mixed_dragon_%28garnished%29",
   :name "Mixed dragon (garnished)",
   :value "2",
   :icon

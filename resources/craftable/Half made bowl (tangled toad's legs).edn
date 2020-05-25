@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Half_made_bowl",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Half_made_bowl_%28tangled_toad%27s_legs%29",
   :name "Half made bowl (tangled toad's legs)",
   :value "2",
   :icon

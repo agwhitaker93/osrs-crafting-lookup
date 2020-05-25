@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Teak_drawers",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Teak_drawers_%28flatpack%29",
   :name "Teak drawers (flatpack)",
   :value "10",
   :icon

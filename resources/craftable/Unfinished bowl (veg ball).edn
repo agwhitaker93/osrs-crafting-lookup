@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Unfinished_bowl",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Unfinished_bowl_%28veg_ball%29",
   :name "Unfinished bowl (veg ball)",
   :value "1",
   :icon

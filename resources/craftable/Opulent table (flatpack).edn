@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Opulent_table",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Opulent_table_%28flatpack%29",
   :name "Opulent table (flatpack)",
   :value "10",
   :icon

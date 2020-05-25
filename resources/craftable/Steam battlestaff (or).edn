@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Steam_battlestaff",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Steam_battlestaff_%28or%29",
   :name "Steam battlestaff (or)",
   :value "17000",
   :icon

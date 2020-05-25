@@ -1,17 +1,18 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Chef%27s_delight_%28keg%29",
   :name "Chef's delight (keg)",
   :value "1",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5827",
   :ge_value "0",
   :id 5827,
   :examine "This keg contains 1 pint of Chef's Delight.",
   :members_only true,
   :exchange false,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5827"},
  :recipes
  [{:materials
    [{:name "Bucket of water", :quantity "2"}

@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Mahogany_wardrobe",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Mahogany_wardrobe_%28flatpack%29",
   :name "Mahogany wardrobe (flatpack)",
   :value "10",
   :icon

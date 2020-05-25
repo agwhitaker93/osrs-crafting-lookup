@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Adamant_kiteshield",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Adamant_kiteshield_%28Money%29",
   :name "Adamant kiteshield (Money)",
   :value "5440",
   :icon

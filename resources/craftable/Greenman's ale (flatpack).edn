@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Greenman%27s_ale",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Greenman%27s_ale_%28flatpack%29",
   :name "Greenman's ale (flatpack)",
   :value "10",
   :icon

@@ -1,17 +1,17 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Granite_maul",
+  :wiki "https://oldschool.runescape.wiki/w/Granite_maul_%28or%29",
   :name "Granite maul (or)",
   :value "50000",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=12848",
   :ge_value "0",
   :id 12848,
   :examine "Its power should not be taken for granited.",
   :members_only true,
   :exchange false,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=12848"},
  :recipes
  [{:materials
    [{:name "Granite maul", :quantity "1"}

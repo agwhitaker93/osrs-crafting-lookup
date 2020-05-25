@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Teleport_to_house",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Teleport_to_house_%28tablet%29",
   :name "Teleport to house (tablet)",
   :value "1",
   :icon

@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Asgarnian_ale",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Asgarnian_ale_%28flatpack%29",
   :name "Asgarnian ale (flatpack)",
   :value "10",
   :icon

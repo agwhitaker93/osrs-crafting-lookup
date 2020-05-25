@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Lumbridge_teleport",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Lumbridge_teleport_%28tablet%29",
   :name "Lumbridge teleport (tablet)",
   :value "1",
   :icon

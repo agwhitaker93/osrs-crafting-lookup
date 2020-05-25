@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Steel_kiteshield",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Steel_kiteshield_%28Saradomin%29",
   :name "Steel kiteshield (Saradomin)",
   :value "900",
   :icon

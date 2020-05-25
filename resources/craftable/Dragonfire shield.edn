@@ -4,14 +4,14 @@
   :name "Dragonfire shield",
   :value "2000000",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11284",
   :ge_value "0",
   :id 11284,
   :examine "A heavy shield with a snarling, draconic visage.",
   :members_only true,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11284"},
  :recipes
  [{:materials
    [{:name "Draconic visage", :quantity "1"}

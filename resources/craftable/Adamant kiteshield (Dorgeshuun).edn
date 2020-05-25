@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Adamant_kiteshield",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Adamant_kiteshield_%28Dorgeshuun%29",
   :name "Adamant kiteshield (Dorgeshuun)",
   :value "5440",
   :icon

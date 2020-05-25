@@ -1,17 +1,18 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Asgarnian_ale%28m%29_%28keg%29",
   :name "Asgarnian ale(m) (keg)",
   :value "1",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=5859",
   :ge_value "0",
   :id 5859,
   :examine "This keg contains 1 pint of mature Asgarnian Ale.",
   :members_only true,
   :exchange false,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=5859"},
  :recipes
  [{:materials
    [{:name "Bucket of water", :quantity "2"}

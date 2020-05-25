@@ -1,17 +1,17 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki "https://oldschool.runescape.wiki/w/Black_candle",
   :name "Black candle",
   :value "3",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=38",
   :ge_value "0",
   :id 38,
   :examine "A spooky candle.",
   :members_only true,
   :exchange false,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=38"},
  :recipes
  [{:materials [{:name "Bucket of wax", :quantity "1"}],
    :skills [],

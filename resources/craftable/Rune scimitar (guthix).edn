@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Rune_scimitar",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Rune_scimitar_%28guthix%29",
   :name "Rune scimitar (guthix)",
   :value "25600",
   :icon

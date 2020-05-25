@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Part_admiral_pie",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Part_admiral_pie_%28tuna%29",
   :name "Part admiral pie (tuna)",
   :value "154",
   :icon

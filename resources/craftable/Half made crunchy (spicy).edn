@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Half_made_crunchy",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Half_made_crunchy_%28spicy%29",
   :name "Half made crunchy (spicy)",
   :value "2",
   :icon

@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Unfinished_batta",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Unfinished_batta_%28cheese%2Btom%29",
   :name "Unfinished batta (cheese+tom)",
   :value "1",
   :icon

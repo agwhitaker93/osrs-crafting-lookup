@@ -4,14 +4,14 @@
   :name "Granite maul",
   :value "50000",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4153,20557",
   :ge_value "0",
   :id 415320557,
   :examine "Simplicity is the best weapon.",
   :members_only true,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4153,20557"},
  :recipes
  [{:materials
    [{:name "Granite maul", :quantity "1"}

@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Unfinished_crunchy",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Unfinished_crunchy_%28worm%29",
   :name "Unfinished crunchy (worm)",
   :value "2",
   :icon

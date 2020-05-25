@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Unfinished_potion",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Unfinished_potion_%28Rogue%27s_Purse%29",
   :name "Unfinished potion (Rogue's Purse)",
   :value "5",
   :icon

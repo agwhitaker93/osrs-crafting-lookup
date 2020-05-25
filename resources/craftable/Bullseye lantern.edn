@@ -4,14 +4,14 @@
   :name "Bullseye lantern",
   :value "420",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4548",
   :ge_value "0",
   :id 4548,
   :examine "A sturdy steel lantern.",
   :members_only true,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4548"},
  :recipes
  [{:materials
    [{:name "Bullseye lantern (empty)", :quantity "1"}

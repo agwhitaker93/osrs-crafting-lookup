@@ -2,6 +2,7 @@
   (:require [rum.core :as rum]
             [ajax.core :refer [GET]]))
 
+(defonce previous-id (atom ""))
 (defonce recipe-results (atom {}))
 
 (defn update-recipe-results [new]
@@ -15,6 +16,10 @@
   [:div {:class "results"} (str "Fetching recipes for id: " id)])
 
 (rum/defc recipe < rum/reactive [id]
+  (if (not (= (deref previous-id) id))
+    (do
+      (update-recipe-results {})
+      (swap! previous-id #(identity id))))
   (if (empty? (rum/react recipe-results))
     (fetch-recipes id)
     [:div {} (str (rum/react recipe-results))]))

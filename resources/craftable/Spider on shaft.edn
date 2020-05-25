@@ -4,14 +4,14 @@
   :name "Spider on shaft",
   :value "20",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=6295",
   :ge_value "0",
   :id 6295,
   :examine "A raw spider threaded onto an arrow shaft.",
   :members_only true,
   :exchange false,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=6295"},
  :recipes
  [{:materials
    [{:name "Arrow shaft", :quantity "1"}

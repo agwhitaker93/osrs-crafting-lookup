@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Mixed_saturday",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Mixed_saturday_%28shaker%29",
   :name "Mixed saturday (shaker)",
   :value "2",
   :icon

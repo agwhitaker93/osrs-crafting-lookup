@@ -1,10 +1,11 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Vesta%27s_blighted_longsword",
   :name "Vesta's blighted longsword",
   :value "800000",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=24617",
   :ge_value "0",
   :id 24617,
   :examine
@@ -12,7 +13,7 @@
   :members_only true,
   :exchange false,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=24617"},
  :recipes
  [{:materials
    [{:name "Vesta's longsword (inactive)", :quantity "1"}

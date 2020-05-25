@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Gilded_four-poster",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Gilded_four-poster_%28flatpack%29",
   :name "Gilded four-poster (flatpack)",
   :value "10",
   :icon

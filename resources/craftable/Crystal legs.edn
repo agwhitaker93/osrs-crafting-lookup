@@ -1,17 +1,17 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki "https://oldschool.runescape.wiki/w/Crystal_legs",
   :name "Crystal legs",
   :value "1000000",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=23979",
   :ge_value "0",
   :id 23979,
   :examine "A bright, shiny set of leg armour.",
   :members_only true,
   :exchange false,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=23979"},
  :recipes
  [{:materials
    [{:name "Crystal armour seed", :quantity "2"}

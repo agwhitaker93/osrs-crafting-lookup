@@ -1,17 +1,17 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki "https://oldschool.runescape.wiki/w/Adamant_dagger",
   :name "Adamant dagger",
   :value "800",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1211",
   :ge_value "0",
   :id 1211,
   :examine "Short and deadly.",
   :members_only false,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1211"},
  :recipes
  [{:materials [{:name "Adamantite bar", :quantity "1"}],
    :skills [{:name "Smithing", :level "70", :exp "62.5"}],

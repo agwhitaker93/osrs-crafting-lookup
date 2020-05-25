@@ -4,14 +4,14 @@
   :name "Cooked crab meat",
   :value "50",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7521",
   :ge_value "0",
   :id 7521,
   :examine "Nice and Tasty!",
   :members_only true,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7521"},
  :recipes
  [{:materials [{:name "Crab meat", :quantity "1"}],
    :skills [{:name "Cooking", :level "21", :exp "100"}],

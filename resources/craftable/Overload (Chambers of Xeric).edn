@@ -1,10 +1,11 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Overload_%28Chambers_of_Xeric%29",
   :name "Overload (Chambers of Xeric)",
   :value "2",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=20989",
   :ge_value "0",
   :id 20989,
   :examine
@@ -12,7 +13,7 @@
   :members_only true,
   :exchange false,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=20989"},
  :recipes
  [{:materials
    [{:name "Noxifer", :quantity "1"}

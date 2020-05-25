@@ -1,17 +1,17 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki "https://oldschool.runescape.wiki/w/Serpentine_helm",
   :name "Serpentine helm",
   :value "110000",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=12929",
   :ge_value "0",
   :id 12929,
   :examine "Needs to be charged with Zulrah's scales.",
   :members_only true,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=12929"},
  :recipes
  [{:materials [{:name "Serpentine visage", :quantity "1"}],
    :skills [{:name "Crafting", :level "52", :exp "120"}],

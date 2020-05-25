@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Varrock_teleport",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Varrock_teleport_%28tablet%29",
   :name "Varrock teleport (tablet)",
   :value "1",
   :icon

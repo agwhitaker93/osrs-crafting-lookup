@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Dragon_bitter",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Dragon_bitter_%28flatpack%29",
   :name "Dragon bitter (flatpack)",
   :value "10",
   :icon

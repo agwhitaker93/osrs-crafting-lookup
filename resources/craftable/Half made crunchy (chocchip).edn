@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Half_made_crunchy",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Half_made_crunchy_%28chocchip%29",
   :name "Half made crunchy (chocchip)",
   :value "2",
   :icon

@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Harmony_island_teleport",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Harmony_island_teleport_%28tablet%29",
   :name "Harmony island teleport (tablet)",
   :value "1",
   :icon

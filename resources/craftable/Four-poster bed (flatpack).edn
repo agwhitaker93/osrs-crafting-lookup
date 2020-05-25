@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Four-poster_bed",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Four-poster_bed_%28flatpack%29",
   :name "Four-poster bed (flatpack)",
   :value "10",
   :icon

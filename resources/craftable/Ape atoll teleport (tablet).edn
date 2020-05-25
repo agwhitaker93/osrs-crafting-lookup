@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Ape_atoll_teleport",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Ape_atoll_teleport_%28tablet%29",
   :name "Ape atoll teleport (tablet)",
   :value "1",
   :icon

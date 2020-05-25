@@ -1,17 +1,17 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki "https://oldschool.runescape.wiki/w/Bronze_hasta",
   :name "Bronze hasta",
   :value "26",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=11367",
   :ge_value "0",
   :id 11367,
   :examine "A bronze-tipped, one-handed hasta.",
   :members_only true,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=11367"},
  :recipes
  [{:materials
    [{:name "Logs", :quantity "1"} {:name "Bronze bar", :quantity "1"}],

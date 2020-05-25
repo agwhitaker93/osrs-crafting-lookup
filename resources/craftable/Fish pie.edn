@@ -1,17 +1,17 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki "https://oldschool.runescape.wiki/w/Fish_pie",
   :name "Fish pie",
   :value "100",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7188",
   :ge_value "0",
   :id 7188,
   :examine "Bounty of the sea.",
   :members_only true,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7188"},
  :recipes
  [{:materials [{:name "Raw fish pie", :quantity "1"}],
    :skills [{:name "Cooking", :level "47", :exp "164"}],

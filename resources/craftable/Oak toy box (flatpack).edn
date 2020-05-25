@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Oak_toy_box",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Oak_toy_box_%28flatpack%29",
   :name "Oak toy box (flatpack)",
   :value "10",
   :icon

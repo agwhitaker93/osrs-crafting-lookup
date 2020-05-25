@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/M._treasure_chest",
+  :wiki
+  "https://oldschool.runescape.wiki/w/M._treasure_chest_%28flatpack%29",
   :name "M. treasure chest (flatpack)",
   :value "10",
   :icon

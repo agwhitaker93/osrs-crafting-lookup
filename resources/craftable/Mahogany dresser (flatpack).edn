@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Mahogany_dresser",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Mahogany_dresser_%28flatpack%29",
   :name "Mahogany dresser (flatpack)",
   :value "10",
   :icon

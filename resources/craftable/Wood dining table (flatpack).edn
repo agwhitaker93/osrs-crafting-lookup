@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Wood_dining_table",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Wood_dining_table_%28flatpack%29",
   :name "Wood dining table (flatpack)",
   :value "10",
   :icon

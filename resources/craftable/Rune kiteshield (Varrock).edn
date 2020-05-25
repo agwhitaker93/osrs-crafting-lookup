@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Rune_kiteshield",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Rune_kiteshield_%28Varrock%29",
   :name "Rune kiteshield (Varrock)",
   :value "54400",
   :icon

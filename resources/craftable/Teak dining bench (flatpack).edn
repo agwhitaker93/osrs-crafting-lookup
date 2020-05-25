@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Teak_dining_bench",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Teak_dining_bench_%28flatpack%29",
   :name "Teak dining bench (flatpack)",
   :value "10",
   :icon

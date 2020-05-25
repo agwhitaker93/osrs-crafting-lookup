@@ -4,14 +4,14 @@
   :name "Guthix balance (unf)",
   :value "110",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=7658",
   :ge_value "0",
   :id 7658,
   :examine "An unfinished potion.",
   :members_only true,
   :exchange false,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=7658"},
  :recipes
  [{:materials
    [{:name "Restore potion(3)", :quantity "1"}

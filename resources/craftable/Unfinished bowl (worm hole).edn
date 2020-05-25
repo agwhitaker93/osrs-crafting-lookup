@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Unfinished_bowl",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Unfinished_bowl_%28worm_hole%29",
   :name "Unfinished bowl (worm hole)",
   :value "1",
   :icon

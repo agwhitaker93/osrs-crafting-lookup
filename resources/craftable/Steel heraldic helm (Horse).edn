@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Steel_heraldic_helm",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Steel_heraldic_helm_%28Horse%29",
   :name "Steel heraldic helm (Horse)",
   :value "600",
   :icon

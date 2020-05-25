@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Chef%27s_delight",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Chef%27s_delight_%28flatpack%29",
   :name "Chef's delight (flatpack)",
   :value "10",
   :icon

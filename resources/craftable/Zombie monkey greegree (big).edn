@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Zombie_monkey_greegree",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Zombie_monkey_greegree_%28big%29",
   :name "Zombie monkey greegree (big)",
   :value "2000",
   :icon

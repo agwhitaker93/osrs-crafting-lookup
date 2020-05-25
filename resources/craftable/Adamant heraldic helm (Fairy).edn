@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Adamant_heraldic_helm",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Adamant_heraldic_helm_%28Fairy%29",
   :name "Adamant heraldic helm (Fairy)",
   :value "3520",
   :icon

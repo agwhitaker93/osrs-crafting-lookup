@@ -82,5 +82,4 @@
            [:.results-item-footer {:height "20px"
                                    :margin "0 5px"}]
            [:.results-item-members {:float "left"}]
-           [:.results-item-price {:float "right"}]
-           )
+           [:.results-item-price {:float "right"}])

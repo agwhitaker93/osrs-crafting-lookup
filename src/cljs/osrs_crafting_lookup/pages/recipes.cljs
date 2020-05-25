@@ -2,6 +2,7 @@
   (:require [rum.core :as rum]
             [ajax.core :refer [GET]]))
 
+(defonce previous-search (atom ""))
 (defonce recipe-results (atom {}))
 
 (defn update-recipe-results [new]
@@ -35,6 +36,10 @@
     [:div {:class "results-item-price"} (:value contents)]]])
 
 (rum/defc recipes < rum/reactive [narrow-selection-cb name]
+  (if (not (= (deref previous-search) name))
+    (do
+      (update-recipe-results {})
+      (swap! previous-search #(identity name))))
   (if (empty? (rum/react recipe-results))
     (fetch-recipes name)
     [:div {:class "results flex-container"} (map #(item narrow-selection-cb %1) (rum/react recipe-results))]))

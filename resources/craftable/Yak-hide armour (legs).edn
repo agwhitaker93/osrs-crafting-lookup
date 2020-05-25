@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Yak-hide_armour",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Yak-hide_armour_%28legs%29",
   :name "Yak-hide armour (legs)",
   :value "500",
   :icon

@@ -1,17 +1,17 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/",
+  :wiki "https://oldschool.runescape.wiki/w/Relicym%27s_balm",
   :name "Relicym's balm",
   :value "75",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=4848",
   :ge_value "0",
   :id 4848,
   :examine "1 dose of Relicym's balm, which helps cure disease.",
   :members_only true,
   :exchange true,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=4848"},
  :recipes
  [{:materials
    [{:name "Unfinished potion (Rogue's Purse)", :quantity "1"}

@@ -4,14 +4,14 @@
   :name "Incomplete stew",
   :value "4",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=1997",
   :ge_value "0",
   :id 1997,
   :examine "I need to add some meat too.",
   :members_only false,
   :exchange false,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=1997"},
  :recipes
  [{:materials
    [{:name "Bowl of water", :quantity "1"}

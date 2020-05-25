@@ -4,14 +4,14 @@
   :name "Karambwanji paste",
   :value "15",
   :icon
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=",
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_sprite.gif?id=3155",
   :ge_value "0",
   :id 3155,
   :examine "This paste smells of raw fish.",
   :members_only true,
   :exchange false,
   :icon_large
-  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id="},
+  "http://services.runescape.com/m=itemdb_oldschool/1588586637705_obj_big.gif?id=3155"},
  :recipes
  [{:materials [{:name "Raw karambwanji", :quantity "1"}],
    :skills [{:name "Cooking", :level "1", :exp "0"}],

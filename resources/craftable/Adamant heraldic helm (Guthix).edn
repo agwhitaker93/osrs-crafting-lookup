@@ -1,6 +1,7 @@
 {:meta
  {:tradable false,
-  :wiki "https://oldschool.runescape.wiki/w/Adamant_heraldic_helm",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Adamant_heraldic_helm_%28Guthix%29",
   :name "Adamant heraldic helm (Guthix)",
   :value "3520",
   :icon

@@ -29,12 +29,11 @@
         (map #(string/split %1 "=") $)))
 
 (rum/defc app < rum/reactive []
-  (let [page-search (rum/react page-type)]
-    (if (nil? page-search)
+    (if (nil? (rum/react page-type))
       (->> (get-search)
            (map get-page)
            (first))
-      (get-page page-search))))
+      (get-page (rum/react page-type))))
 
 (defn render []
   (rum/mount (app) (. js/document (getElementById "app"))))

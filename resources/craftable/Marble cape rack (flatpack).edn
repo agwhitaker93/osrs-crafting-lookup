@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Marble_cape_rack",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Marble_cape_rack_%28flatpack%29",
   :name "Marble cape rack (flatpack)",
   :value "10",
   :icon

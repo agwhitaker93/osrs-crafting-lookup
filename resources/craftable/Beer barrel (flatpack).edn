@@ -1,6 +1,7 @@
 {:meta
  {:tradable true,
-  :wiki "https://oldschool.runescape.wiki/w/Beer_barrel",
+  :wiki
+  "https://oldschool.runescape.wiki/w/Beer_barrel_%28flatpack%29",
   :name "Beer barrel (flatpack)",
   :value "10",
   :icon
