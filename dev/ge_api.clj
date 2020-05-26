@@ -1,5 +1,5 @@
 (ns ge-api
-  (:require [osrs-crafting-lookup [config :refer [db]]]
+  (:require [osrs-crafting-lookup.config :refer [db]]
             [osrs-crafting-lookup.components.items :as items]
             [clojure.java.io :as io])
   (:import (java.io File)))

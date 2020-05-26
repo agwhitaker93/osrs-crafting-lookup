@@ -14,14 +14,26 @@
 (defn get-item-details-matching-name [name limit offset]
   (jdbc/query db ["SELECT * FROM osrs.items WHERE lower(name) LIKE ? ORDER BY name LIMIT ? OFFSET ?" (lower-case (str "%" name "%")) (parse-int limit) (parse-int offset)]))
 
+(defn get-item-details-by-name [name]
+  (jdbc/query db ["SELECT * FROM osrs.items WHERE name = ?" name]))
+
 (defn get-item-details [id]
   (jdbc/query db ["SELECT * FROM osrs.items WHERE id = ?" (parse-int id)]))
+
+(defn get-recipe-details-for-recipe [id recipe-id]
+  (jdbc/query db ["SELECT * FROM osrs.recipes WHERE id = ? AND recipe_id = ?" (parse-int id) (parse-int recipe-id)]))
 
 (defn get-recipe-details [id]
   (jdbc/query db ["SELECT * FROM osrs.recipes WHERE id = ?" (parse-int id)]))
 
+(defn get-recipe-skills-by-name [name]
+  (jdbc/query db ["SELECT * FROM osrs.skills WHERE name = ?" name]))
+
 (defn get-recipe-skills [item-id recipe-id]
   (jdbc/query db ["SELECT * FROM osrs.skills WHERE id = ? AND recipe_id = ?" (parse-int item-id) (parse-int recipe-id)]))
+
+(defn get-recipe-materials-by-name [name]
+  (jdbc/query db ["SELECT * FROM osrs.materials WHERE name = ?" name]))
 
 (defn get-recipe-materials [item-id recipe-id]
   (jdbc/query db ["SELECT * FROM osrs.materials WHERE id = ? AND recipe_id = ?" (parse-int item-id) (parse-int recipe-id)]))
