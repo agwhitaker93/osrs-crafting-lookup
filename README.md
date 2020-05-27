@@ -10,7 +10,6 @@ Also shows the Grand Exchange and High Alch values, so you can figure out how pr
 ### Backend
 * Add skill lookup option, return list of items created or used as part of that skill. i.e. crafting, return gems, etc.
 * Show skill requirements
-* database everything
 * Link to the Wiki
 
 ### Frontend
@@ -18,9 +17,14 @@ Also shows the Grand Exchange and High Alch values, so you can figure out how pr
 * Separate pages for item and skill lookups?
 
 ### Problems
-* How to store the relations between items
 * How to handle database changes
 
+### Todo
+#### Frontend
+* Current search implementation spams requests if an empty response is received
+
+#### Backend
+* Some recipes e.g. Adamantite limbs cause errors
 
 ## Development
 
@@ -52,20 +56,9 @@ launches Figwheel directly from the REPL**
 
 ## Database setup
 
-This process is very clunky, and requires another codebase: [runelite-wiki-scraper](https://github.com/agwhitaker93/runelite-wiki-scraper)
-
-> The next step might be unnecessary depending on how I decide to facilitate data changes going forwards. It'd be great to have some way of detecting changes to the edn files and propagate changes into the DB.
-
-Follow the guide there to scrape the OSRS wiki for all of the items used in crafting, then copy the generated directory (found at `resources/generated/scraped-craftable` as of writing this) to the resources folder in this project
-
-Next, load up a REPL in this project, make your way to the `craftables` namespace, and execute
-```clojure
--> (do-it)
-```
-
-You should end up with a whole bunch of files in a `resources/transformed-craftable` folder.
-
-==== actually getting these into the DB is the next thing I need to do ====
+Providing you have database credentials set up in an appropriate lein profile,
+this should be a simple case of running the `(init-db)` function in the user namespace.
+It will run all migrations, then run the `(init)` function in the `osrs-crafting-lookup.database` namespace
 
 ## Trying it out
 
