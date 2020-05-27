@@ -9,7 +9,9 @@
             [system.components.middleware :refer [new-middleware]]
             [figwheel-sidecar.repl-api :as figwheel]
             [garden-watcher.core :refer [new-garden-watcher]]
-            [osrs-crafting-lookup.config :refer [config]]))
+            [osrs-crafting-lookup.config :refer [config]]
+            [osrs-crafting-lookup.migrations :refer [migrate rollback]]
+            [osrs-crafting-lookup.database :as db]))
 
 (defn dev-system []
   (let [config (config)]
@@ -33,6 +35,10 @@
 (def go reloaded.repl/go)
 (def reset reloaded.repl/reset)
 (def reset-all reloaded.repl/reset-all)
+
+(defn init-db []
+  (migrate)
+  (db/init))
 
 ;; deprecated, to be removed in Chestnut 1.0
 (defn run []
