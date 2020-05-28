@@ -28,6 +28,12 @@ Also shows the Grand Exchange and High Alch values, so you can figure out how pr
 
 ## Development
 
+### Terminal
+
+```shell
+$ lein run
+```
+
 ### REPL
 
 Open a terminal and type `lein repl` to start a Clojure REPL
