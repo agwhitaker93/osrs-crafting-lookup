@@ -21,7 +21,8 @@ Also shows the Grand Exchange and High Alch values, so you can figure out how pr
 
 ### Todo
 #### Frontend
-* Current search implementation spams requests if an empty response is received
+* Think I need to add another layer between the fetching of results and displaying them.
+* Looks like we were relying on it spamming requests to fetch actual results too, so we probably need some kind of retry loop, unless the ajax lib can handle that.
 
 #### Backend
 * Some recipes e.g. Adamantite limbs cause errors
