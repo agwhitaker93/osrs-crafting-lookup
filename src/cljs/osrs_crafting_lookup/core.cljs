@@ -24,16 +24,16 @@
 
 (defn get-search []
   (as-> (.. js/window -location -search) $
-        (string/replace $ "?" "")
-        (string/split $ "&")
-        (map #(string/split %1 "=") $)))
+    (string/replace $ "?" "")
+    (string/split $ "&")
+    (map #(string/split %1 "=") $)))
 
 (rum/defc app < rum/reactive []
-    (if (nil? (rum/react page-type))
-      (->> (get-search)
-           (map get-page)
-           (first))
-      (get-page (rum/react page-type))))
+  (if (nil? (rum/react page-type))
+    (->> (get-search)
+         (map get-page)
+         (first))
+    (get-page (rum/react page-type))))
 
 (defn render []
   (rum/mount (app) (. js/document (getElementById "app"))))

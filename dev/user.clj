@@ -21,7 +21,7 @@
                                            (:middleware config))})
            :figwheel-system (fw-sys/figwheel-system (fw-config/fetch-config))
            :css-watcher (fw-sys/css-watcher {:watch-paths ["resources/public/css"]})
-    :garden-watcher (new-garden-watcher ['osrs-crafting-lookup.styles]))))
+           :garden-watcher (new-garden-watcher ['osrs-crafting-lookup.styles]))))
 
 (reloaded.repl/set-init! #(dev-system))
 

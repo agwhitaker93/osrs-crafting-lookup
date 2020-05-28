@@ -10,8 +10,8 @@
 (defn look-back [name]
   (let [item-details (first (db/get-item-details-by-name name))
         recipe-details (map #(assoc %1
-                               :skills (get-skills-for-recipe %1)
-                               :materials (get-materials-for-recipe %1 true))
+                                    :skills (get-skills-for-recipe %1)
+                                    :materials (get-materials-for-recipe %1 true))
                             (if (nil? (:id item-details))
                               []
                               (db/get-recipe-details (:id item-details))))]
@@ -21,14 +21,13 @@
   (let [materials (db/get-recipe-materials-by-name name)
         recipes (map #(first (db/get-recipe-details-for-recipe (:id %1) (:recipe_id %1))) materials)
         recipes (map #(assoc %1 :skills (db/get-recipe-skills (:id %1) (:recipe_id %1))) recipes)]
-    recipes)
-  )
+    recipes))
 
 (defn get-recipe [{id :id}]
   (let [item-details (first (db/get-item-details id))
         recipe-details (map #(assoc %1
-                               :skills (get-skills-for-recipe %1)
-                               :materials (get-materials-for-recipe %1 true))
+                                    :skills (get-skills-for-recipe %1)
+                                    :materials (get-materials-for-recipe %1 true))
                             (db/get-recipe-details id))]
     {:body {:target   (assoc item-details :recipes recipe-details)
             :products (look-forward (:name item-details))}}))

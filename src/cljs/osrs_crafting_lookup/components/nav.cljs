@@ -24,9 +24,9 @@
 
 (rum/defc search [search-result-cb]
   [:div {:class "nav-search"} [:input {:type "text"
-                                        :placeholder    "Search..."
-                                        :on-key-down    #(listen-enter %1 search-result-cb)
-                                        :on-change      update-search-term}]
+                                       :placeholder    "Search..."
+                                       :on-key-down    #(listen-enter %1 search-result-cb)
+                                       :on-change      update-search-term}]
    [:button {:type "submit" :on-click #(submit-search search-result-cb)} "Search"]])
 
 (rum/defc nav [search-result-cb]

@@ -28,7 +28,8 @@
                  [ragtime "0.8.0"]]
 
   :plugins [[lein-cljsbuild "1.1.7"]
-            [lein-environ "1.1.0"]]
+            [lein-environ "1.1.0"]
+            [lein-cljfmt "0.6.7"]]
 
   :min-lein-version "2.6.1"
 
