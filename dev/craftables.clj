@@ -36,7 +36,6 @@
       (println "This entry has multiple entries for infobox: " (get craftable :name))
       craftable)))
 
-
 (defn keywordize-craftables []
   (->> (read-dir source)
        (map keywordize-keys)
@@ -56,28 +55,28 @@
 (def required [:id :name :examine :tradable :value :members-only])
 
 (def required-from->to {#(Integer/parseInt (clojure.string/replace (or
-                                                                     (get-in %1 [:infobox :id])
-                                                                     (get-in %1 [:infobox :id1])) "," "")) :id
+                                                                    (get-in %1 [:infobox :id])
+                                                                    (get-in %1 [:infobox :id1])) "," "")) :id
                         #(or
-                           (get-in %1 [:name])
-                           (get-in %1 [:infobox :name])
-                           (get-in %1 [:infobox :name1]))                                                  :name
+                          (get-in %1 [:name])
+                          (get-in %1 [:infobox :name])
+                          (get-in %1 [:infobox :name1]))                                                  :name
                         #(or
-                           (get-in %1 [:infobox :examine])
-                           (get-in %1 [:infobox :examine1]))                                               :examine
+                          (get-in %1 [:infobox :examine])
+                          (get-in %1 [:infobox :examine1]))                                               :examine
                         #(= "Yes" (or
-                                    (get-in %1 [:infobox :tradeable])
-                                    (get-in %1 [:infobox :tradeable1])))                                   :tradable
+                                   (get-in %1 [:infobox :tradeable])
+                                   (get-in %1 [:infobox :tradeable1])))                                   :tradable
                         #(or
-                           (get-in %1 [:infobox :value])
-                           (get-in %1 [:infobox :value1]))                                                 :value
+                          (get-in %1 [:infobox :value])
+                          (get-in %1 [:infobox :value1]))                                                 :value
                         #(= "Yes" (or
-                                    (get-in %1 [:infobox :members])
-                                    (get-in %1 [:infobox :members1])))                                     :members_only})
+                                   (get-in %1 [:infobox :members])
+                                   (get-in %1 [:infobox :members1])))                                     :members_only})
 
 (def optional-from->to {#(= "Yes" (or
-                                    (get-in %1 [:infobox :exchange])
-                                    (get-in %1 [:infobox :exchange1]))) :exchange})
+                                   (get-in %1 [:infobox :exchange])
+                                   (get-in %1 [:infobox :exchange1]))) :exchange})
 
 (defn mats->vec [recipe]
   (loop [counter 1
