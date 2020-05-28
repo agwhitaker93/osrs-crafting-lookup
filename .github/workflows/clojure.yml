@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies
-      uses: .github/scripts/check-formatting.sh
+      run: bash .github/scripts/check-formatting.sh
     - name: Formatting
       run: lein cljfmt check
     - name: Run tests
