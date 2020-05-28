@@ -19,15 +19,16 @@
                                .-value))))
 
 (rum/defc home []
-  [:ul {:class "nav-left"}
-   [:li {:class "nav-left-contents"} [:a {:class "nav-left-link" :href "/"} "Home"]]])
+  [:ul {:class "nav-links"}
+   [:li {:class "nav-link"} [:a {:class "nav-link-anchor" :href "/"} "Home"]]])
 
 (rum/defc search [search-result-cb]
-  [:div {:class "nav-search"} [:input {:type "text"
-                                       :placeholder    "Search..."
-                                       :on-key-down    #(listen-enter %1 search-result-cb)
-                                       :on-change      update-search-term}]
-   [:button {:type "submit" :on-click #(submit-search search-result-cb)} "Search"]])
+  [:div {:class "nav-search"} [:input {:class "nav-search-input"
+                                       :type        "text"
+                                       :placeholder "Search..."
+                                       :on-key-down #(listen-enter %1 search-result-cb)
+                                       :on-change   update-search-term}]
+   [:button {:class "nav-search-button" :type "submit" :on-click #(submit-search search-result-cb)} "Search"]])
 
 (rum/defc nav [search-result-cb]
   [:div {:class "nav-bar"} (home)

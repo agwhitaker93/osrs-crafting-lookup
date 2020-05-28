@@ -1,64 +1,40 @@
 (ns osrs-crafting-lookup.styles
   (:require [garden-watcher.def :refer [defstyles]]))
 
-(def el-height "2rem")
-(def side-dist "0.5rem")
-(def nav-height "3rem")
-(def nav-button-width "4rem")
 (def primary-color "purple")
 (def secondary-color "#aaa")
 (def tertiary-color "#ccc")
 (def quaternary-color "#eee")
 
 (defstyles style
-  [:body {:padding-top nav-height}]
+  [:body {:margin 0}]
   [:.flex-container {:display         "flex"
                      :flex-wrap       "wrap"
                      :justify-content "center"}]
 
   ; NAV
-  [:.nav-bar {:position         "absolute"
-              :top              0
-              :left             0
-              :height           nav-height
-              :width            "100%"
-              :background-color primary-color}]
-  [:.nav-left {:top             "50%"
-               :transform       "translateY(-50%)"
-               :position        "absolute"
-               :left            side-dist
-               :list-style-type "none"
-               :margin          "0"
-               :padding         "0"}]
-  [:.nav-left-contents {:display          "inline-block"
-                        :text-align       "center"
-                        :height           el-height
-                        :width            nav-button-width
-                        :background-color quaternary-color
-                        :margin-right     side-dist}]
-  [:.nav-left-link {:display     "inline-block"
-                    :padding-top side-dist
-                    :height      "100%"
-                    :width       "100%"}]
-  [:.nav-search {:position  "absolute"
-                 :top       "50%"
-                 :transform "translateY(-50%)"
-                 :right     side-dist
-                 :height    el-height
-                 :margin 0
-                 :padding 0}]
-  [:.nav-search-input {:margin-right side-dist
-                       :height "100%"}]
+  [:.nav-bar {:background-color primary-color
+              :overflow         "hidden"}]
+  [:.nav-links {:float           "left"
+                :list-style-type "none"
+                :margin          "0"
+                :padding         "0"}]
+  [:.nav-link {}]
+  [:.nav-link-anchor {:background-color quaternary-color
+                      :display          "block"
+                      :padding          "0.8rem 1rem"}
+   [:&:hover {:background-color tertiary-color}]]
+  [:.nav-search {:float        "right"
+                 :margin-top   "0.3rem"
+                 :margin-right "0.3rem"}]
+  [:.nav-search-input {:border  "none"
+                       :padding "0.6rem"}]
   [:.nav-search-button {:display          "inline-block"
-                        :text-align       "center"
-                        :height           "100%"
-                        :width            nav-button-width
-                        :background-color quaternary-color}]
-  [:.nav-search-button-link {:display          "inline-block"
-                             :text-align       "center"
-                             :background-color quaternary-color
-                             :width            nav-button-width
-                             :height           "100%"}]
+                        :border           "none"
+                        :padding          "0.6rem"
+                        :cursor           "pointer"
+                        :background-color quaternary-color}
+   [:&:hover {:background-color tertiary-color}]]
 
   ; RESULTS
   [:.results-item {:position   "relative"
