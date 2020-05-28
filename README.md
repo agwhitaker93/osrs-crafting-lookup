@@ -23,6 +23,7 @@ Also shows the Grand Exchange and High Alch values, so you can figure out how pr
 #### Frontend
 * Think I need to add another layer between the fetching of results and displaying them.
 * Looks like we were relying on it spamming requests to fetch actual results too, so we probably need some kind of retry loop, unless the ajax lib can handle that.
+* We need either a better way to indicate you can select the card header to view the crafting chain, or a new thing to click to do it. Maybe add to the footer with the wiki button?
 
 #### Backend
 * Some recipes e.g. Adamantite limbs cause errors
