@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies
-      uses: lein deps
+      run: lein deps
     - name: Formatting
       run: bash .github/scripts/check-formatting.sh
     - name: Run tests
