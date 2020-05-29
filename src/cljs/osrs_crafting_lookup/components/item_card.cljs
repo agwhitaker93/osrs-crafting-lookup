@@ -2,11 +2,11 @@
   (:require [rum.core :as rum]))
 
 (rum/defc header [contents]
-  [:div {:class "item-card-header"
-         :on-click (:on-click contents)}
+  [:div {:class "item-card-header"}
    [:img {:class "item-card-header-icon"
           :src (:img contents)}]
-   [:div {:class "item-card-header-title"} (:title contents)]
+   [:a {:class "item-card-header-title"
+        :on-click (:on-click contents)} (:title contents)]
    [:a {:class "item-card-header-wiki-link"
         :href (:wiki-link contents)} "W"]])
 

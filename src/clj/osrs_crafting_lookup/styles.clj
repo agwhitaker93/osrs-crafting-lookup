@@ -55,7 +55,9 @@
                                :width            "220px"}]
     [:.item-card-header-wiki-link {:float "right"
                                    :background-color primary-color
-                                   :padding "11px 12.4px"}
+                                   :width "40px"
+                                   :text-align "center"
+                                   :padding "11px 0"}
      [:&:hover {:background-color "green"}]]]
    [:.item-card-body {:background-color tertiary-color
                       :height           "70px"
