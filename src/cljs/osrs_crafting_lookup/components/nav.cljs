@@ -4,12 +4,12 @@
 
 (defonce search-term (atom ""))
 
-(defn submit-search [handler]
-  (handler "/api/recipes" {:name (deref search-term)} ["recipes" (deref search-term)]))
+(defn submit-search [handler name]
+  (handler "/api/recipes" {:name name} ["recipes" name]))
 
 (defn listen-enter [event cb]
   (if (= (.-key event) "Enter")
-    (submit-search cb)))
+    (submit-search cb (deref search-term))))
 
 (defn update-search-term [event]
   (swap! search-term #(str (-> event
@@ -26,7 +26,7 @@
                                        :placeholder "Search..."
                                        :on-key-down #(listen-enter %1 search-result-cb)
                                        :on-change   update-search-term}]
-   [:button {:class "nav-search-button" :type "submit" :on-click #(submit-search search-result-cb)} "Search"]])
+   [:button {:class "nav-search-button" :type "submit" :on-click #(submit-search search-result-cb (deref search-term))} "Search"]])
 
 (rum/defc nav [search-result-cb]
   [:div {:class "nav-bar"} (home)

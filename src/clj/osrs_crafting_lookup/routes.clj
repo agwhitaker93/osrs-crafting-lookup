@@ -6,10 +6,15 @@
             [ring.util.response :refer [response]]
             [osrs-crafting-lookup.components.recipes :as recipes]))
 
+(defn auto-wrap [to-wrap]
+  (if (nil? (:body to-wrap))
+    {:body to-wrap}
+    to-wrap))
+
 (defn home-routes [endpoint]
   (routes
-   (wrap-json-response (GET "/api/recipes" {params :params} (recipes/get-recipes params)))
-   (wrap-json-response (GET "/api/recipe" {params :params} (recipes/get-recipe params)))
+   (wrap-json-response (GET "/api/recipes" {params :params} (auto-wrap (recipes/get-recipes params))))
+   (wrap-json-response (GET "/api/recipe" {params :params} (auto-wrap (recipes/get-recipe params))))
    (GET "/" _
      (-> "public/index.html"
          io/resource

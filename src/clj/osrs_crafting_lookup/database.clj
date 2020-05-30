@@ -17,6 +17,9 @@
 (defn get-item-details-by-name [name]
   (jdbc/query db ["SELECT * FROM osrs.items WHERE name = ?" name]))
 
+(defn get-item-ids-by-name [name]
+  (jdbc/query db ["SELECT id FROM osrs.items WHERE name = ?" name]))
+
 (defn get-item-details [id]
   (jdbc/query db ["SELECT * FROM osrs.items WHERE id = ?" (parse-int id)]))
 
@@ -36,7 +39,7 @@
   (jdbc/query db ["SELECT * FROM osrs.materials WHERE name = ?" name]))
 
 (defn get-recipe-products [name]
-  (jdbc/query db ["SELECT m.id, m.recipe_id, i.name, m.quantity, m.last_updated
+  (jdbc/query db ["SELECT m.id, m.recipe_id, i.name, m.quantity as materials_needed, m.last_updated
 FROM osrs.items AS i
 LEFT JOIN osrs.materials m ON m.id = i.id
 WHERE m.name = ?" name]))

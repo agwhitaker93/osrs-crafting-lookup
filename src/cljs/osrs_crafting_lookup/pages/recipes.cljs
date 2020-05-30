@@ -4,7 +4,9 @@
             [osrs-crafting-lookup.components.item-card :refer [card]]))
 
 (defn narrow-selection [cb id]
-  (cb "/api/recipe" {:id id} ["recipe" id]))
+  (cb "/api/recipe" {:id id
+                     :productDepth 1
+                     :materialDepth 1} ["recipe" id]))
 
 (rum/defc recipes [recipes contents cb]
   (->> (:results contents)

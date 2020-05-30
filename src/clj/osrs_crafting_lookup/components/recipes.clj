@@ -2,6 +2,8 @@
   (:require [osrs-crafting-lookup.database :as db]
             [osrs-crafting-lookup.util :refer [parse-int]]))
 
+(declare get-recipe)
+
 (defn get-skills-for-recipe [{id :id recipe-id :recipe_id}]
   (db/get-recipe-skills id recipe-id))
 
@@ -11,11 +13,12 @@
 (defn get-products-for-recipe [recipe-name]
   (db/get-recipe-products recipe-name))
 
-(defn get-product-details [{id :id recipe-id :recipe_id :as product} depth]
-  product)
+(defn get-product-details [{id :id recipe-id :recipe_id} depth]
+  (get-recipe {:id id :productDepth depth}))
 
-(defn get-material-details [{id :id recipe-id :recipe_id :as material} depth]
-  material)
+(defn get-material-details [{name :name :as mt} depth]
+  (let [item (first (db/get-item-ids-by-name name))]
+    (get-recipe {:id (:id item) :materialDepth depth})))
 
 (defn get-recipe [{id             :id
                    name           :name
@@ -39,9 +42,10 @@
         (assoc $ :products (map #(get-product-details %1 (dec product-depth)) products))
         $)
       (if (not (= material-depth 0))
-        (assoc $ :materials (map #(get-material-details %1 (dec material-depth)) (reduce #(conj %1 %2) [] recipe-details)))
-        $)
-      {:body $})))
+        (assoc $ :materials (->> (map #(get %1 :materials) recipe-details)
+                                 (reduce concat)
+                                 (map #(get-material-details %1 (dec material-depth)))))
+        $))))
 
 (defn get-recipes [{name :name limit :limit page :page :or {limit 15 page 1} :as input}]
   (let [limit (parse-int limit)
@@ -49,4 +53,4 @@
         offset (* (dec page) limit)]
     (->> (db/get-item-details-matching-name name limit offset)
          (map #(assoc %1 :more_details (format "/api/recipe?id=%s" (:id %1))))
-         (assoc-in {:body {:pages (db/memoized-page-count name limit)}} [:body :results]))))
+         (assoc {:pages (db/memoized-page-count name limit)} :results))))

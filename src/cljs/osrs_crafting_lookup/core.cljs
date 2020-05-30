@@ -3,10 +3,10 @@
   (:require [rum.core :as rum]
             [ajax.core :refer [GET]]
             [clojure.string :as string]
-            [osrs-crafting-lookup.components.nav :refer [nav]]
+            [osrs-crafting-lookup.components.nav :refer [nav submit-search]]
             [osrs-crafting-lookup.pages.home :refer [home]]
             [osrs-crafting-lookup.pages.recipe :refer [recipe]]
-            [osrs-crafting-lookup.pages.recipes :refer [recipes]]))
+            [osrs-crafting-lookup.pages.recipes :refer [recipes narrow-selection]]))
 
 (enable-console-print!)
 
@@ -43,8 +43,8 @@
 
 (defn initial-page-content-load-fn [[key val]]
   (case key
-    "recipes" #(fetch "/api/recipes" {:name val} ["recipes" val])
-    "recipe" #(fetch "/api/recipe" {:id val} ["recipe" val])
+    "recipes" #(submit-search fetch val)
+    "recipe" #(narrow-selection fetch val)
     #()))
 
 (rum/defc app < rum/reactive []
