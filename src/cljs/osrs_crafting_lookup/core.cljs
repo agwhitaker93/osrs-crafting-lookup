@@ -42,7 +42,7 @@
     #(home)))
 
 (defn initial-page-content-load-fn [[key val]]
-   (case key
+  (case key
     "recipes" #(fetch "/api/recipes" {:name val} ["recipes" val])
     "recipe" #(fetch "/api/recipe" {:id val} ["recipe" val])
     #()))
@@ -50,9 +50,9 @@
 (rum/defc app < rum/reactive []
   (if (nil? (rum/react page-type))
     (->> (get-search)
-      (map initial-page-content-load-fn)
-      (first)
-      (#(%1))))
+         (map initial-page-content-load-fn)
+         (first)
+         (#(%1))))
   (render-page (get-page (rum/react page-type))))
 
 (defn render []
