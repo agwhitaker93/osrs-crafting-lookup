@@ -2,47 +2,35 @@
   (:require [osrs-crafting-lookup.database :as db]
             [osrs-crafting-lookup.util :refer [parse-int]]))
 
-(declare get-materials-for-recipe)
-
 (defn get-skills-for-recipe [{id :id recipe-id :recipe_id}]
   (db/get-recipe-skills id recipe-id))
 
-(defn look-back [name]
-  (let [item-details (first (db/get-item-details-by-name name))
+(defn get-materials-for-recipe [{id :id recipe-id :recipe_id} material-depth]
+  (db/get-recipe-materials id recipe-id))
+
+(defn get-products-for-recipe [recipe-name product-depth]
+  (db/get-recipe-products recipe-name))
+
+(defn get-recipe [{id :id
+                   name :name
+                   material-depth :material-depth
+                   product-depth :product-depth
+                   :or {material-depth 0
+                        product-depth 0}}]
+  (let [get-item-fn (if (not (nil? id))
+                      #(db/get-item-details id)
+                      #(db/get-item-details-by-name name))
+        item-details (first (get-item-fn))
         recipe-details (map #(assoc %1
                                     :skills (get-skills-for-recipe %1)
-                                    :materials (get-materials-for-recipe %1 true))
-                            (if (nil? (:id item-details))
-                              []
-                              (db/get-recipe-details (:id item-details))))]
-    recipe-details))
-
-(defn look-forward [name]
-  (let [materials (db/get-recipe-materials-by-name name)
-        recipes (map #(first (db/get-recipe-details-for-recipe (:id %1) (:recipe_id %1))) materials)
-        recipes (map #(assoc %1 :skills (db/get-recipe-skills (:id %1) (:recipe_id %1))) recipes)]
-    recipes))
-
-(defn get-recipe [{id :id}]
-  (let [item-details (first (db/get-item-details id))
-        recipe-details (map #(assoc %1
-                                    :skills (get-skills-for-recipe %1)
-                                    :materials (get-materials-for-recipe %1 true))
-                            (db/get-recipe-details id))]
+                                    :materials (get-materials-for-recipe %1 material-depth))
+                            (db/get-recipe-details (:id item-details)))]
     {:body {:target   (assoc item-details :recipes recipe-details)
-            :products (look-forward (:name item-details))}}))
+            :products (get-products-for-recipe (:name item-details) product-depth)}}))
 
-(defn get-materials-for-recipe
-  ([lookup-data look-back?]
-   (if look-back?
-     (map #(conj %1 (look-back (:name %1))) (get-materials-for-recipe lookup-data))
-     (get-materials-for-recipe lookup-data)))
-  ([{id :id recipe-id :recipe_id}]
-   (db/get-recipe-materials id recipe-id)))
-
-(defn get-recipes [{name :name limit :limit page :page}]
-  (let [limit (if (nil? limit) 15 (parse-int limit))
-        page (if (nil? page) 1 (parse-int page))
+(defn get-recipes [{name :name limit :limit page :page :or {limit 15 page 1} :as input}]
+  (let [limit (parse-int limit)
+        page (parse-int page)
         offset (* (dec page) limit)]
     (->> (db/get-item-details-matching-name name limit offset)
          (map #(assoc %1 :more_details (format "/api/recipe?id=%s" (:id %1))))

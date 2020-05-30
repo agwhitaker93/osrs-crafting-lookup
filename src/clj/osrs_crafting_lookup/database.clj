@@ -35,6 +35,12 @@
 (defn get-recipe-materials-by-name [name]
   (jdbc/query db ["SELECT * FROM osrs.materials WHERE name = ?" name]))
 
+(defn get-recipe-products [name]
+  (jdbc/query db ["SELECT m.id, m.recipe_id, i.name, m.quantity, m.last_updated
+FROM osrs.items AS i
+LEFT JOIN osrs.materials m ON m.id = i.id
+WHERE m.name = ?" name]))
+
 (defn get-recipe-materials [item-id recipe-id]
   (jdbc/query db ["SELECT * FROM osrs.materials WHERE id = ? AND recipe_id = ?" (parse-int item-id) (parse-int recipe-id)]))
 
