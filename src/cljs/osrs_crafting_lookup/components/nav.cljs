@@ -5,7 +5,6 @@
 (defonce search-term (atom ""))
 
 (defn submit-search [handler]
-  (js/console.log "Fetching results for: " (deref search-term))
   (handler "/api/recipes" {:name (deref search-term)} ["recipes" (deref search-term)]))
 
 (defn listen-enter [event cb]

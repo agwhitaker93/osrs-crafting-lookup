@@ -4,7 +4,6 @@
             [osrs-crafting-lookup.components.item-card :refer [card]]))
 
 (defn narrow-selection [cb id]
-  (js/console.log "Fetching results for: " id)
   (cb "/api/recipe" {:id id} ["recipe" id]))
 
 (rum/defc recipes [recipes contents cb]
