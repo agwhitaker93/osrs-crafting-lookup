@@ -11,36 +11,37 @@
 (defn get-products-for-recipe [recipe-name]
   (db/get-recipe-products recipe-name))
 
-(defn get-product-details [product depth])
+(defn get-product-details [{id :id recipe-id :recipe_id :as product} depth]
+  product)
 
-(defn get-material-details [material depth])
+(defn get-material-details [{id :id recipe-id :recipe_id :as material} depth]
+  material)
 
-(defn get-recipe [{id :id
-                   name :name
-                   material-depth :material-depth
-                   product-depth :product-depth
-                   :or {material-depth 0
-                        product-depth 0}}]
+(defn get-recipe [{id             :id
+                   name           :name
+                   material-depth :materialDepth
+                   product-depth  :productDepth
+                   :or            {material-depth 0
+                                   product-depth  0}}]
   (let [material-depth (parse-int material-depth)
         product-depth (parse-int product-depth)
         get-item-fn (if (not (nil? id))
                       #(db/get-item-details id)
                       #(db/get-item-details-by-name name))
         item-details (first (get-item-fn))
-        recipes (db/get-recipe-details (:id item-details))
-        skills (map #(get-skills-for-recipe %1) recipes)
-        materials (map #(get-materials-for-recipe %1) recipes)
-        recipes (map #(assoc %1
-                             :skills skills
-                             :materials materials) recipes)
+        recipe-details (map #(assoc %1
+                                    :skills (get-skills-for-recipe %1)
+                                    :materials (get-materials-for-recipe %1))
+                            (db/get-recipe-details (:id item-details)))
         products (get-products-for-recipe (:name item-details))]
-    (as-> {:body {:target   (assoc item-details :recipes recipes :products products)}} $
-      (if (> product-depth 0)
+    (as-> {:target (assoc item-details :recipes recipe-details :products products)} $
+      (if (not (= product-depth 0))
         (assoc $ :products (map #(get-product-details %1 (dec product-depth)) products))
         $)
-      (if (> material-depth 0)
-        (assoc $ :materials (map #(get-material-details %1 (dec material-depth)) materials))
-        $))))
+      (if (not (= material-depth 0))
+        (assoc $ :materials (map #(get-material-details %1 (dec material-depth)) (reduce #(conj %1 %2) [] recipe-details)))
+        $)
+      {:body $})))
 
 (defn get-recipes [{name :name limit :limit page :page :or {limit 15 page 1} :as input}]
   (let [limit (parse-int limit)
