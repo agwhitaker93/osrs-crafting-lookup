@@ -2,4 +2,4 @@
   (:require [clojure.test :refer :all]))
 
 (deftest example-passing-test
-  (is (= 1 1)))
+  (is (= 0 1)))
