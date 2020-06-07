@@ -1,25 +1,31 @@
 (ns osrs-crafting-lookup.components.items-test
   (:require [clojure.test :refer :all]
-            [cheshire.core :refer [parse-string]]
-            [osrs-crafting-lookup.config :refer [ge-api-base-url]]
+            [ring.util.response :refer [response]]
             [osrs-crafting-lookup.components.http-client :refer [get-with-retry]]
-            [osrs-crafting-lookup.components.items :refer [items-url
-                                                           get-page
-                                                           get-all-pages
-                                                           narrow-selection
-                                                           rs-lookup
-                                                           handle]]))
+            [osrs-crafting-lookup.components.items :refer [items-url handle]]))
 
-(deftest items-url-passes
-  (with-redefs [ge-api-base-url "example.com"]
-    (is (= (str ge-api-base-url "/items.json?category=1&alpha=a&page=1") (items-url "a" 1)))))
+(deftest given-items-handler
+  (with-redefs [items-url (fn [char page] (str char page))
+                get-with-retry #(if (not (= %1 "a3"))
+                                  (identity {:body (str "{\"items\":[{\"name\":\"ada-" %1 "\"}]}")}))]
+    (testing "when no query is given,"
+      (testing "then a NullPointerException is thrown"
+        (is (thrown? NullPointerException (handle {})))))
 
-(deftest get-page-passes
-  (with-redefs [items-url (constantly {:body {:items "hello"}})
-                get-with-retry identity
-                parse-string (fn [body & args] body)]
-    (is (= "hello" (get-page 1 2)))))
+    (testing "when a query is given,"
+      (let [query "ada"]
+        (testing "and a page is given,"
+          (let [page 1]
+            (testing "then we get one set of results"
+              (is (= {:status  200
+                      :headers {"Content-Type" "text/html; charset=utf-8"}
+                      :body    '({:name "ada-a1"})}
+                     (handle {:query query :page page}))))))
 
-(deftest get-all-pages-passes
-  (with-redefs [get-page #(if (= %2 1) "result")]
-    (is (= '("result") (get-all-pages "a")))))
+        (testing "and no page is given,"
+          (testing "then we get multiple results"
+            (is (= {:status  200
+                    :headers {"Content-Type" "text/html; charset=utf-8"}
+                    :body    '({:name "ada-a2"}
+                               {:name "ada-a1"})}
+                   (handle {:query query})))))))))

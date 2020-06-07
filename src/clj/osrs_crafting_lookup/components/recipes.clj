@@ -4,19 +4,19 @@
 
 (declare get-recipe)
 
-(defn get-skills-for-recipe [{id :id recipe-id :recipe_id}]
+(defn- get-skills-for-recipe [{id :id recipe-id :recipe_id}]
   (db/get-recipe-skills id recipe-id))
 
-(defn get-materials-for-recipe [{id :id recipe-id :recipe_id}]
+(defn- get-materials-for-recipe [{id :id recipe-id :recipe_id}]
   (db/get-recipe-materials id recipe-id))
 
-(defn get-products-for-recipe [recipe-name]
+(defn- get-products-for-recipe [recipe-name]
   (db/get-recipe-products recipe-name))
 
-(defn get-product-details [{id :id recipe-id :recipe_id} depth]
+(defn- get-product-details [{id :id recipe-id :recipe_id} depth]
   (get-recipe {:id id :productDepth depth}))
 
-(defn get-material-details [{name :name :as mt} depth]
+(defn- get-material-details [{name :name :as mt} depth]
   (let [item (first (db/get-item-ids-by-name name))]
     (get-recipe {:id (:id item) :materialDepth depth})))
 
@@ -37,7 +37,8 @@
                                     :materials (get-materials-for-recipe %1))
                             (db/get-recipe-details (:id item-details)))
         products (get-products-for-recipe (:name item-details))]
-    (as-> {:target (assoc item-details :recipes recipe-details :products products)} $
+    (as-> {:target (assoc item-details :recipes recipe-details
+                          :products products)} $
       (if (not (= product-depth 0))
         (assoc $ :products (map #(get-product-details %1 (dec product-depth)) products))
         $)
@@ -47,7 +48,11 @@
                                  (map #(get-material-details %1 (dec material-depth)))))
         $))))
 
-(defn get-recipes [{name :name limit :limit page :page :or {limit 15 page 1} :as input}]
+(defn get-recipes [{name :name
+                    limit :limit
+                    page :page
+                    :or {limit 15
+                         page 1}}]
   (let [limit (parse-int limit)
         page (parse-int page)
         offset (* (dec page) limit)]
