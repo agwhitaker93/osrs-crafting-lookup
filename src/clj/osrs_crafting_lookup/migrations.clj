@@ -4,16 +4,17 @@
             [osrs-crafting-lookup.config :refer [db]]
             [environ.core :refer [env]]))
 
-(def config {:datastore  (jdbc/sql-database db)
-             :migrations (jdbc/load-resources "migrations")})
+(defn config [db-conf]
+  {:datastore  (jdbc/sql-database db-conf)
+   :migrations (jdbc/load-resources "migrations")})
 
-(defn migrate []
-  (repl/migrate config))
+(defn migrate [db-conf]
+  (repl/migrate (config db-conf)))
 
-(defn rollback []
-  (repl/rollback config))
+(defn rollback [db-conf]
+  (repl/rollback (config db-conf)))
 
 (if (not (= (env :env) "dev"))
   (do
     (println "Detected we're not in dev mode, running migrations")
-    (migrate)))
+    (migrate db))) ; fallback on db-conf from config ns

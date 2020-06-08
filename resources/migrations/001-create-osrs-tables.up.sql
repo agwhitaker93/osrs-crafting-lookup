@@ -5,7 +5,7 @@ create table if not exists osrs.items
 (
     id int not null,
     name text not null,
-    examine text not null,
+    examine text,
     tradable bool,
     exchange bool,
     members_only bool,
@@ -16,12 +16,6 @@ create table if not exists osrs.items
     icon_large text,
     last_updated timestamp not null
 );
-
-create unique index items_id_uindex
-    on osrs.items (id);
-
-create unique index items_name_uindex
-    on osrs.items (name);
 
 alter table osrs.items
     add constraint items_pk

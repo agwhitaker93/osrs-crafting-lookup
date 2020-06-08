@@ -100,6 +100,7 @@ WHERE m.name = ?" name]))
                    (insert-recipes t-conn (get-in %1 [:meta :id]) (:recipes %1))
                    nil) craftables))))
 
+; TODO refactor to accept db-conf instead of fetching from config ns
 (defn init []
   (println "Initializing database")
   (insert-or-update-craftables (read-dir craftables-dir))
