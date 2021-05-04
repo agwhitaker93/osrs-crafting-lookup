@@ -4,7 +4,6 @@
             [figwheel-sidecar.config :as fw-config]
             [figwheel-sidecar.system :as fw-sys]
             [reloaded.repl :refer [system init]]
-            [ring.middleware.reload :refer [wrap-reload]]
             [ring.middleware.file :refer [wrap-file]]
             [system.components.middleware :refer [new-middleware]]
             [figwheel-sidecar.repl-api :as figwheel]
